@@ -103,6 +103,27 @@
       font-weight: 600;
     }
 
+    /* Global Speed Control Pill */
+    .speed-pill-btn {
+      background: rgba(245, 158, 11, 0.15);
+      border: 1px solid rgba(245, 158, 11, 0.4);
+      color: #fde68a;
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.2s;
+    }
+    .speed-pill-btn:active {
+      transform: scale(0.92);
+      background: var(--gold);
+      color: #000;
+    }
+
     .nav-segmented {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -147,7 +168,6 @@
       justify-content: space-between;
     }
 
-    /* Surah Picker Row */
     .surah-select-row {
       display: flex;
       align-items: center;
@@ -174,7 +194,6 @@
       color: #fff;
     }
 
-    /* Ayah Header & Toolbar */
     .ayah-toolbar {
       display: flex;
       justify-content: space-between;
@@ -222,7 +241,6 @@
       border-color: rgba(16, 185, 129, 0.4);
     }
 
-    /* Main Ayah Display Card */
     .ayah-card {
       background: var(--card-bg);
       border: 1px solid var(--surface-border);
@@ -249,7 +267,6 @@
       text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
     }
 
-    /* Progressive Word Hiding Styles */
     .word-hidden {
       display: inline-block;
       min-width: 44px;
@@ -288,7 +305,6 @@
       padding-top: 12px;
     }
 
-    /* Qaree-Style Repetition Tap Counter */
     .repetition-section {
       display: flex;
       align-items: center;
@@ -338,7 +354,6 @@
       cursor: pointer;
     }
 
-    /* Navigation Arrows */
     .ayah-nav-row {
       display: grid;
       grid-template-columns: 1fr 1.3fr 1fr;
@@ -490,7 +505,9 @@
           📖 Коран Хифз
           <span class="brand-pill" id="badgeIndicator">30-й Джуз</span>
         </div>
-        <div style="font-size:0.8rem; color:var(--text-muted); font-weight:600;" id="globalStat">Шейх Аль-Афаси</div>
+        <button class="speed-pill-btn" id="speedToggleBtn" title="Регулировка скорости чтения">
+          <span>⚡</span> <span id="speedLabel">1.0x</span>
+        </button>
       </div>
 
       <!-- Segmented Mode Control -->
@@ -508,13 +525,11 @@
          VIEW 1: 30-й ДЖУЗ (HIFZ / QAREE STYLE)
          ======================================================== -->
     <main class="view-hifz" id="viewHifz">
-      <!-- Surah Selector -->
       <div class="surah-select-row">
         <span style="font-size: 1.1rem;">📖</span>
         <select class="surah-dropdown" id="surahSelect"></select>
       </div>
 
-      <!-- Ayah Toolbar (Word Masking & Audio Loop) -->
       <div class="ayah-toolbar">
         <span class="ayah-counter-badge" id="ayahCounterBadge">Аят 1 из 40</span>
         <div class="hifz-tools">
@@ -527,13 +542,11 @@
         </div>
       </div>
 
-      <!-- Main Ayah Card -->
       <div class="ayah-card" id="ayahCard">
         <div class="ayah-arabic-text" id="ayahArabicText">Загрузка Джуза...</div>
         <div class="ayah-translation-text" id="ayahTranslationText"></div>
       </div>
 
-      <!-- Qaree Tap-to-Repeat Counter -->
       <div class="repetition-section">
         <button class="counter-tap-btn" id="counterTapBtn">
           <span>Повторено:</span>
@@ -543,7 +556,6 @@
         <button class="counter-target-btn" id="counterTargetBtn">Цель: 5x</button>
       </div>
 
-      <!-- Navigation Arrows -->
       <div class="ayah-nav-row">
         <button class="nav-arrow-btn" id="prevAyahBtn">◀ Назад</button>
         <button class="nav-arrow-btn play-ayah-btn" id="playAyahBtn">
@@ -559,7 +571,7 @@
     <main class="view-cards" id="viewCards">
       <div class="category-tabs" id="vocabTabs">
         <button class="tab-pill active" data-cat="all">Все (90)</button>
-        <button class="tab-pill" data-cat="4_Устойчивые_фразы">🎙️ Фразы с чтецом</button>
+        <button class="tab-pill" data-cat="4_Устойчивые_фразы">🎙️ Точные фразы (16)</button>
         <button class="tab-pill" data-cat="1_Частицы_и_предлоги">Частицы (29)</button>
         <button class="tab-pill" data-cat="2_Глаголы">Глаголы (20)</button>
         <button class="tab-pill" data-cat="3_Имена_и_существительные">Имена (25)</button>
@@ -571,10 +583,10 @@
           <div class="card-face">
             <div style="display:flex; justify-content:space-between; align-items:center;">
               <span id="vFreqTag" style="font-size:0.75rem; color:var(--gold); font-weight:700;">~3226 раз</span>
-              <button id="vAudioBtn" style="background:rgba(16,185,129,0.15); border:1px solid rgba(16,185,129,0.3); border-radius:50%; width:40px; height:40px; color:var(--emerald-light); font-size:1.1rem; cursor:pointer;">🎙️</button>
+              <button id="vAudioBtn" style="background:rgba(16,185,129,0.15); border:1px solid rgba(16,185,129,0.3); border-radius:50%; width:44px; height:44px; color:var(--emerald-light); font-size:1.2rem; cursor:pointer;" title="Слушать чтеца">🎙️</button>
             </div>
-            <div style="text-align:center; padding: 20px 0;">
-              <div id="vArabic" style="font-family:'Amiri',serif; font-size:2.8rem; font-weight:700; line-height:1.4; color:#fff; direction:rtl;">مِنْ</div>
+            <div style="text-align:center; padding: 18px 0; overflow-y:auto;">
+              <div id="vArabic" style="font-family:'Amiri',serif; font-size:2.6rem; font-weight:700; line-height:1.45; color:#fff; direction:rtl;">مِنْ</div>
               <div id="vTranslit" style="font-size:1.05rem; color:var(--emerald-light); margin-top:8px;">мин</div>
             </div>
             <div style="text-align:center; font-size:0.75rem; color:var(--text-muted);">Коснитесь для переворота 👆</div>
@@ -584,10 +596,10 @@
           <div class="card-face card-back">
             <div style="display:flex; justify-content:space-between; align-items:center;">
               <span id="vCatBadge" style="font-size:0.75rem; color:var(--emerald-light); font-weight:700; text-transform:uppercase;">Частица</span>
-              <button id="vAudioBtnBack" style="background:rgba(16,185,129,0.15); border:1px solid rgba(16,185,129,0.3); border-radius:50%; width:40px; height:40px; color:var(--emerald-light); font-size:1.1rem; cursor:pointer;">🎙️</button>
+              <button id="vAudioBtnBack" style="background:rgba(16,185,129,0.15); border:1px solid rgba(16,185,129,0.3); border-radius:50%; width:44px; height:44px; color:var(--emerald-light); font-size:1.2rem; cursor:pointer;" title="Слушать чтеца">🎙️</button>
             </div>
-            <div style="text-align:center; margin:auto 0; display:flex; flex-direction:column; gap:14px;">
-              <div id="vTranslation" style="font-size:1.7rem; font-weight:700; color:#fff;">из, от, с</div>
+            <div style="text-align:center; margin:auto 0; display:flex; flex-direction:column; gap:14px; overflow-y:auto;">
+              <div id="vTranslation" style="font-size:1.6rem; font-weight:700; color:#fff;">из, от, с</div>
               <div id="vNotes" style="background:rgba(0,0,0,0.3); padding:10px 14px; border-radius:12px; font-family:'Amiri',serif; font-size:1.2rem; color:#a7f3d0; direction:rtl;">مِنَ اللَّهِ (от Аллаха)</div>
             </div>
             <div style="text-align:center; font-size:0.75rem; color:var(--text-muted);">Коснитесь для возврата ↺</div>
@@ -604,19 +616,36 @@
 
   <script>
     // ========================================================
-    // 1. DATA: JUZ 30 (HIFZ) & 90 FREQUENT WORDS
+    // GLOBAL SPEED CONTROL: 0.75x, 0.85x, 1.0x, 1.25x
+    // ========================================================
+    const SPEED_PRESETS = [0.75, 0.85, 1.0, 1.25];
+    let currentSpeed = 1.0;
+
+    const speedToggleBtn = document.getElementById('speedToggleBtn');
+    const speedLabel = document.getElementById('speedLabel');
+
+    speedToggleBtn.addEventListener('click', () => {
+      const idx = SPEED_PRESETS.indexOf(currentSpeed);
+      currentSpeed = SPEED_PRESETS[(idx + 1) % SPEED_PRESETS.length];
+      speedLabel.textContent = `${currentSpeed}x`;
+      if (currentAudio) {
+        currentAudio.playbackRate = currentSpeed;
+      }
+      if ('vibrate' in navigator) navigator.vibrate(10);
+    });
+
+    // ========================================================
+    // 1. DATA: JUZ 30 (HIFZ) & PRECISE SLICED PHRASES/WORDS
     // ========================================================
     let JUZ30 = [];
     let currentSurahIdx = 0;
     let currentAyahIdx = 0;
     let currentAudio = null;
     let isLooping = false;
-    let loopCount = 1;
-    let currentMaskLevel = 0; // 0: All, 1: Every 2nd, 2: First letters, 3: Full curtain
+    let currentMaskLevel = 0;
     let repetitions = 0;
     let targetRepetitions = 5;
 
-    // Load Juz 30 Data
     async function loadJuz30() {
       try {
         const resp = await fetch('./juz30_data.json');
@@ -646,7 +675,6 @@
       });
     }
 
-    // Render Current Ayah with Progressive Word Masking
     function renderAyah() {
       if (!JUZ30.length) return;
       const surah = JUZ30[currentSurahIdx];
@@ -659,7 +687,6 @@
       arabicContainer.innerHTML = '';
 
       if (currentMaskLevel === 3) {
-        // Level 3: Full Curtain
         const curtain = document.createElement('div');
         curtain.className = 'ayah-curtain';
         curtain.innerHTML = '<span>🙈</span><span>Текст скрыт. Прочитайте по памяти и нажмите для проверки!</span>';
@@ -672,29 +699,23 @@
         return;
       }
 
-      // Words Array
       const words = ayah.text_ar.split(' ');
       words.forEach((w, idx) => {
         let span = document.createElement('span');
 
         if (currentMaskLevel === 1 && idx % 2 === 1) {
-          // Level 1: Hide every second word
           span.className = 'word-hidden';
           span.textContent = w;
           span.title = 'Нажмите, чтобы открыть';
           span.addEventListener('click', () => span.classList.toggle('revealed'));
         } else if (currentMaskLevel === 2) {
-          // Level 2: Show first letter only
           span.className = 'word-hidden';
-          span.textContent = w;
-          span.style.color = '#fff';
           span.textContent = w.slice(0, 2) + '···';
           span.addEventListener('click', () => {
             span.textContent = w;
             span.classList.add('revealed');
           });
         } else {
-          // Level 0: Full text
           span.textContent = w + ' ';
         }
         arabicContainer.appendChild(span);
@@ -702,7 +723,6 @@
       });
     }
 
-    // Mask Level Cycle
     const maskLevels = [
       { level: 0, icon: '👁️', label: 'Все слова' },
       { level: 1, icon: '🙈', label: 'Каждое 2-е' },
@@ -726,7 +746,6 @@
       else btn.classList.remove('active');
     }
 
-    // Audio Playback (Sheikh Mishary Rashid Alafasy)
     function stopAudio() {
       if (currentAudio) {
         currentAudio.pause();
@@ -746,6 +765,7 @@
 
       const ayah = JUZ30[currentSurahIdx].ayahs[currentAyahIdx];
       currentAudio = new Audio(ayah.audio);
+      currentAudio.playbackRate = currentSpeed;
       document.getElementById('playIcon').textContent = '⏸';
       document.getElementById('playAyahBtn').classList.add('playing');
 
@@ -753,6 +773,7 @@
       currentAudio.onended = () => {
         if (isLooping) {
           currentAudio.currentTime = 0;
+          currentAudio.playbackRate = currentSpeed;
           currentAudio.play();
         } else {
           stopAudio();
@@ -762,7 +783,6 @@
 
     document.getElementById('playAyahBtn').addEventListener('click', togglePlayAyah);
 
-    // Loop Toggle
     document.getElementById('loopAudioBtn').addEventListener('click', () => {
       isLooping = !isLooping;
       const btn = document.getElementById('loopAudioBtn');
@@ -775,7 +795,6 @@
       }
     });
 
-    // Repetition Tap Counter
     document.getElementById('counterTapBtn').addEventListener('click', () => {
       repetitions++;
       updateCounterDisplay();
@@ -807,7 +826,6 @@
       }
     }
 
-    // Ayah Navigation
     document.getElementById('prevAyahBtn').addEventListener('click', () => {
       if (currentAyahIdx > 0) {
         currentAyahIdx--;
@@ -835,19 +853,9 @@
       renderAyah();
     });
 
-    // Swipe navigation on Ayah Card
-    let touchStartX = 0;
-    const cardEl = document.getElementById('ayahCard');
-    cardEl.addEventListener('touchstart', (e) => { touchStartX = e.changedTouches[0].screenX; }, {passive:true});
-    cardEl.addEventListener('touchend', (e) => {
-      const diff = e.changedTouches[0].screenX - touchStartX;
-      if (diff > 50) document.getElementById('prevAyahBtn').click();
-      else if (diff < -50) document.getElementById('nextAyahBtn').click();
-    }, {passive:true});
-
 
     // ========================================================
-    // 2. VIEW SWITCHER (HIFZ vs VOCABULARY CARDS)
+    // 2. VIEW SWITCHER
     // ========================================================
     const viewHifz = document.getElementById('viewHifz');
     const viewCards = document.getElementById('viewCards');
@@ -876,27 +884,49 @@
 
 
     // ========================================================
-    // 3. VOCABULARY FLASHCARDS (90 HIGH-FREQUENCY WORDS)
+    // 3. VOCABULARY FLASHCARDS (WITH EXACT PHRASE & WORD AUDIO)
     // ========================================================
     const VOCAB_DATA = [
-      {"arabic":"إِنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ","translation":"Поистине, Аллах способен на всякую вещь","translit":"Инна-Лла́ха ʻаля́ ку́лли шей’ин кади́р","freq":"~35 раз","category":"4_Устойчивые_фразы","notes":"Конец многих аятов","audio":"audio/002020.mp3"},
-      {"arabic":"الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ","translation":"Хвала Аллаху, Господу миров","translit":"Аль-ха́мду ли-Лля́хи Ра́бби-ль-ʻа́лями́н","freq":"Сура 1:2","category":"4_Устойчивые_фразы","notes":"Первый аят аль-Фатихи","audio":"audio/001002.mp3"},
-      {"arabic":"بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","translation":"С именем Аллаха, Милостивого, Милосердного","translit":"Бисми-Лля́хи-р-Рахма́ни-р-Рахи́м","freq":"Сура 1:1","category":"4_Устойчивые_фразы","notes":"Начало каждой суры","audio":"audio/001001.mp3"},
-      {"arabic":"لَا إِلَٰهَ إِلَّا هُوَ","translation":"Нет божества, кроме Него","translit":"Ля́ иля́ха илля́ Ху́ва","freq":"~30 раз","category":"4_Устойчивые_фразы","notes":"Аят аль-Курси (2:255)","audio":"audio/002255.mp3"},
-      {"arabic":"حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ","translation":"Нам достаточно Аллаха, и прекрасен Этот Попечитель","translit":"Хасбу́на-Лла́ху ва ниʻма-ль-Ваки́ль","freq":"3:173","category":"4_Устойчивые_фразы","notes":"Формула упования","audio":"audio/003173.mp3"},
-      {"arabic":"رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً","translation":"Господь наш! Одари нас добром в этом мире","translit":"Раббана́ а́тина́ фи-д-дунья́ ха́санатан","freq":"2:201","category":"4_Устойчивые_фразы","notes":"Самое частое дуа Пророка ﷺ","audio":"audio/002201.mp3"},
-      {"arabic":"يَا أَيُّهَا الَّذِينَ آمَنُوا","translation":"О те, которые уверовали!","translit":"Йа́ айюха-ллязи́на а́ману́","freq":"89 раз","category":"4_Устойчивые_фразы","notes":"Обращение к верующим","audio":"audio/002153.mp3"},
-      {"arabic":"الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ","translation":"Те, которые уверовали и совершали праведные деяния","translit":"Аллязи́на а́ману́ ва ʻамилю́-с-са́лиха́т","freq":">50 раз","category":"4_Устойчивые_фразы","notes":"Формула веры и спасения","audio":"audio/002025.mp3"},
-      {"arabic":"قَالَ","translation":"он сказал","translit":"каля","freq":"~1722 раза","category":"2_Глаголы","notes":"قَالَ يَقُولُ قُلْ"},
-      {"arabic":"كَانَ","translation":"он был, являлся","translit":"кана","freq":"~1358 раз","category":"2_Глаголы","notes":"وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا"},
-      {"arabic":"آمَنَ","translation":"он уверовал","translit":"амана","freq":"~537 раз","category":"2_Глаголы","notes":"آمَنَ الرَّسُولُ"},
-      {"arabic":"عَلِمَ","translation":"он знал","translit":"ʻалима","freq":"~518 раз","category":"2_Глаголы","notes":"عَلِمَ أَن لَّن تُحْصُوهُ"},
-      {"arabic":"مِنْ","translation":"из, от, с","translit":"мин","freq":"~3226 раз","category":"1_Частицы_и_предлоги","notes":"مِنَ اللَّهِ"},
-      {"arabic":"فِي","translation":"в, внутри, среди","translit":"фи","freq":"~1701 раз","category":"1_Частицы_и_предлоги","notes":"فِي الْأَرْضِ"},
-      {"arabic":"مَا","translation":"то, что / не / что?","translit":"ма","freq":"~2600 раз","category":"1_Частицы_и_предлоги","notes":"مَا عِندَكُمْ"},
-      {"arabic":"لَا","translation":"не, нет","translit":"ля","freq":"~1700 раз","category":"1_Частицы_и_предлоги","notes":"لَا إِلَٰهَ إِلَّا اللَّهُ"},
-      {"arabic":"اللَّه","translation":"Аллах, Бог","translit":"Аллах","freq":"~2699 раз","category":"3_Имена_и_существительные","notes":"قُلْ هُوَ اللَّهُ أَحَدٌ"},
-      {"arabic":"رَبّ","translation":"Господь, Создатель","translit":"Рабб","freq":"~975 раз","category":"3_Имена_и_существительные","notes":"رَبِّ الْعَالَمِينَ"}
+      // 1. Точные нарезанные фразы шейха Мишари (только сама фраза!)
+      {"arabic":"إِنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ","translation":"Поистине, Аллах способен на всякую вещь","translit":"Инна-Лла́ха ʻаля́ ку́лли шей’ин кади́р","freq":"~35 раз","category":"4_Устойчивые_фразы","notes":"Конец многих аятов","audio":"audio/phrase_qadir.m4a"},
+      {"arabic":"الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ","translation":"Хвала Аллаху, Господу миров","translit":"Аль-ха́мду ли-Лля́хи Ра́бби-ль-ʻа́лями́н","freq":"Сура 1:2","category":"4_Устойчивые_фразы","notes":"Первый аят аль-Фатихи","audio":"audio/phrase_alhamdu.m4a"},
+      {"arabic":"بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","translation":"С именем Аллаха, Милостивого, Милосердного","translit":"Бисми-Лля́хи-р-Рахма́ни-р-Рахи́м","freq":"Сура 1:1","category":"4_Устойчивые_фразы","notes":"Начало каждой суры","audio":"audio/phrase_bismillah.m4a"},
+      {"arabic":"لَا إِلَٰهَ إِلَّا هُوَ","translation":"Нет божества, кроме Него","translit":"Ля́ иля́ха илля́ Ху́ва","freq":"~30 раз","category":"4_Устойчивые_фразы","notes":"Аят аль-Курси","audio":"audio/phrase_la_ilaha_illa_huwa.m4a"},
+      {"arabic":"حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ","translation":"Нам достаточно Аллаха, и прекрасен Этот Попечитель","translit":"Хасбу́на-Лла́ху ва ниʻма-ль-Ваки́ль","freq":"3:173","category":"4_Устойчивые_фразы","notes":"Формула упования","audio":"audio/phrase_hasbuna_llah.m4a"},
+      {"arabic":"رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً","translation":"Господь наш! Одари нас добром в этом мире","translit":"Раббана́ а́тина́ фи-д-дунья́ ха́санатан","freq":"2:201","category":"4_Устойчивые_фразы","notes":"Самое частое дуа Пророка ﷺ","audio":"audio/phrase_rabbana_atina.m4a"},
+      {"arabic":"يَا أَيُّهَا الَّذِينَ آمَنُوا","translation":"О те, которые уверовали!","translit":"Йа́ айюха-ллязи́на а́ману́","freq":"89 раз","category":"4_Устойчивые_фразы","notes":"Обращение к верующим","audio":"audio/phrase_ya_ayyuha_llazina_amanu.m4a"},
+      {"arabic":"إِنَّ اللَّهَ مَعَ الصَّابِرِينَ","translation":"Поистине, Аллах — с терпеливыми","translit":"Инна-Лла́ха маʻа-с-са́бирин","freq":"2:153","category":"4_Устойчивые_фразы","notes":"Поддержка терпеливых","audio":"audio/phrase_inna_llaha_maa_sabirin.m4a"},
+      {"arabic":"الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ","translation":"Те, которые уверовали и совершали праведные деяния","translit":"Аллязи́на а́ману́ ва ʻамилю́-с-са́лиха́т","freq":">50 раз","category":"4_Устойчивые_фразы","notes":"Формула спасения","audio":"audio/phrase_allazina_amanu_wa_amilu.m4a"},
+      {"arabic":"جَنَّاتٍ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ","translation":"Сады, под которыми текут реки","translit":"Джанна́тин таджри́ мин та́хтиха-ль-анха́р","freq":">40 раз","category":"4_Устойчивые_фразы","notes":"Описание Рая","audio":"audio/phrase_jannatin_tajri.m4a"},
+      {"arabic":"إِنَّ اللَّهَ غَفُورٌ رَّحِيمٌ","translation":"Поистине, Аллах — Прощающий, Милосердный","translit":"Инна-Лла́ха Гафу́рун Рахи́м","freq":">70 раз","category":"4_Устойчивые_фразы","notes":"Концовка аятов","audio":"audio/phrase_inna_llaha_ghafurun_rahim.m4a"},
+      {"arabic":"إِنَّ اللَّهَ سَمِيعٌ عَلِيمٌ","translation":"Поистине, Аллах — Слышащий, Знающий","translit":"Инна-Лла́ха Сами́ʻун ʻАли́м","freq":"~32 раза","category":"4_Устойчивые_фразы","notes":"Слышит мольбы и намерения","audio":"audio/phrase_inna_llaha_samiun_alim.m4a"},
+      {"arabic":"وَاللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ","translation":"И Аллах видит то, что вы совершаете","translit":"Ва-Лла́ху бима́ таʻмалю́на Басы́р","freq":"~20 раз","category":"4_Устойчивые_фразы","notes":"Напоминание о делах","audio":"audio/phrase_wallahu_bima_tamaluna_basir.m4a"},
+      {"arabic":"وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا","translation":"И Аллах — Знающий, Мудрый","translit":"Ва ка́на-Лла́ху ʻАли́ман Хаки́ма","freq":"~12 раз","category":"4_Устойчивые_фразы","notes":"Законы и мудрость","audio":"audio/phrase_wa_kana_llahu_aliman_hakima.m4a"},
+      {"arabic":"وَهُوَ الْعَزِيزُ الْحَكِيمُ","translation":"И Он — Могущественный, Мудрый","translit":"Ва ху́ва-ль-ʻАзи́зу-ль-Хаки́м","freq":"~47 раз","category":"4_Устойчивые_фразы","notes":"Могущество и мудрость","audio":"audio/phrase_wa_huwa_al_azizu_al_hakim.m4a"},
+      {"arabic":"قُلْ هُوَ اللَّهُ أَحَدٌ","translation":"Скажи: «Он — Аллах Единый»","translit":"Куль ху́ва-Лла́ху А́хад","freq":"Сура 112:1","category":"4_Устойчивые_фразы","notes":"Сура Аль-Ихляс","audio":"audio/phrase_qul_huwa_llahu_ahad.m4a"},
+      {"arabic":"وَتَوَكَّلْ عَلَى اللَّهِ","translation":"И уповай на Аллаха!","translit":"Ва тавакка́ль ʻаля-Лла́х","freq":"~10 раз","category":"4_Устойчивые_фразы","notes":"Доверие Всевышнему","audio":"audio/phrase_wa_tawakkal_ala_llah.m4a"},
+
+      // 2. Изолированные отдельные слова шейха Мишари (Word-by-word)
+      {"arabic":"مِنْ","translation":"из, от, с","translit":"мин","freq":"~3226 раз","category":"1_Частицы_и_предлоги","notes":"مِنَ اللَّهِ","audio":"audio/word_min.mp3"},
+      {"arabic":"فِي","translation":"в, внутри, среди","translit":"фи","freq":"~1701 раз","category":"1_Частицы_и_предлоги","notes":"فِي الْأَرْضِ","audio":"audio/word_fi.mp3"},
+      {"arabic":"مَا","translation":"то, что / не / что?","translit":"ма","freq":"~2600 раз","category":"1_Частицы_и_предлоги","notes":"مَا عِندَكُمْ","audio":"audio/word_ma.mp3"},
+      {"arabic":"لَا","translation":"не, нет","translit":"ля","freq":"~1700 раз","category":"1_Частицы_и_предлоги","notes":"لَا إِلَٰهَ إِلَّا اللَّهُ","audio":"audio/word_la.mp3"},
+      {"arabic":"اللَّه","translation":"Аллах, Бог","translit":"Аллах","freq":"~2699 раз","category":"3_Имена_и_существительные","notes":"قُلْ هُوَ اللَّهُ أَحَدٌ","audio":"audio/word_allah.mp3"},
+      {"arabic":"رَبّ","translation":"Господь, Создатель","translit":"Рабб","freq":"~975 раз","category":"3_Имена_и_существительные","notes":"رَبِّ الْعَالَمِينَ","audio":"audio/word_rabb.mp3"},
+      {"arabic":"نَاس","translation":"люди, человечество","translit":"Нас","freq":"~241 раз","category":"3_Имена_и_существительные","notes":"رَبِّ النَّاسِ","audio":"audio/word_nas.mp3"},
+      {"arabic":"خَلَقَ","translation":"он сотворил","translit":"халяка","freq":"~184 раза","category":"2_Глаголы","notes":"خَلَقَ الْإِنسَانَ","audio":"audio/word_khalaq.mp3"},
+      {"arabic":"شَرّ","translation":"зло, худший","translit":"Шарр","freq":"~30 раз","category":"3_Имена_и_существительные","notes":"مِن شَرِّ مَا خَلَقَ","audio":"audio/word_sharr.mp3"},
+      {"arabic":"هُوَ","translation":"он","translit":"хува","freq":"~481 раз","category":"1_Частицы_и_предлоги","notes":"هُوَ اللَّهُ","audio":"audio/word_huwa.mp3"},
+      {"arabic":"أَحَد","translation":"один, единый","translit":"Ахад","freq":"~85 раз","category":"3_Имена_и_существительные","notes":"اللَّهُ أَحَدٌ","audio":"audio/word_ahad.mp3"},
+      {"arabic":"الَّذِي","translation":"тот, который","translit":"аллязи","freq":"~300+ раз","category":"1_Частицы_и_предлоги","notes":"الَّذِي خَلَقَ","audio":"audio/word_allazi.mp3"},
+      {"arabic":"كَانَ","translation":"он был, являлся","translit":"кана","freq":"~1358 раз","category":"2_Глаголы","notes":"وَكَانَ اللَّهُ عَلِيمًا","audio":"audio/word_kana.mp3"},
+      {"arabic":"جَاءَ","translation":"он пришел, явился","translit":"джа'а","freq":"~278 раз","category":"2_Глаголы","notes":"إِذَا جَاءَ نَصْرُ اللَّهِ","audio":"audio/word_jaa.mp3"},
+      {"arabic":"آمَنَ","translation":"он уверовал","translit":"амана","freq":"~537 раз","category":"2_Глаголы","notes":"آمَنَ الرَّسُولُ","audio":"audio/word_amana.mp3"},
+      {"arabic":"قَالَ","translation":"он сказал (повел. скажи!)","translit":"каля / куль","freq":"~1722 раза","category":"2_Глаголы","notes":"قَالَ يَقُولُ قُلْ","audio":"audio/word_qul.mp3"},
+      {"arabic":"عَلِمَ","translation":"он знал","translit":"ʻалима","freq":"~518 раз","category":"2_Глаголы","notes":"عَلِمَ اللَّهُ","audio":"https://audio.qurancdn.com/wbw/002_187_030.mp3"},
+      {"arabic":"عَمِلَ","translation":"он делал, совершал","translit":"ʻамиля","freq":"~276 раз","category":"2_Глаголы","notes":"وَعَمِلَ صَالِحًا","audio":"https://audio.qurancdn.com/wbw/002_062_014.mp3"},
+      {"arabic":"إِنَّ","translation":"поистине, воистину","translit":"инна","freq":"~1680 раз","category":"1_Частицы_и_предлоги","notes":"إِنَّ اللَّهَ مَعَنَا","audio":"audio/phrase_inna_llaha_maa_sabirin.m4a"},
+      {"arabic":"عَلَىٰ","translation":"на, над, обязан","translit":"ʻаля","freq":"~1445 раз","category":"1_Частицы_и_предлоги","notes":"عَلَى اللَّهِ","audio":"audio/phrase_qadir.m4a"}
     ];
 
     let vQueue = [...VOCAB_DATA];
@@ -922,11 +952,22 @@
 
     function playVocabAudio() {
       const item = vQueue[vIndex];
+      stopAudio();
       if (item && item.audio) {
-        new Audio(item.audio).play();
+        currentAudio = new Audio(item.audio);
+        currentAudio.playbackRate = currentSpeed;
+        currentAudio.play().catch(() => playSpeech(item.arabic));
       } else if ('speechSynthesis' in window) {
-        const u = new SpeechSynthesisUtterance(item.arabic);
+        playSpeech(item.arabic);
+      }
+    }
+
+    function playSpeech(text) {
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+        const u = new SpeechSynthesisUtterance(text);
         u.lang = 'ar-SA';
+        u.rate = currentSpeed * 0.85;
         window.speechSynthesis.speak(u);
       }
     }
@@ -939,6 +980,19 @@
       const itm = vQueue.splice(vIndex, 1)[0];
       vQueue.push(itm);
       renderVocabCard();
+    });
+
+    // Vocab category filter
+    document.querySelectorAll('#vocabTabs .tab-pill').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('#vocabTabs .tab-pill').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const cat = btn.dataset.cat;
+        if (cat === 'all') vQueue = [...VOCAB_DATA];
+        else vQueue = VOCAB_DATA.filter(w => w.category === cat);
+        vIndex = 0;
+        renderVocabCard();
+      });
     });
 
     // Init
