@@ -29,6 +29,11 @@
       --red: #ef4444;
       --text: #f8fafc;
       --text-muted: #94a3b8;
+
+      /* Emil Kowalski custom easing curves */
+      --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+      --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+      --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
     }
 
     * {
@@ -37,6 +42,7 @@
       padding: 0;
       -webkit-tap-highlight-color: transparent;
       user-select: none;
+      -webkit-user-select: none;
     }
 
     html, body {
@@ -45,6 +51,9 @@
       background-color: var(--bg);
       color: var(--text);
       font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
       overflow: hidden;
       touch-action: manipulation;
     }
@@ -91,6 +100,7 @@
       align-items: center;
       gap: 8px;
       color: var(--emerald-light);
+      letter-spacing: -0.01em;
     }
 
     .brand-pill {
@@ -116,10 +126,10 @@
       display: flex;
       align-items: center;
       gap: 4px;
-      transition: all 0.2s;
+      transition: transform 160ms var(--ease-out), background-color 160ms var(--ease-out), border-color 160ms var(--ease-out), color 160ms var(--ease-out);
     }
     .speed-pill-btn:active {
-      transform: scale(0.92);
+      transform: scale(0.96);
       background: var(--gold);
       color: #000;
     }
@@ -127,8 +137,9 @@
     .nav-segmented {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      background: rgba(255, 255, 255, 0.05);
+      background: rgba(255, 255, 255, 0.04);
       border: 1px solid var(--surface-border);
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
       border-radius: 14px;
       padding: 3px;
     }
@@ -137,23 +148,26 @@
       padding: 8px 12px;
       font-size: 0.85rem;
       font-weight: 600;
-      border: none;
+      border: 1px solid transparent;
       background: transparent;
       color: var(--text-muted);
       border-radius: 11px;
       cursor: pointer;
-      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      transition: transform 160ms var(--ease-out), background-color 160ms var(--ease-out), color 160ms var(--ease-out), box-shadow 160ms var(--ease-out), border-color 160ms var(--ease-out);
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 6px;
     }
+    .nav-btn:active {
+      transform: scale(0.97);
+    }
 
     .nav-btn.active {
       background: var(--surface);
       color: var(--emerald-light);
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-      border: 1px solid rgba(52, 211, 153, 0.2);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(52, 211, 153, 0.25);
     }
 
     /* ========================================================
@@ -168,65 +182,64 @@
       justify-content: space-between;
     }
 
-    .surah-select-row {
+    .hifz-controls {
       display: flex;
-      align-items: center;
+      flex-direction: column;
       gap: 8px;
+    }
+
+    .surah-select {
+      width: 100%;
       background: var(--surface);
       border: 1px solid var(--surface-border);
-      border-radius: 16px;
-      padding: 6px 12px;
-    }
-
-    .surah-dropdown {
-      flex: 1;
-      background: transparent;
       color: #fff;
-      font-size: 0.95rem;
+      padding: 10px 14px;
+      border-radius: 14px;
+      font-size: 0.9rem;
       font-weight: 600;
-      border: none;
       outline: none;
       cursor: pointer;
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+      transition: border-color 160ms var(--ease-out);
+    }
+    .surah-select:focus {
+      border-color: rgba(52, 211, 153, 0.5);
     }
 
-    .surah-dropdown option {
-      background: #0f172a;
-      color: #fff;
-    }
-
-    .ayah-toolbar {
+    .tools-row {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin: 8px 0;
-    }
-
-    .ayah-counter-badge {
-      font-size: 0.8rem;
-      font-weight: 700;
-      color: var(--text-muted);
-      background: rgba(255, 255, 255, 0.04);
-      padding: 4px 10px;
-      border-radius: 10px;
-    }
-
-    .hifz-tools {
-      display: flex;
       gap: 8px;
     }
 
-    .tool-btn {
+    .ayah-badge {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--surface-border);
       padding: 6px 12px;
+      border-radius: 12px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      letter-spacing: -0.01em;
+    }
+
+    .tool-btn {
+      background: var(--surface);
+      border: 1px solid var(--surface-border);
+      color: var(--text-muted);
+      padding: 6px 12px;
+      border-radius: 12px;
       font-size: 0.8rem;
       font-weight: 600;
-      border-radius: 10px;
-      border: 1px solid var(--surface-border);
-      background: rgba(255, 255, 255, 0.05);
-      color: var(--text-muted);
+      cursor: pointer;
       display: flex;
       align-items: center;
-      gap: 5px;
-      cursor: pointer;
+      gap: 6px;
+      transition: transform 160ms var(--ease-out), background-color 160ms var(--ease-out), border-color 160ms var(--ease-out), color 160ms var(--ease-out);
+    }
+    .tool-btn:active {
+      transform: scale(0.96);
     }
 
     .tool-btn.active {
@@ -251,10 +264,13 @@
       flex: 1;
       justify-content: center;
       gap: 16px;
-      box-shadow: 0 16px 36px -10px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 16px 36px -10px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.08);
       overflow-y: auto;
       text-align: center;
       max-height: 48dvh;
+    }
+    .ayah-card.entering {
+      animation: subtleCardEntrance 180ms var(--ease-out);
     }
 
     .ayah-arabic-text {
@@ -277,7 +293,10 @@
       color: transparent;
       cursor: pointer;
       border-bottom: 2px dashed rgba(52, 211, 153, 0.4);
-      transition: all 0.2s;
+      transition: transform 160ms var(--ease-out), background-color 160ms var(--ease-out), color 160ms var(--ease-out), border-color 160ms var(--ease-out);
+    }
+    .word-hidden:active {
+      transform: scale(0.96);
     }
     .word-hidden.revealed {
       color: var(--emerald-light) !important;
@@ -294,6 +313,10 @@
       flex-direction: column;
       align-items: center;
       gap: 8px;
+      transition: transform 160ms var(--ease-out);
+    }
+    .ayah-curtain:active {
+      transform: scale(0.97);
     }
 
     .ayah-translation-text {
@@ -327,8 +350,8 @@
       font-weight: 700;
       font-size: 1.05rem;
       cursor: pointer;
-      transition: transform 0.08s;
-      box-shadow: 0 4px 16px var(--emerald-glow);
+      transition: transform 160ms var(--ease-out), background 160ms var(--ease-out), box-shadow 160ms var(--ease-out);
+      box-shadow: 0 4px 16px var(--emerald-glow), inset 0 1px 0 rgba(255, 255, 255, 0.12);
     }
     .counter-tap-btn:active {
       transform: scale(0.97);
@@ -341,6 +364,10 @@
       border-radius: 999px;
       font-size: 0.9rem;
       font-weight: 800;
+      transition: background-color 180ms var(--ease-out), color 180ms var(--ease-out), transform 180ms var(--ease-out);
+    }
+    .repeat-count-badge.celebrate {
+      animation: targetCelebrate 260ms var(--ease-spring);
     }
 
     .counter-target-btn {
@@ -352,6 +379,11 @@
       font-weight: 700;
       font-size: 0.85rem;
       cursor: pointer;
+      transition: transform 160ms var(--ease-out), background-color 160ms var(--ease-out), border-color 160ms var(--ease-out);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    }
+    .counter-target-btn:active {
+      transform: scale(0.96);
     }
 
     .ayah-nav-row {
@@ -373,21 +405,23 @@
       align-items: center;
       justify-content: center;
       font-size: 0.95rem;
+      transition: transform 160ms var(--ease-out), background-color 160ms var(--ease-out), border-color 160ms var(--ease-out), box-shadow 160ms var(--ease-out);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
     }
     .nav-arrow-btn:active {
-      transform: scale(0.96);
+      transform: scale(0.97);
     }
 
     .play-ayah-btn {
       background: var(--emerald);
       color: #022c22;
       border: none;
-      box-shadow: 0 4px 16px var(--emerald-glow);
+      box-shadow: 0 4px 16px var(--emerald-glow), inset 0 1px 0 rgba(255, 255, 255, 0.2);
     }
     .play-ayah-btn.playing {
       background: #f59e0b !important;
       color: #000 !important;
-      box-shadow: 0 4px 16px rgba(245, 158, 11, 0.4) !important;
+      box-shadow: 0 4px 16px rgba(245, 158, 11, 0.4) !important, inset 0 1px 0 rgba(255, 255, 255, 0.3) !important;
     }
 
     /* ========================================================
@@ -421,11 +455,16 @@
       font-size: 0.78rem;
       font-weight: 600;
       cursor: pointer;
+      transition: transform 160ms var(--ease-out), background-color 160ms var(--ease-out), color 160ms var(--ease-out), border-color 160ms var(--ease-out);
+    }
+    .tab-pill:active {
+      transform: scale(0.96);
     }
     .tab-pill.active {
       background: var(--emerald);
       color: #052e16;
       border-color: var(--emerald);
+      box-shadow: 0 2px 10px var(--emerald-glow);
     }
 
     .flashcard-arena {
@@ -434,19 +473,24 @@
       align-items: center;
       justify-content: center;
       perspective: 1200px;
-      margin: 12px 0;
+      margin: 10px 0;
       position: relative;
     }
 
     .flashcard {
       width: 100%;
       height: 100%;
-      max-height: 420px;
+      max-height: 380px;
       position: relative;
       transform-style: preserve-3d;
-      transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+      transition: transform 380ms var(--ease-out);
+      will-change: transform;
       cursor: pointer;
       border-radius: 24px;
+    }
+
+    .flashcard.entering {
+      animation: subtleCardEntrance 180ms var(--ease-out);
     }
 
     .flashcard.is-flipped {
@@ -466,37 +510,81 @@
       padding: 22px 20px;
       background: var(--card-bg);
       border: 1px solid var(--surface-border);
-      box-shadow: 0 14px 34px -10px rgba(0, 0, 0, 0.6);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 14px 34px -10px rgba(0, 0, 0, 0.65), inset 0 1px 0 rgba(255, 255, 255, 0.08);
     }
 
     .card-back {
       transform: rotateY(180deg);
       background: #0f241d;
-      border: 1px solid rgba(52, 211, 153, 0.3);
+      border: 1px solid rgba(52, 211, 153, 0.35);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 14px 34px -10px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(52, 211, 153, 0.15);
     }
 
-    .flash-actions {
-      display: grid;
-      grid-template-columns: 1fr 1.3fr;
-      gap: 12px;
-      margin-bottom: 4px;
-    }
-    .btn-action {
-      padding: 15px;
-      border-radius: 16px;
-      font-weight: 700;
-      font-size: 1rem;
-      border: none;
+    .card-audio-btn {
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      border-radius: 50%;
+      width: 44px;
+      height: 44px;
+      color: var(--emerald-light);
+      font-size: 1.2rem;
       cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 160ms var(--ease-out), background-color 160ms var(--ease-out);
     }
-    .btn-repeat {
-      background: rgba(239, 68, 68, 0.16);
-      color: #fca5a5;
-      border: 1px solid rgba(239, 68, 68, 0.3);
+    .card-audio-btn:active {
+      transform: scale(0.92);
+      background: rgba(16, 185, 129, 0.3);
     }
-    .btn-known {
-      background: linear-gradient(135deg, var(--emerald), #059669);
-      color: #fff;
+
+    @keyframes subtleCardEntrance {
+      from {
+        opacity: 0.7;
+        transform: scale(0.985);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    @keyframes targetCelebrate {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.15); }
+      100% { transform: scale(1); }
+    }
+
+    @media (hover: hover) and (pointer: fine) {
+      .nav-arrow-btn:hover {
+        background: rgba(255, 255, 255, 0.1);
+      }
+      .tool-btn:hover {
+        background: rgba(255, 255, 255, 0.08);
+      }
+      .tab-pill:hover:not(.active) {
+        background: rgba(255, 255, 255, 0.09);
+      }
+      .speed-pill-btn:hover {
+        background: rgba(245, 158, 11, 0.25);
+      }
+      .counter-tap-btn:hover {
+        background: linear-gradient(135deg, rgba(16, 185, 129, 0.24), rgba(5, 150, 105, 0.32));
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+      .flashcard {
+        transition: none !important;
+      }
+      .flashcard.is-flipped {
+        transform: none !important;
+      }
     }
   </style>
 </head>
@@ -595,7 +683,7 @@
           <div class="card-face">
             <div style="display:flex; justify-content:space-between; align-items:center;">
               <span id="vFreqTag" style="font-size:0.75rem; color:var(--gold); font-weight:700;">~3226 раз</span>
-              <button id="vAudioBtn" style="background:rgba(16,185,129,0.15); border:1px solid rgba(16,185,129,0.3); border-radius:50%; width:44px; height:44px; color:var(--emerald-light); font-size:1.2rem; cursor:pointer;" title="Слушать чтеца">🎙️</button>
+              <button id="vAudioBtn" class="card-audio-btn" title="Слушать чтеца">🎙️</button>
             </div>
             <div style="text-align:center; padding: 14px 0; overflow-y:auto;">
               <div id="vArabic" style="font-family:'Amiri',serif; font-size:2.5rem; font-weight:700; line-height:1.45; color:#fff; direction:rtl;">مِنْ</div>
@@ -608,7 +696,7 @@
           <div class="card-face card-back">
             <div style="display:flex; justify-content:space-between; align-items:center;">
               <span id="vCatBadge" style="font-size:0.75rem; color:var(--emerald-light); font-weight:700; text-transform:uppercase;">Частица</span>
-              <button id="vAudioBtnBack" style="background:rgba(16,185,129,0.15); border:1px solid rgba(16,185,129,0.3); border-radius:50%; width:44px; height:44px; color:var(--emerald-light); font-size:1.2rem; cursor:pointer;" title="Слушать чтеца">🎙️</button>
+              <button id="vAudioBtnBack" class="card-audio-btn" title="Слушать чтеца">🎙️</button>
             </div>
             <div style="text-align:center; margin:auto 0; display:flex; flex-direction:column; gap:12px; overflow-y:auto;">
               <div id="vTranslation" style="font-size:1.5rem; font-weight:700; color:#fff;">из, от, с</div>
@@ -708,6 +796,13 @@
 
       document.getElementById('ayahCounterBadge').textContent = `Аят ${ayah.ayah} из ${surah.ayahs_count}`;
       document.getElementById('ayahTranslationText').textContent = ayah.text_ru;
+
+      const ayahCard = document.getElementById('ayahCard');
+      if (ayahCard) {
+        ayahCard.classList.remove('entering');
+        void ayahCard.offsetWidth;
+        ayahCard.classList.add('entering');
+      }
 
       const arabicContainer = document.getElementById('ayahArabicText');
       arabicContainer.innerHTML = '';
@@ -856,6 +951,9 @@
       if (repetitions >= targetRepetitions) {
         badge.style.background = '#f59e0b';
         badge.style.color = '#000';
+        badge.classList.remove('celebrate');
+        void badge.offsetWidth;
+        badge.classList.add('celebrate');
       } else {
         badge.style.background = 'var(--emerald)';
         badge.style.color = '#022c22';
@@ -1731,7 +1829,12 @@
 
     function renderVocabCard() {
       const card = document.getElementById('flashCard');
-      if (card) card.classList.remove('is-flipped');
+      if (card) {
+        card.classList.remove('is-flipped');
+        card.classList.remove('entering');
+        void card.offsetWidth;
+        card.classList.add('entering');
+      }
       if (vIndex >= vQueue.length) vIndex = 0;
       if (vIndex < 0) vIndex = 0;
       if (!vQueue.length) return;
@@ -1762,6 +1865,9 @@
       if (vRepetitions >= vTargetRepetitions) {
         badge.style.background = '#f59e0b';
         badge.style.color = '#000';
+        badge.classList.remove('celebrate');
+        void badge.offsetWidth;
+        badge.classList.add('celebrate');
       } else {
         badge.style.background = 'var(--emerald)';
         badge.style.color = '#022c22';
