@@ -534,7 +534,162 @@
       justify-content: center;
       transition: transform 160ms var(--ease-out), background-color 160ms var(--ease-out);
     }
-        .card-audio-btn.playing {
+        /* ========================================================
+       EMIL KOWALSKI DESIGN: STATS PILL & LEARNED TOGGLE & DRAWER
+       ======================================================== */
+    .stats-pill-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 12px;
+      border-radius: 9999px;
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid rgba(16, 185, 129, 0.28);
+      color: var(--emerald-light);
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+      transition: transform 140ms var(--ease-out), background-color 140ms var(--ease-out);
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .stats-pill-btn:active {
+      transform: scale(0.95);
+      background: rgba(16, 185, 129, 0.22);
+    }
+
+    .learned-toggle-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 12px 14px;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      color: var(--text-muted);
+      font-size: 0.86rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 150ms var(--ease-out), background 180ms ease, border-color 180ms ease, color 180ms ease;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+      white-space: nowrap;
+    }
+    .learned-toggle-btn:active {
+      transform: scale(0.95);
+    }
+    .learned-toggle-btn.is-learned {
+      background: rgba(16, 185, 129, 0.2);
+      border-color: rgba(52, 211, 153, 0.5);
+      color: #34d399;
+      box-shadow: 0 0 12px rgba(16, 185, 129, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+    }
+    .learned-toggle-btn.celebrate {
+      animation: targetCelebrate 300ms cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    /* Bottom Sheet Drawer for Stats */
+    .sheet-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.65);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      z-index: 1000;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 220ms ease;
+    }
+    .sheet-backdrop.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .stats-drawer {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      max-width: 540px;
+      margin: 0 auto;
+      background: #0f172a;
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
+      border-top-left-radius: 26px;
+      border-top-right-radius: 26px;
+      padding: 12px 20px 32px 20px;
+      box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+      transform: translateY(100%);
+      transition: transform 260ms var(--ease-drawer);
+      z-index: 1001;
+      max-height: 85vh;
+      overflow-y: auto;
+    }
+    .sheet-backdrop.open .stats-drawer {
+      transform: translateY(0);
+    }
+
+    .drawer-handle {
+      width: 36px;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.25);
+      border-radius: 9999px;
+      margin: 0 auto 16px auto;
+    }
+
+    .stats-card-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin: 16px 0;
+    }
+
+    .stats-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      border-radius: 16px;
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    }
+    .stats-card-title {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 600;
+    }
+    .stats-card-value {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #fff;
+    }
+    .stats-card-sub {
+      font-size: 0.72rem;
+      color: var(--emerald-light);
+    }
+
+    .progress-bar-track {
+      width: 100%;
+      height: 8px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 9999px;
+      overflow: hidden;
+      margin: 8px 0;
+    }
+    .progress-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--emerald), #34d399);
+      border-radius: 9999px;
+      width: 0%;
+      transition: width 400ms var(--ease-out);
+    }
+
+    .card-audio-btn.playing {
       background: var(--emerald);
       color: #022c22;
       border-color: var(--emerald-light);
@@ -604,9 +759,14 @@
           📖 Коран Хифз
           <span class="brand-pill" id="badgeIndicator">30-й Джуз</span>
         </div>
-        <button class="speed-pill-btn" id="speedToggleBtn" title="Регулировка скорости чтения">
-          <span>⚡</span> <span id="speedLabel">1.0x</span>
-        </button>
+        <div style="display:flex; align-items:center; gap:8px;">
+          <button class="stats-pill-btn" id="openStatsBtn" title="Статистика прогресса в базе данных">
+            <span>📊</span> <span id="headerStatsLabel">0 заучено</span>
+          </button>
+          <button class="speed-pill-btn" id="speedToggleBtn" title="Регулировка скорости чтения">
+            <span>⚡</span> <span id="speedLabel">1.0x</span>
+          </button>
+        </div>
       </div>
 
       <!-- Segmented Mode Control -->
@@ -653,6 +813,9 @@
           <span style="font-size:0.85rem; opacity:0.8;">(Тапнуть +1)</span>
         </button>
         <button class="counter-target-btn" id="counterTargetBtn">Цель: 5x</button>
+        <button class="learned-toggle-btn" id="markLearnedBtn" title="Отметить аят как заученный">
+          <span id="markLearnedIcon">◯</span> <span id="markLearnedText">Выучено</span>
+        </button>
       </div>
 
       <div class="ayah-nav-row">
@@ -721,6 +884,9 @@
           <span style="font-size:0.85rem; opacity:0.8;">(Тапнуть +1)</span>
         </button>
         <button class="counter-target-btn" id="vCounterTargetBtn">Цель: 5x</button>
+        <button class="learned-toggle-btn" id="vMarkLearnedBtn" title="Отметить слово/фразу как заученную">
+          <span id="vMarkLearnedIcon">◯</span> <span id="vMarkLearnedText">Выучено</span>
+        </button>
       </div>
 
       <!-- Нижнее меню навигации и чтеца (как у аятов) -->
@@ -761,17 +927,105 @@
     let currentSurahIdx = 0;
     let currentAyahIdx = 0;
     let currentAudio = null;
+    // ========================================================
+    // LOCAL IN-APP DATABASE: IndexedDB + localStorage sync
+    // ========================================================
+    const DB_NAME = 'QuranProgressDB';
+    const DB_VERSION = 1;
+    const STORAGE_KEY = 'quran_hifz_progress_v2';
+
+    let dbInstance = null;
+    let appProgress = {
+      ayahs: {},    // { "78:1": { repetitions: 5, learned: true } }
+      vocab: {},    // { "مِنْ": { repetitions: 7, learned: true } }
+      totalTaps: 0,
+      updatedAt: Date.now()
+    };
+
+    function initIndexedDB() {
+      return new Promise((resolve) => {
+        if (!('indexedDB' in window)) {
+          resolve(null);
+          return;
+        }
+        const req = indexedDB.open(DB_NAME, DB_VERSION);
+        req.onupgradeneeded = (e) => {
+          const db = e.target.result;
+          if (!db.objectStoreNames.contains('progress')) {
+            db.createObjectStore('progress', { keyPath: 'id' });
+          }
+        };
+        req.onsuccess = (e) => {
+          dbInstance = e.target.result;
+          const status = document.getElementById('dbStatusLabel');
+          if (status) status.textContent = '● IndexedDB подключена и активна';
+          resolve(dbInstance);
+        };
+        req.onerror = () => {
+          const status = document.getElementById('dbStatusLabel');
+          if (status) status.textContent = '● Хранилище: LocalStorage';
+          resolve(null);
+        };
+      });
+    }
+
+    function saveProgressToDB() {
+      appProgress.updatedAt = Date.now();
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(appProgress));
+      } catch (e) {}
+
+      if (dbInstance) {
+        try {
+          const tx = dbInstance.transaction('progress', 'readwrite');
+          const store = tx.objectStore('progress');
+          store.put({ id: 'current_progress', ...appProgress });
+        } catch (e) {}
+      }
+      updateGlobalProgressUI();
+    }
+
+    async function loadProgressFromDB() {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (raw) {
+          appProgress = Object.assign(appProgress, JSON.parse(raw));
+        }
+      } catch (e) {}
+
+      try {
+        const db = await initIndexedDB();
+        if (db) {
+          const idbData = await new Promise((resolve) => {
+            const tx = db.transaction('progress', 'readonly');
+            const store = tx.objectStore('progress');
+            const req = store.get('current_progress');
+            req.onsuccess = () => resolve(req.result);
+            req.onerror = () => resolve(null);
+          });
+          if (idbData && idbData.updatedAt && idbData.updatedAt > (appProgress.updatedAt || 0)) {
+            appProgress = Object.assign(appProgress, idbData);
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(appProgress));
+          }
+        }
+      } catch (e) {}
+
+      updateGlobalProgressUI();
+    }
+
     let isLooping = false;
     let currentMaskLevel = 0;
     let repetitions = 0;
     let targetRepetitions = 5;
 
     async function loadJuz30() {
+      await loadProgressFromDB();
       try {
         const resp = await fetch('./juz30_data.json');
         JUZ30 = await resp.json();
         populateSurahSelect();
         renderAyah();
+        updateGlobalProgressUI();
       } catch (e) {
         console.error("Ошибка загрузки juz30_data.json", e);
       }
@@ -783,13 +1037,19 @@
       JUZ30.forEach((s, idx) => {
         const opt = document.createElement('option');
         opt.value = idx;
-        opt.textContent = `${s.number}. ${s.name_en} (${s.name_ar}) — ${s.ayahs_count} аятов`;
+        let sLearned = 0;
+        const count = s.ayahs_count || (s.ayahs ? s.ayahs.length : 0);
+        for (let a = 1; a <= count; a++) {
+          if (appProgress.ayahs[`${s.number}:${a}`]?.learned) sLearned++;
+        }
+        const isDone = count > 0 && sLearned === count;
+        const prefix = isDone ? '✓ ' : '';
+        opt.textContent = `${prefix}${s.number}. ${s.name_en} (${s.name_ar}) [${sLearned}/${count}]`;
         select.appendChild(opt);
       });
       select.addEventListener('change', (e) => {
         currentSurahIdx = parseInt(e.target.value);
         currentAyahIdx = 0;
-        resetRepetitions();
         stopAudio();
         renderAyah();
       });
@@ -799,9 +1059,31 @@
       if (!JUZ30.length) return;
       const surah = JUZ30[currentSurahIdx];
       const ayah = surah.ayahs[currentAyahIdx];
+      const key = `${surah.number}:${ayah.ayah}`;
+      const saved = appProgress.ayahs[key] || { repetitions: 0, learned: false };
 
-      document.getElementById('ayahCounterBadge').textContent = `Аят ${ayah.ayah} из ${surah.ayahs_count}`;
+      repetitions = saved.repetitions || 0;
+      updateCounterDisplay();
+
+      const isLearned = !!saved.learned;
+      const badge = document.getElementById('ayahCounterBadge');
+      badge.textContent = `Аят ${ayah.ayah} из ${surah.ayahs_count}${isLearned ? ' • Заучен ✓' : ''}`;
       document.getElementById('ayahTranslationText').textContent = ayah.text_ru;
+
+      const mlBtn = document.getElementById('markLearnedBtn');
+      const mlIcon = document.getElementById('markLearnedIcon');
+      const mlText = document.getElementById('markLearnedText');
+      if (mlBtn) {
+        if (isLearned) {
+          mlBtn.classList.add('is-learned');
+          if (mlIcon) mlIcon.textContent = '✓';
+          if (mlText) mlText.textContent = 'Заучено';
+        } else {
+          mlBtn.classList.remove('is-learned');
+          if (mlIcon) mlIcon.textContent = '◯';
+          if (mlText) mlText.textContent = 'Выучено';
+        }
+      }
 
       const ayahCard = document.getElementById('ayahCard');
       if (ayahCard) {
@@ -938,9 +1220,49 @@
     });
 
     document.getElementById('counterTapBtn').addEventListener('click', () => {
+      if (!JUZ30.length) return;
+      const surah = JUZ30[currentSurahIdx];
+      const ayah = surah.ayahs[currentAyahIdx];
+      const key = `${surah.number}:${ayah.ayah}`;
+
+      appProgress.ayahs[key] = appProgress.ayahs[key] || { repetitions: 0, learned: false };
       repetitions++;
+      appProgress.ayahs[key].repetitions = repetitions;
+      appProgress.totalTaps = (appProgress.totalTaps || 0) + 1;
+
+      if (repetitions >= targetRepetitions && !appProgress.ayahs[key].learned) {
+        appProgress.ayahs[key].learned = true;
+        const mlBtn = document.getElementById('markLearnedBtn');
+        if (mlBtn) {
+          mlBtn.classList.add('celebrate');
+          setTimeout(() => mlBtn.classList.remove('celebrate'), 350);
+        }
+      }
+
+      saveProgressToDB();
       updateCounterDisplay();
+      renderAyah();
       if ('vibrate' in navigator) navigator.vibrate(15);
+    });
+
+    document.getElementById('markLearnedBtn').addEventListener('click', () => {
+      if (!JUZ30.length) return;
+      const surah = JUZ30[currentSurahIdx];
+      const ayah = surah.ayahs[currentAyahIdx];
+      const key = `${surah.number}:${ayah.ayah}`;
+
+      appProgress.ayahs[key] = appProgress.ayahs[key] || { repetitions: repetitions, learned: false };
+      appProgress.ayahs[key].learned = !appProgress.ayahs[key].learned;
+
+      const mlBtn = document.getElementById('markLearnedBtn');
+      if (appProgress.ayahs[key].learned && mlBtn) {
+        mlBtn.classList.add('celebrate');
+        setTimeout(() => mlBtn.classList.remove('celebrate'), 350);
+      }
+
+      saveProgressToDB();
+      renderAyah();
+      if ('vibrate' in navigator) navigator.vibrate(18);
     });
 
     const targetPresets = [3, 5, 7, 10];
@@ -980,7 +1302,6 @@
         currentAyahIdx = JUZ30[currentSurahIdx].ayahs.length - 1;
       }
       stopAudio();
-      resetRepetitions();
       renderAyah();
     });
 
@@ -994,7 +1315,6 @@
         currentAyahIdx = 0;
       }
       stopAudio();
-      resetRepetitions();
       renderAyah();
     });
 
@@ -2224,9 +2544,35 @@
       if (!vQueue.length) return;
 
       const item = vQueue[vIndex];
+      const key = item.arabic;
+      const saved = appProgress.vocab[key] || { repetitions: 0, learned: false };
+
+      vRepetitions = saved.repetitions || 0;
+      updateVocabCounterDisplay();
+
+      const isLearned = !!saved.learned;
+      const freqTag = document.getElementById('vFreqTag');
+      if (freqTag) {
+        freqTag.textContent = `${item.freq || ''}${isLearned ? ' • Заучено ✓' : ''}`;
+      }
+
+      const vMlBtn = document.getElementById('vMarkLearnedBtn');
+      const vMlIcon = document.getElementById('vMarkLearnedIcon');
+      const vMlText = document.getElementById('vMarkLearnedText');
+      if (vMlBtn) {
+        if (isLearned) {
+          vMlBtn.classList.add('is-learned');
+          if (vMlIcon) vMlIcon.textContent = '✓';
+          if (vMlText) vMlText.textContent = 'Заучено';
+        } else {
+          vMlBtn.classList.remove('is-learned');
+          if (vMlIcon) vMlIcon.textContent = '◯';
+          if (vMlText) vMlText.textContent = 'Выучено';
+        }
+      }
+
       document.getElementById('vArabic').textContent = item.arabic;
       document.getElementById('vTranslit').textContent = item.translit;
-      document.getElementById('vFreqTag').textContent = item.freq || '';
       document.getElementById('vTranslation').textContent = item.translation;
       document.getElementById('vNotes').textContent = item.notes || item.arabic;
       const catNameMap = {
@@ -2266,9 +2612,49 @@
 
     // Counter buttons
     document.getElementById('vCounterTapBtn').addEventListener('click', () => {
+      if (!vQueue.length) return;
+      const item = vQueue[vIndex];
+      if (!item) return;
+      const key = item.arabic;
+
+      appProgress.vocab[key] = appProgress.vocab[key] || { repetitions: 0, learned: false };
       vRepetitions++;
+      appProgress.vocab[key].repetitions = vRepetitions;
+      appProgress.totalTaps = (appProgress.totalTaps || 0) + 1;
+
+      if (vRepetitions >= vTargetRepetitions && !appProgress.vocab[key].learned) {
+        appProgress.vocab[key].learned = true;
+        const vMlBtn = document.getElementById('vMarkLearnedBtn');
+        if (vMlBtn) {
+          vMlBtn.classList.add('celebrate');
+          setTimeout(() => vMlBtn.classList.remove('celebrate'), 350);
+        }
+      }
+
+      saveProgressToDB();
       updateVocabCounterDisplay();
+      renderVocabCard();
       if ('vibrate' in navigator) navigator.vibrate(15);
+    });
+
+    document.getElementById('vMarkLearnedBtn').addEventListener('click', () => {
+      if (!vQueue.length) return;
+      const item = vQueue[vIndex];
+      if (!item) return;
+      const key = item.arabic;
+
+      appProgress.vocab[key] = appProgress.vocab[key] || { repetitions: vRepetitions, learned: false };
+      appProgress.vocab[key].learned = !appProgress.vocab[key].learned;
+
+      const vMlBtn = document.getElementById('vMarkLearnedBtn');
+      if (appProgress.vocab[key].learned && vMlBtn) {
+        vMlBtn.classList.add('celebrate');
+        setTimeout(() => vMlBtn.classList.remove('celebrate'), 350);
+      }
+
+      saveProgressToDB();
+      renderVocabCard();
+      if ('vibrate' in navigator) navigator.vibrate(18);
     });
 
     document.getElementById('vCounterTargetBtn').addEventListener('click', () => {
@@ -2288,7 +2674,6 @@
         vIndex = vQueue.length - 1;
       }
       stopAudio();
-      resetVocabRepetitions();
       renderVocabCard();
       if ('vibrate' in navigator) navigator.vibrate(10);
     });
@@ -2297,7 +2682,6 @@
       if (!vQueue.length) return;
       vIndex = (vIndex + 1) % vQueue.length;
       stopAudio();
-      resetVocabRepetitions();
       renderVocabCard();
       if ('vibrate' in navigator) navigator.vibrate(10);
     });
@@ -2581,6 +2965,200 @@
 
     // Initialize
     loadJuz30();
+  
+    // ========================================================
+    // GLOBAL PROGRESS UI & STATS DRAWER (Emil Kowalski Design)
+    // ========================================================
+    function updateGlobalProgressUI() {
+      // 1. Ayahs & Surahs
+      let totalLearnedAyahs = 0;
+      let totalCompletedSurahs = 0;
+      const TOTAL_AYAHS = 564;
+      const TOTAL_SURAHS = JUZ30.length || 37;
+
+      JUZ30.forEach(s => {
+        let sLearned = 0;
+        const count = s.ayahs_count || (s.ayahs ? s.ayahs.length : 0);
+        for (let a = 1; a <= count; a++) {
+          if (appProgress.ayahs[`${s.number}:${a}`]?.learned) {
+            sLearned++;
+            totalLearnedAyahs++;
+          }
+        }
+        if (count > 0 && sLearned === count) {
+          totalCompletedSurahs++;
+        }
+      });
+
+      // 2. Vocab
+      let totalLearnedVocab = 0;
+      const TOTAL_VOCAB = VOCAB_DATA.length || 130;
+      VOCAB_DATA.forEach(v => {
+        if (appProgress.vocab[v.arabic]?.learned) {
+          totalLearnedVocab++;
+        }
+      });
+
+      // 3. Header Badge
+      const headerStats = document.getElementById('headerStatsLabel');
+      if (headerStats) {
+        const sum = totalLearnedAyahs + totalLearnedVocab;
+        headerStats.textContent = `${sum} заучено`;
+      }
+
+      // 4. Drawer Cards
+      const sAyahsVal = document.getElementById('statsAyahsValue');
+      if (sAyahsVal) sAyahsVal.textContent = `${totalLearnedAyahs} / ${TOTAL_AYAHS}`;
+      const sAyahsPct = document.getElementById('statsAyahsPercent');
+      const ayahPctVal = Math.round((totalLearnedAyahs / TOTAL_AYAHS) * 100);
+      if (sAyahsPct) sAyahsPct.textContent = `${ayahPctVal}% заучено`;
+
+      const sVocabVal = document.getElementById('statsVocabValue');
+      if (sVocabVal) sVocabVal.textContent = `${totalLearnedVocab} / ${TOTAL_VOCAB}`;
+      const sVocabPct = document.getElementById('statsVocabPercent');
+      const vocabPctVal = Math.round((totalLearnedVocab / TOTAL_VOCAB) * 100);
+      if (sVocabPct) sVocabPct.textContent = `${vocabPctVal}% заучено`;
+
+      const sTapsVal = document.getElementById('statsTotalTapsValue');
+      if (sTapsVal) sTapsVal.textContent = (appProgress.totalTaps || 0).toLocaleString();
+
+      const sSurahsVal = document.getElementById('statsSurahsValue');
+      if (sSurahsVal) sSurahsVal.textContent = `${totalCompletedSurahs} / ${TOTAL_SURAHS}`;
+      const sSurahsPct = document.getElementById('statsSurahsPercent');
+      if (sSurahsPct) sSurahsPct.textContent = `${totalCompletedSurahs} из 37 сур`;
+
+      // 5. Progress Bars
+      const juzBarFill = document.getElementById('statsJuzBarFill');
+      const juzBarLabel = document.getElementById('statsJuzBarLabel');
+      if (juzBarFill) juzBarFill.style.width = `${ayahPctVal}%`;
+      if (juzBarLabel) juzBarLabel.textContent = `${ayahPctVal}%`;
+
+      const vocabBarFill = document.getElementById('statsVocabBarFill');
+      const vocabBarLabel = document.getElementById('statsVocabBarLabel');
+      if (vocabBarFill) vocabBarFill.style.width = `${vocabPctVal}%`;
+      if (vocabBarLabel) vocabBarLabel.textContent = `${vocabPctVal}%`;
+
+      // 6. Update Surah Select Options
+      const select = document.getElementById('surahSelect');
+      if (select && select.options.length === JUZ30.length) {
+        JUZ30.forEach((s, idx) => {
+          let sLearned = 0;
+          const count = s.ayahs_count || (s.ayahs ? s.ayahs.length : 0);
+          for (let a = 1; a <= count; a++) {
+            if (appProgress.ayahs[`${s.number}:${a}`]?.learned) sLearned++;
+          }
+          const isDone = count > 0 && sLearned === count;
+          const prefix = isDone ? '✓ ' : '';
+          select.options[idx].text = `${prefix}${s.number}. ${s.name_en} (${s.name_ar}) [${sLearned}/${count}]`;
+        });
+      }
+    }
+
+    const openStatsBtn = document.getElementById('openStatsBtn');
+    const closeStatsBtn = document.getElementById('closeStatsBtn');
+    const statsDrawerBackdrop = document.getElementById('statsDrawerBackdrop');
+
+    function openStatsDrawer() {
+      updateGlobalProgressUI();
+      if (statsDrawerBackdrop) statsDrawerBackdrop.classList.add('open');
+      if ('vibrate' in navigator) navigator.vibrate(10);
+    }
+
+    function closeStatsDrawer() {
+      if (statsDrawerBackdrop) statsDrawerBackdrop.classList.remove('open');
+    }
+
+    if (openStatsBtn) openStatsBtn.addEventListener('click', openStatsDrawer);
+    if (closeStatsBtn) closeStatsBtn.addEventListener('click', closeStatsDrawer);
+    if (statsDrawerBackdrop) {
+      statsDrawerBackdrop.addEventListener('click', (e) => {
+        if (e.target === statsDrawerBackdrop) closeStatsDrawer();
+      });
+    }
+
+    const resetBtn = document.getElementById('resetProgressBtn');
+    if (resetBtn) {
+      resetBtn.addEventListener('click', () => {
+        if (confirm('Вы уверены, что хотите сбросить весь сохранённый прогресс заучивания из базы данных?')) {
+          appProgress = { ayahs: {}, vocab: {}, totalTaps: 0, updatedAt: Date.now() };
+          saveProgressToDB();
+          renderAyah();
+          renderVocabCard();
+          closeStatsDrawer();
+        }
+      });
+    }
+
   </script>
+  <!-- ========================================================
+       DRAWER: ДЕТАЛЬНАЯ СТАТИСТИКА И БАЗА ДАННЫХ ПРОГРЕССА
+       ======================================================== -->
+  <div class="sheet-backdrop" id="statsDrawerBackdrop">
+    <div class="stats-drawer" id="statsDrawer">
+      <div class="drawer-handle"></div>
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+        <h3 style="margin:0; font-size:1.15rem; font-weight:700; color:#fff;">📊 Прогресс заучивания</h3>
+        <button class="tool-btn" id="closeStatsBtn" style="padding:6px 12px;">✕ Закрыть</button>
+      </div>
+
+      <!-- Stats Grid -->
+      <div class="stats-card-grid">
+        <div class="stats-card">
+          <span class="stats-card-title">30-й Джуз (Аяты)</span>
+          <span class="stats-card-value" id="statsAyahsValue">0 / 564</span>
+          <span class="stats-card-sub" id="statsAyahsPercent">0% заучено</span>
+        </div>
+        <div class="stats-card">
+          <span class="stats-card-title">Слова и фразы</span>
+          <span class="stats-card-value" id="statsVocabValue">0 / 130</span>
+          <span class="stats-card-sub" id="statsVocabPercent">0% заучено</span>
+        </div>
+        <div class="stats-card">
+          <span class="stats-card-title">Всего повторов</span>
+          <span class="stats-card-value" id="statsTotalTapsValue">0</span>
+          <span class="stats-card-sub">тапов в приложении</span>
+        </div>
+        <div class="stats-card">
+          <span class="stats-card-title">Выучено сур</span>
+          <span class="stats-card-value" id="statsSurahsValue">0 / 37</span>
+          <span class="stats-card-sub" id="statsSurahsPercent">полных сур</span>
+        </div>
+      </div>
+
+      <!-- Джуз Progress Bar -->
+      <div style="margin: 14px 0 6px 0;">
+        <div style="display:flex; justify-content:space-between; font-size:0.82rem; color:var(--text-muted);">
+          <span>🕌 Прогресс 30-го Джуза (Джуз 'Амма)</span>
+          <span id="statsJuzBarLabel" style="color:#34d399; font-weight:600;">0%</span>
+        </div>
+        <div class="progress-bar-track">
+          <div class="progress-bar-fill" id="statsJuzBarFill"></div>
+        </div>
+      </div>
+
+      <!-- Words Progress Bar -->
+      <div style="margin: 10px 0 16px 0;">
+        <div style="display:flex; justify-content:space-between; font-size:0.82rem; color:var(--text-muted);">
+          <span>🗂️ Прогресс частотного словаря</span>
+          <span id="statsVocabBarLabel" style="color:#34d399; font-weight:600;">0%</span>
+        </div>
+        <div class="progress-bar-track">
+          <div class="progress-bar-fill" id="statsVocabBarFill"></div>
+        </div>
+      </div>
+
+      <!-- In-App DB Status -->
+      <div style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.06); border-radius:14px; padding:12px; margin-top:12px; display:flex; justify-content:space-between; align-items:center;">
+        <div>
+          <div style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.04em;">Локальная база данных</div>
+          <div style="font-size:0.85rem; color:#34d399; font-weight:600;" id="dbStatusLabel">● IndexedDB подключена</div>
+        </div>
+        <button id="resetProgressBtn" style="background:rgba(239,68,68,0.12); border:1px solid rgba(239,68,68,0.3); color:#fca5a5; padding:6px 12px; border-radius:10px; font-size:0.75rem; cursor:pointer;">
+          Сбросить всё
+        </button>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
