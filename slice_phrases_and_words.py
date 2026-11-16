@@ -134,6 +134,41 @@ PHRASES = [
         "start": 80,
         "end": 3400,
         "title": "Ва таваккаль ʻаля-Ллах"
+    },
+    {
+        "file": "phrase_samawati_wal_ard.m4a",
+        "source": "002117.mp3",
+        "start": 920,
+        "end": 3340,
+        "title": "Ас-самавати ва-ль-ард"
+    },
+    {
+        "file": "phrase_min_duni_llah.m4a",
+        "source": "002023.mp3",
+        "start": 17290,
+        "end": 19300,
+        "title": "Мин дуни-Ллях"
+    },
+    {
+        "file": "phrase_afala_taqilun.m4a",
+        "source": "021010.mp3",
+        "start": 8380,
+        "end": 11550,
+        "title": "А-фа-ля таʻкылюн"
+    },
+    {
+        "file": "phrase_ya_ayyuha_nas.m4a",
+        "source": "002021.mp3",
+        "start": 200,
+        "end": 3910,
+        "title": "Йа айюха-н-нас"
+    },
+    {
+        "file": "phrase_fi_sabili_llah.m4a",
+        "source": "002190.mp3",
+        "start": 1170,
+        "end": 3130,
+        "title": "Фи сабили-Ллях"
     }
 ]
 
