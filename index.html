@@ -840,7 +840,7 @@
       </div>
 
       <div class="tools-row" style="margin: 6px 0 2px;">
-        <span class="ayah-badge" id="vCounterBadge">1 из 125</span>
+        <span class="ayah-badge" id="vCounterBadge">1 из 130</span>
         <button class="tool-btn" id="vLoopBtn" title="Зациклить чтение">
           <span>🔁</span> <span id="vLoopLabel">1x</span>
         </button>
@@ -1621,7 +1621,7 @@
     "freq": "~1680 раз",
     "category": "частицы/союзы/предлоги",
     "notes": "إِنَّ اللَّهَ مَعَنَا (Воистине, Аллах с нами)",
-    "audio": ""
+    "audio": "audio/word_inna.mp3"
   },
   {
     "arabic": "أَنَّ",
@@ -1630,7 +1630,7 @@
     "freq": "~680 раз",
     "category": "частицы/союзы/предлоги",
     "notes": "أَنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
-    "audio": ""
+    "audio": "audio/word_anna.mp3"
   },
   {
     "arabic": "عَلَىٰ",
@@ -2719,7 +2719,7 @@
 
     function getWordArabic(item) {
       if (!item) return '';
-      return item.arabic;
+      return (item.arabic || '').replace(/\s*\/\s*/g, ' ، ');
     }
 
     function getPhraseArabic(item) {
@@ -2879,12 +2879,29 @@
       }, 140);
     }
 
+    let cachedArabicVoice = null;
+    function getArabicVoice() {
+      if (!('speechSynthesis' in window)) return null;
+      if (cachedArabicVoice) return cachedArabicVoice;
+      const voices = window.speechSynthesis.getVoices();
+      cachedArabicVoice = voices.find(v => v.lang === 'ar-SA' || v.lang.startsWith('ar') || v.lang.includes('ar-')) || null;
+      return cachedArabicVoice;
+    }
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.onvoiceschanged = () => {
+        cachedArabicVoice = null;
+        getArabicVoice();
+      };
+    }
+
     function playSpeech(text, onEnd) {
       if ('speechSynthesis' in window) {
         window.speechSynthesis.cancel();
         const u = new SpeechSynthesisUtterance(text);
         u.lang = 'ar-SA';
         u.rate = currentSpeed * 0.85;
+        const voice = getArabicVoice();
+        if (voice) u.voice = voice;
         if (onEnd) {
           u.onend = onEnd;
           u.onerror = onEnd;

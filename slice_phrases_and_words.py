@@ -75,14 +75,14 @@ PHRASES = [
     {
         "file": "phrase_jannatin_tajri.m4a",
         "source": "002025.mp3",
-        "start": 5750,
-        "end": 12200,
+        "start": 6260,
+        "end": 13740,
         "title": "Джаннатин таджри мин тахтиха-ль-анхар"
     },
     {
         "file": "phrase_inna_llaha_ghafurun_rahim.m4a",
         "source": "002173.mp3",
-        "start": 22190,
+        "start": 23200,
         "end": 26850,
         "title": "Инна-Ллаха Гафурун Рахим"
     },
@@ -95,9 +95,9 @@ PHRASES = [
     },
     {
         "file": "phrase_wallahu_bima_tamaluna_basir.m4a",
-        "source": "002096.mp3",
-        "start": 22960,
-        "end": 28470,
+        "source": "064002.mp3",
+        "start": 8300,
+        "end": 14420,
         "title": "Ва-Ллаху бима таʻмалюна Басыр"
     },
     {
@@ -124,15 +124,15 @@ PHRASES = [
     {
         "file": "phrase_rabbana_atina.m4a",
         "source": "002201.mp3",
-        "start": 100,
-        "end": 7500,
+        "start": 3290,
+        "end": 8350,
         "title": "Раббана атина фи-д-дунья хасанатан"
     },
     {
         "file": "phrase_wa_tawakkal_ala_llah.m4a",
         "source": "033003.mp3",
-        "start": 80,
-        "end": 3400,
+        "start": 40,
+        "end": 4050,
         "title": "Ва таваккаль ʻаля-Ллах"
     },
     {
