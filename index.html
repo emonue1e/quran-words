@@ -3152,6 +3152,27 @@
       });
     }
 
+    // ========================================================
+    // PWA SERVICE WORKER AUTO-UPDATE LIFECYCLE
+    // ========================================================
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js').then((registration) => {
+          // Check for update on every load
+          registration.update();
+        }).catch((err) => console.log('SW registration error:', err));
+
+        // When a new version of SW activates, reload smoothly to apply fresh code
+        let refreshing = false;
+        navigator.serviceWorker.addEventListener('controllerchange', () => {
+          if (!refreshing) {
+            refreshing = true;
+            window.location.reload();
+          }
+        });
+      });
+    }
+
   </script>
   <!-- ========================================================
        DRAWER: ДЕТАЛЬНАЯ СТАТИСТИКА И БАЗА ДАННЫХ ПРОГРЕССА
