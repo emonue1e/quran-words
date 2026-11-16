@@ -534,6 +534,12 @@
       justify-content: center;
       transition: transform 160ms var(--ease-out), background-color 160ms var(--ease-out);
     }
+        .card-audio-btn.playing {
+      background: var(--emerald);
+      color: #022c22;
+      border-color: var(--emerald-light);
+      box-shadow: 0 0 14px rgba(16, 185, 129, 0.55);
+    }
     .card-audio-btn:active {
       transform: scale(0.92);
       background: rgba(16, 185, 129, 0.3);
@@ -867,7 +873,15 @@
       else btn.classList.remove('active');
     }
 
+    let vLoopTimer = null;
+    let vIsPlaying = false;
+    let vCurrentTarget = 'word'; // 'word' | 'phrase'
+
     function stopAudio() {
+      if (vLoopTimer) {
+        clearTimeout(vLoopTimer);
+        vLoopTimer = null;
+      }
       if (currentAudio) {
         currentAudio.pause();
         currentAudio.currentTime = 0;
@@ -881,10 +895,7 @@
       const pBtn = document.getElementById('playAyahBtn');
       if (pBtn) pBtn.classList.remove('playing');
 
-      const vpIcon = document.getElementById('vPlayIcon');
-      if (vpIcon) vpIcon.textContent = '▶';
-      const vpBtn = document.getElementById('vPlayBtn');
-      if (vpBtn) vpBtn.classList.remove('playing');
+      updateVocabAudioUI(false);
     }
 
     function togglePlayAyah() {
@@ -2307,48 +2318,181 @@
       });
     }
 
-    // Play Vocab Audio
-    function togglePlayVocab() {
-      if (!vQueue.length) return;
-      if (currentAudio && !currentAudio.paused) {
-        stopAudio();
-        return;
-      }
-      stopAudio();
+    // ========================================================
+    // Vocab Audio & Dual-Side Playback (Word on front, Phrase on back)
+    // ========================================================
 
+    function getCleanArabic(text) {
+      if (!text) return '';
+      let t = text.replace(/\(.*?\)/g, '').replace(/\[.*?\]/g, '');
+      const matches = t.match(/[؀-ۿ\s]+/g);
+      if (matches) {
+        const res = matches.join(' ').trim();
+        if (res.length > 0) return res;
+      }
+      return text.trim();
+    }
+
+    function getWordArabic(item) {
+      if (!item) return '';
+      return item.arabic;
+    }
+
+    function getPhraseArabic(item) {
+      if (!item) return '';
+      if (item.category === 'фразы') return item.arabic;
+      if (item.notes) {
+        const ar = getCleanArabic(item.notes);
+        if (ar) return ar;
+      }
+      return item.arabic;
+    }
+
+    function getPhraseAudio(item) {
+      if (!item) return null;
+      if (item.category === 'фразы' && item.audio) return item.audio;
+      const phraseAr = getPhraseArabic(item);
+      if (!phraseAr) return null;
+      const norm = s => s.replace(/[ً-ٰٟ]/g, '').trim();
+      const nTarget = norm(phraseAr);
+      for (const p of VOCAB_DATA) {
+        if (p.category === 'фразы' && p.audio) {
+          const nP = norm(p.arabic);
+          if (nP.includes(nTarget) || nTarget.includes(nP)) {
+            return p.audio;
+          }
+        }
+      }
+      return null;
+    }
+
+    function isCardFlipped() {
+      const card = document.getElementById('flashCard');
+      return card ? card.classList.contains('is-flipped') : false;
+    }
+
+    function updateVocabAudioUI(isPlaying, targetSide) {
+      vIsPlaying = isPlaying;
+      const vpIcon = document.getElementById('vPlayIcon');
+      const vpBtn = document.getElementById('vPlayBtn');
+      const vAudioBtn = document.getElementById('vAudioBtn');
+      const vAudioBtnBack = document.getElementById('vAudioBtnBack');
+
+      if (isPlaying) {
+        if (vpIcon) vpIcon.textContent = '⏸';
+        if (vpBtn) vpBtn.classList.add('playing');
+        if (targetSide === 'phrase') {
+          if (vAudioBtnBack) {
+            vAudioBtnBack.classList.add('playing');
+            vAudioBtnBack.textContent = '⏸';
+          }
+          if (vAudioBtn) {
+            vAudioBtn.classList.remove('playing');
+            vAudioBtn.textContent = '🎙️';
+          }
+        } else {
+          if (vAudioBtn) {
+            vAudioBtn.classList.add('playing');
+            vAudioBtn.textContent = '⏸';
+          }
+          if (vAudioBtnBack) {
+            vAudioBtnBack.classList.remove('playing');
+            vAudioBtnBack.textContent = '🎙️';
+          }
+        }
+      } else {
+        if (vpIcon) vpIcon.textContent = '▶';
+        if (vpBtn) vpBtn.classList.remove('playing');
+        if (vAudioBtn) {
+          vAudioBtn.classList.remove('playing');
+          vAudioBtn.textContent = '🎙️';
+        }
+        if (vAudioBtnBack) {
+          vAudioBtnBack.classList.remove('playing');
+          vAudioBtnBack.textContent = '🎙️';
+        }
+      }
+    }
+
+    function playVocabSide(targetSide) {
+      if (!vQueue.length) return;
       const item = vQueue[vIndex];
       if (!item) return;
 
-      const vpIcon = document.getElementById('vPlayIcon');
-      const vpBtn = document.getElementById('vPlayBtn');
-
-      if (item.audio) {
-        currentAudio = new Audio(item.audio);
-        currentAudio.playbackRate = currentSpeed;
-        if (vpIcon) vpIcon.textContent = '⏸';
-        if (vpBtn) vpBtn.classList.add('playing');
-
-        currentAudio.play().catch(() => {
-          stopAudio();
-          playSpeech(item.arabic);
-        });
-
-        currentAudio.onended = () => {
-          if (vIsLooping) {
-            currentAudio.currentTime = 0;
-            currentAudio.playbackRate = currentSpeed;
-            currentAudio.play();
-          } else {
-            stopAudio();
-          }
-        };
-      } else {
-        if (vpIcon) vpIcon.textContent = '🔊';
-        if (vpBtn) vpBtn.classList.add('playing');
-        playSpeech(item.arabic, () => {
-          stopAudio();
-        });
+      if (!targetSide) {
+        targetSide = isCardFlipped() ? 'phrase' : 'word';
       }
+      vCurrentTarget = targetSide;
+
+      stopAudio();
+
+      let audioSrc = null;
+      let textToSpeak = '';
+
+      if (targetSide === 'phrase') {
+        audioSrc = getPhraseAudio(item);
+        textToSpeak = getPhraseArabic(item);
+      } else {
+        audioSrc = (item.category !== 'фразы' && item.audio) ? item.audio : (item.category === 'фразы' ? item.audio : null);
+        textToSpeak = getWordArabic(item);
+      }
+
+      updateVocabAudioUI(true, targetSide);
+
+      const onPlaybackEnded = () => {
+        if (vIsLooping) {
+          vLoopTimer = setTimeout(() => {
+            if (vIsLooping) {
+              const currentSide = isCardFlipped() ? 'phrase' : 'word';
+              playVocabSide(currentSide);
+            }
+          }, 400);
+        } else {
+          updateVocabAudioUI(false, targetSide);
+        }
+      };
+
+      if (audioSrc) {
+        currentAudio = new Audio(audioSrc);
+        currentAudio.playbackRate = currentSpeed;
+        currentAudio.play().then(() => {
+          // Playing
+        }).catch(() => {
+          stopAudio();
+          updateVocabAudioUI(true, targetSide);
+          playSpeech(textToSpeak, onPlaybackEnded);
+        });
+
+        currentAudio.onended = onPlaybackEnded;
+      } else {
+        playSpeech(textToSpeak, onPlaybackEnded);
+      }
+    }
+
+    function togglePlayVocab(forcedSide) {
+      if (!vQueue.length) return;
+      const targetSide = forcedSide || (isCardFlipped() ? 'phrase' : 'word');
+
+      if (vIsPlaying && vCurrentTarget === targetSide) {
+        stopAudio();
+        return;
+      }
+
+      playVocabSide(targetSide);
+    }
+
+    function flipVocabCard() {
+      const card = document.getElementById('flashCard');
+      if (!card) return;
+      card.classList.toggle('is-flipped');
+      const nowFlipped = card.classList.contains('is-flipped');
+      const newSide = nowFlipped ? 'phrase' : 'word';
+
+      // Always switch voice to match visible face: word on front, phrase on back
+      stopAudio();
+      setTimeout(() => {
+        playVocabSide(newSide);
+      }, 140);
     }
 
     function playSpeech(text, onEnd) {
@@ -2367,9 +2511,9 @@
       }
     }
 
-    document.getElementById('vPlayBtn').addEventListener('click', togglePlayVocab);
-    document.getElementById('vAudioBtn').addEventListener('click', (e) => { e.stopPropagation(); togglePlayVocab(); });
-    document.getElementById('vAudioBtnBack').addEventListener('click', (e) => { e.stopPropagation(); togglePlayVocab(); });
+    document.getElementById('vPlayBtn').addEventListener('click', () => togglePlayVocab());
+    document.getElementById('vAudioBtn').addEventListener('click', (e) => { e.stopPropagation(); togglePlayVocab('word'); });
+    document.getElementById('vAudioBtnBack').addEventListener('click', (e) => { e.stopPropagation(); togglePlayVocab('phrase'); });
 
     // Touch swipe support for flashcard on mobile
     let touchStartX = 0;
@@ -2394,7 +2538,7 @@
     cardEl.addEventListener('click', (e) => {
       if (e.target.closest('#vAudioBtn') || e.target.closest('#vAudioBtnBack')) return;
       if (Math.abs(touchEndX - touchStartX) > 20) return;
-      cardEl.classList.toggle('is-flipped');
+      flipVocabCard();
     });
 
     // Vocab category filter
@@ -2421,7 +2565,7 @@
         else if (e.key === 'ArrowLeft') document.getElementById('vPrevBtn').click();
         else if (e.key === ' ') { e.preventDefault(); document.getElementById('vPlayBtn').click(); }
         else if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
-          document.getElementById('flashCard').classList.toggle('is-flipped');
+          flipVocabCard();
         } else if (e.key === 'Enter') {
           document.getElementById('vCounterTapBtn').click();
         }
