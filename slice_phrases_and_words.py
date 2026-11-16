@@ -19,15 +19,15 @@ PHRASES = [
     {
         "file": "phrase_qadir.m4a",
         "source": "002020.mp3",
-        "start": 21040,
-        "end": 27900,
+        "start": 22940,
+        "end": 30120,
         "title": "Инна-Ллаха ʻаля кулли шей'ин кадир"
     },
     {
         "file": "phrase_alhamdu.m4a",
         "source": "001002.mp3",
         "start": 0,
-        "end": 4200,
+        "end": 5140,
         "title": "Аль-хамду ли-Ллях"
     },
     {
@@ -110,8 +110,8 @@ PHRASES = [
     {
         "file": "phrase_wa_huwa_al_azizu_al_hakim.m4a",
         "source": "059024.mp3",
-        "start": 11500,
-        "end": 16200,
+        "start": 14910,
+        "end": 20180,
         "title": "Ва хува-ль-ʻАзизу-ль-Хаким"
     },
     {
