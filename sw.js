@@ -1,9 +1,10 @@
-const CACHE_NAME = 'quran-hifz-v2';
+const CACHE_NAME = 'quran-hifz-v3';
 const ASSETS = [
   './',
   './index.html',
   './manifest.json',
-  './juz30_data.json'
+  './juz30_data.json',
+  './words_data.json'
 ];
 
 self.addEventListener('install', (e) => {
