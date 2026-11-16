@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Коран Хифз — 30-й Джуз и Словарь</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#070b10">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="КоранХифз">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #070b10;
+      --surface: #0e1620;
+      --surface-border: rgba(255, 255, 255, 0.08);
+      --card-bg: #121c29;
+      --emerald: #10b981;
+      --emerald-light: #34d399;
+      --emerald-glow: rgba(16, 185, 129, 0.25);
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.2);
+      --red: #ef4444;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+    }
+
+    html, body {
+      height: 100%;
+      min-height: 100dvh;
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      overflow: hidden;
+      touch-action: manipulation;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      padding-top: env(safe-area-inset-top, 12px);
+      padding-bottom: env(safe-area-inset-bottom, 12px);
+      padding-left: env(safe-area-inset-left, 12px);
+      padding-right: env(safe-area-inset-right, 12px);
+    }
+
+    .app-wrapper {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      max-width: 520px;
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      justify-content: space-between;
+      overflow: hidden;
+    }
+
+    /* Top Navigation Switcher */
+    header {
+      padding: 6px 12px 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand {
+      font-weight: 700;
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--emerald-light);
+    }
+
+    .brand-pill {
+      font-size: 0.7rem;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      color: var(--emerald-light);
+      font-weight: 600;
+    }
+
+    .nav-segmented {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--surface-border);
+      border-radius: 14px;
+      padding: 3px;
+    }
+
+    .nav-btn {
+      padding: 8px 12px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      border-radius: 11px;
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    .nav-btn.active {
+      background: var(--surface);
+      color: var(--emerald-light);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(52, 211, 153, 0.2);
+    }
+
+    /* ========================================================
+       SECTION 1: 30-й ДЖУЗ (HIFZ / QAREE STYLE)
+       ======================================================== */
+    .view-hifz {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      overflow: hidden;
+      padding: 0 12px;
+      justify-content: space-between;
+    }
+
+    /* Surah Picker Row */
+    .surah-select-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--surface);
+      border: 1px solid var(--surface-border);
+      border-radius: 16px;
+      padding: 6px 12px;
+    }
+
+    .surah-dropdown {
+      flex: 1;
+      background: transparent;
+      color: #fff;
+      font-size: 0.95rem;
+      font-weight: 600;
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .surah-dropdown option {
+      background: #0f172a;
+      color: #fff;
+    }
+
+    /* Ayah Header & Toolbar */
+    .ayah-toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 8px 0;
+    }
+
+    .ayah-counter-badge {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      background: rgba(255, 255, 255, 0.04);
+      padding: 4px 10px;
+      border-radius: 10px;
+    }
+
+    .hifz-tools {
+      display: flex;
+      gap: 8px;
+    }
+
+    .tool-btn {
+      padding: 6px 12px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      border-radius: 10px;
+      border: 1px solid var(--surface-border);
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
+    }
+
+    .tool-btn.active {
+      background: rgba(245, 158, 11, 0.15);
+      color: var(--gold);
+      border-color: rgba(245, 158, 11, 0.4);
+    }
+
+    .tool-btn.playing {
+      background: rgba(16, 185, 129, 0.18);
+      color: var(--emerald-light);
+      border-color: rgba(16, 185, 129, 0.4);
+    }
+
+    /* Main Ayah Display Card */
+    .ayah-card {
+      background: var(--card-bg);
+      border: 1px solid var(--surface-border);
+      border-radius: 22px;
+      padding: 20px 18px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      justify-content: center;
+      gap: 16px;
+      box-shadow: 0 16px 36px -10px rgba(0, 0, 0, 0.5);
+      overflow-y: auto;
+      text-align: center;
+      max-height: 48dvh;
+    }
+
+    .ayah-arabic-text {
+      font-family: 'Amiri', serif;
+      font-size: 2.3rem;
+      line-height: 2.0;
+      color: #ffffff;
+      direction: rtl;
+      word-spacing: 4px;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Progressive Word Hiding Styles */
+    .word-hidden {
+      display: inline-block;
+      min-width: 44px;
+      padding: 0 6px;
+      margin: 0 3px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 8px;
+      color: transparent;
+      cursor: pointer;
+      border-bottom: 2px dashed rgba(52, 211, 153, 0.4);
+      transition: all 0.2s;
+    }
+    .word-hidden.revealed {
+      color: var(--emerald-light) !important;
+      background: rgba(52, 211, 153, 0.15);
+      border-bottom-style: solid;
+    }
+
+    .ayah-curtain {
+      padding: 30px 15px;
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .ayah-translation-text {
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: #cbd5e1;
+      font-weight: 500;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      padding-top: 12px;
+    }
+
+    /* Qaree-Style Repetition Tap Counter */
+    .repetition-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-top: 8px;
+    }
+
+    .counter-tap-btn {
+      flex: 1;
+      padding: 14px;
+      border-radius: 18px;
+      background: linear-gradient(135deg, rgba(16, 185, 129, 0.18), rgba(5, 150, 105, 0.25));
+      border: 1px solid rgba(52, 211, 153, 0.35);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      font-weight: 700;
+      font-size: 1.05rem;
+      cursor: pointer;
+      transition: transform 0.08s;
+      box-shadow: 0 4px 16px var(--emerald-glow);
+    }
+    .counter-tap-btn:active {
+      transform: scale(0.97);
+    }
+
+    .repeat-count-badge {
+      background: var(--emerald);
+      color: #022c22;
+      padding: 2px 10px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 800;
+    }
+
+    .counter-target-btn {
+      padding: 14px 16px;
+      border-radius: 16px;
+      background: var(--surface);
+      border: 1px solid var(--surface-border);
+      color: var(--gold);
+      font-weight: 700;
+      font-size: 0.85rem;
+      cursor: pointer;
+    }
+
+    /* Navigation Arrows */
+    .ayah-nav-row {
+      display: grid;
+      grid-template-columns: 1fr 1.3fr 1fr;
+      gap: 10px;
+      margin: 10px 0 4px;
+    }
+
+    .nav-arrow-btn {
+      padding: 14px;
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--surface-border);
+      color: #fff;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.95rem;
+    }
+    .nav-arrow-btn:active {
+      transform: scale(0.96);
+    }
+
+    .play-ayah-btn {
+      background: var(--emerald);
+      color: #022c22;
+      border: none;
+      box-shadow: 0 4px 16px var(--emerald-glow);
+    }
+
+    /* ========================================================
+       SECTION 2: СЛОВАРЬ (FLASHCARDS / SRS)
+       ======================================================== */
+    .view-cards {
+      display: none;
+      flex-direction: column;
+      flex: 1;
+      padding: 0 12px;
+      overflow: hidden;
+      justify-content: space-between;
+    }
+
+    .category-tabs {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding-bottom: 4px;
+      scrollbar-width: none;
+    }
+    .category-tabs::-webkit-scrollbar { display: none; }
+
+    .tab-pill {
+      flex-shrink: 0;
+      padding: 6px 14px;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--surface-border);
+      color: var(--text-muted);
+      font-size: 0.78rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .tab-pill.active {
+      background: var(--emerald);
+      color: #052e16;
+      border-color: var(--emerald);
+    }
+
+    .flashcard-arena {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      perspective: 1200px;
+      margin: 12px 0;
+      position: relative;
+    }
+
+    .flashcard {
+      width: 100%;
+      height: 100%;
+      max-height: 420px;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+      cursor: pointer;
+      border-radius: 24px;
+    }
+
+    .flashcard.is-flipped {
+      transform: rotateY(180deg);
+    }
+
+    .card-face {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 22px 20px;
+      background: var(--card-bg);
+      border: 1px solid var(--surface-border);
+      box-shadow: 0 14px 34px -10px rgba(0, 0, 0, 0.6);
+    }
+
+    .card-back {
+      transform: rotateY(180deg);
+      background: #0f241d;
+      border: 1px solid rgba(52, 211, 153, 0.3);
+    }
+
+    .flash-actions {
+      display: grid;
+      grid-template-columns: 1fr 1.3fr;
+      gap: 12px;
+      margin-bottom: 4px;
+    }
+    .btn-action {
+      padding: 15px;
+      border-radius: 16px;
+      font-weight: 700;
+      font-size: 1rem;
+      border: none;
+      cursor: pointer;
+    }
+    .btn-repeat {
+      background: rgba(239, 68, 68, 0.16);
+      color: #fca5a5;
+      border: 1px solid rgba(239, 68, 68, 0.3);
+    }
+    .btn-known {
+      background: linear-gradient(135deg, var(--emerald), #059669);
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="app-wrapper">
+    <!-- Header -->
+    <header>
+      <div class="header-top">
+        <div class="brand">
+          📖 Коран Хифз
+          <span class="brand-pill" id="badgeIndicator">30-й Джуз</span>
+        </div>
+        <div style="font-size:0.8rem; color:var(--text-muted); font-weight:600;" id="globalStat">Шейх Аль-Афаси</div>
+      </div>
+
+      <!-- Segmented Mode Control -->
+      <div class="nav-segmented">
+        <button class="nav-btn active" id="tabHifzBtn">
+          <span>🕌</span> 30-й Джуз (Хифз)
+        </button>
+        <button class="nav-btn" id="tabVocabBtn">
+          <span>🗂️</span> Карточки слов
+        </button>
+      </div>
+    </header>
+
+    <!-- ========================================================
+         VIEW 1: 30-й ДЖУЗ (HIFZ / QAREE STYLE)
+         ======================================================== -->
+    <main class="view-hifz" id="viewHifz">
+      <!-- Surah Selector -->
+      <div class="surah-select-row">
+        <span style="font-size: 1.1rem;">📖</span>
+        <select class="surah-dropdown" id="surahSelect"></select>
+      </div>
+
+      <!-- Ayah Toolbar (Word Masking & Audio Loop) -->
+      <div class="ayah-toolbar">
+        <span class="ayah-counter-badge" id="ayahCounterBadge">Аят 1 из 40</span>
+        <div class="hifz-tools">
+          <button class="tool-btn" id="maskToggleBtn" title="Скрытие слов для проверки">
+            <span id="maskIcon">👁️</span> <span id="maskLabel">Все слова</span>
+          </button>
+          <button class="tool-btn" id="loopAudioBtn" title="Зациклить повтор аята">
+            <span>🔁</span> <span id="loopLabel">1x</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Main Ayah Card -->
+      <div class="ayah-card" id="ayahCard">
+        <div class="ayah-arabic-text" id="ayahArabicText">Загрузка Джуза...</div>
+        <div class="ayah-translation-text" id="ayahTranslationText"></div>
+      </div>
+
+      <!-- Qaree Tap-to-Repeat Counter -->
+      <div class="repetition-section">
+        <button class="counter-tap-btn" id="counterTapBtn">
+          <span>Повторено:</span>
+          <span class="repeat-count-badge" id="repeatCounter">0 / 5</span>
+          <span style="font-size:0.85rem; opacity:0.8;">(Тапнуть +1)</span>
+        </button>
+        <button class="counter-target-btn" id="counterTargetBtn">Цель: 5x</button>
+      </div>
+
+      <!-- Navigation Arrows -->
+      <div class="ayah-nav-row">
+        <button class="nav-arrow-btn" id="prevAyahBtn">◀ Назад</button>
+        <button class="nav-arrow-btn play-ayah-btn" id="playAyahBtn">
+          <span id="playIcon">▶</span> <span id="playLabel">Чтец</span>
+        </button>
+        <button class="nav-arrow-btn" id="nextAyahBtn">Вперёд ▶</button>
+      </div>
+    </main>
+
+    <!-- ========================================================
+         VIEW 2: СЛОВАРЬ (FLASHCARDS / SRS)
+         ======================================================== -->
+    <main class="view-cards" id="viewCards">
+      <div class="category-tabs" id="vocabTabs">
+        <button class="tab-pill active" data-cat="all">Все (90)</button>
+        <button class="tab-pill" data-cat="4_Устойчивые_фразы">🎙️ Фразы с чтецом</button>
+        <button class="tab-pill" data-cat="1_Частицы_и_предлоги">Частицы (29)</button>
+        <button class="tab-pill" data-cat="2_Глаголы">Глаголы (20)</button>
+        <button class="tab-pill" data-cat="3_Имена_и_существительные">Имена (25)</button>
+      </div>
+
+      <div class="flashcard-arena">
+        <div class="flashcard" id="flashCard">
+          <!-- Front -->
+          <div class="card-face">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span id="vFreqTag" style="font-size:0.75rem; color:var(--gold); font-weight:700;">~3226 раз</span>
+              <button id="vAudioBtn" style="background:rgba(16,185,129,0.15); border:1px solid rgba(16,185,129,0.3); border-radius:50%; width:40px; height:40px; color:var(--emerald-light); font-size:1.1rem; cursor:pointer;">🎙️</button>
+            </div>
+            <div style="text-align:center; padding: 20px 0;">
+              <div id="vArabic" style="font-family:'Amiri',serif; font-size:2.8rem; font-weight:700; line-height:1.4; color:#fff; direction:rtl;">مِنْ</div>
+              <div id="vTranslit" style="font-size:1.05rem; color:var(--emerald-light); margin-top:8px;">мин</div>
+            </div>
+            <div style="text-align:center; font-size:0.75rem; color:var(--text-muted);">Коснитесь для переворота 👆</div>
+          </div>
+
+          <!-- Back -->
+          <div class="card-face card-back">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span id="vCatBadge" style="font-size:0.75rem; color:var(--emerald-light); font-weight:700; text-transform:uppercase;">Частица</span>
+              <button id="vAudioBtnBack" style="background:rgba(16,185,129,0.15); border:1px solid rgba(16,185,129,0.3); border-radius:50%; width:40px; height:40px; color:var(--emerald-light); font-size:1.1rem; cursor:pointer;">🎙️</button>
+            </div>
+            <div style="text-align:center; margin:auto 0; display:flex; flex-direction:column; gap:14px;">
+              <div id="vTranslation" style="font-size:1.7rem; font-weight:700; color:#fff;">из, от, с</div>
+              <div id="vNotes" style="background:rgba(0,0,0,0.3); padding:10px 14px; border-radius:12px; font-family:'Amiri',serif; font-size:1.2rem; color:#a7f3d0; direction:rtl;">مِنَ اللَّهِ (от Аллаха)</div>
+            </div>
+            <div style="text-align:center; font-size:0.75rem; color:var(--text-muted);">Коснитесь для возврата ↺</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flash-actions">
+        <button class="btn-action btn-repeat" id="vRepeatBtn">↺ Повторить</button>
+        <button class="btn-action btn-known" id="vKnownBtn">✓ Знаю</button>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    // ========================================================
+    // 1. DATA: JUZ 30 (HIFZ) & 90 FREQUENT WORDS
+    // ========================================================
+    let JUZ30 = [];
+    let currentSurahIdx = 0;
+    let currentAyahIdx = 0;
+    let currentAudio = null;
+    let isLooping = false;
+    let loopCount = 1;
+    let currentMaskLevel = 0; // 0: All, 1: Every 2nd, 2: First letters, 3: Full curtain
+    let repetitions = 0;
+    let targetRepetitions = 5;
+
+    // Load Juz 30 Data
+    async function loadJuz30() {
+      try {
+        const resp = await fetch('./juz30_data.json');
+        JUZ30 = await resp.json();
+        populateSurahSelect();
+        renderAyah();
+      } catch (e) {
+        console.error("Ошибка загрузки juz30_data.json", e);
+      }
+    }
+
+    function populateSurahSelect() {
+      const select = document.getElementById('surahSelect');
+      select.innerHTML = '';
+      JUZ30.forEach((s, idx) => {
+        const opt = document.createElement('option');
+        opt.value = idx;
+        opt.textContent = `${s.number}. ${s.name_en} (${s.name_ar}) — ${s.ayahs_count} аятов`;
+        select.appendChild(opt);
+      });
+      select.addEventListener('change', (e) => {
+        currentSurahIdx = parseInt(e.target.value);
+        currentAyahIdx = 0;
+        resetRepetitions();
+        stopAudio();
+        renderAyah();
+      });
+    }
+
+    // Render Current Ayah with Progressive Word Masking
+    function renderAyah() {
+      if (!JUZ30.length) return;
+      const surah = JUZ30[currentSurahIdx];
+      const ayah = surah.ayahs[currentAyahIdx];
+
+      document.getElementById('ayahCounterBadge').textContent = `Аят ${ayah.ayah} из ${surah.ayahs_count}`;
+      document.getElementById('ayahTranslationText').textContent = ayah.text_ru;
+
+      const arabicContainer = document.getElementById('ayahArabicText');
+      arabicContainer.innerHTML = '';
+
+      if (currentMaskLevel === 3) {
+        // Level 3: Full Curtain
+        const curtain = document.createElement('div');
+        curtain.className = 'ayah-curtain';
+        curtain.innerHTML = '<span>🙈</span><span>Текст скрыт. Прочитайте по памяти и нажмите для проверки!</span>';
+        curtain.addEventListener('click', () => {
+          currentMaskLevel = 0;
+          updateMaskButton();
+          renderAyah();
+        });
+        arabicContainer.appendChild(curtain);
+        return;
+      }
+
+      // Words Array
+      const words = ayah.text_ar.split(' ');
+      words.forEach((w, idx) => {
+        let span = document.createElement('span');
+
+        if (currentMaskLevel === 1 && idx % 2 === 1) {
+          // Level 1: Hide every second word
+          span.className = 'word-hidden';
+          span.textContent = w;
+          span.title = 'Нажмите, чтобы открыть';
+          span.addEventListener('click', () => span.classList.toggle('revealed'));
+        } else if (currentMaskLevel === 2) {
+          // Level 2: Show first letter only
+          span.className = 'word-hidden';
+          span.textContent = w;
+          span.style.color = '#fff';
+          span.textContent = w.slice(0, 2) + '···';
+          span.addEventListener('click', () => {
+            span.textContent = w;
+            span.classList.add('revealed');
+          });
+        } else {
+          // Level 0: Full text
+          span.textContent = w + ' ';
+        }
+        arabicContainer.appendChild(span);
+        if (currentMaskLevel !== 0) arabicContainer.appendChild(document.createTextNode(' '));
+      });
+    }
+
+    // Mask Level Cycle
+    const maskLevels = [
+      { level: 0, icon: '👁️', label: 'Все слова' },
+      { level: 1, icon: '🙈', label: 'Каждое 2-е' },
+      { level: 2, icon: '🔤', label: 'Первые буквы' },
+      { level: 3, icon: '🔒', label: 'Шторка' }
+    ];
+
+    document.getElementById('maskToggleBtn').addEventListener('click', () => {
+      currentMaskLevel = (currentMaskLevel + 1) % maskLevels.length;
+      updateMaskButton();
+      renderAyah();
+      if ('vibrate' in navigator) navigator.vibrate(10);
+    });
+
+    function updateMaskButton() {
+      const info = maskLevels[currentMaskLevel];
+      document.getElementById('maskIcon').textContent = info.icon;
+      document.getElementById('maskLabel').textContent = info.label;
+      const btn = document.getElementById('maskToggleBtn');
+      if (currentMaskLevel > 0) btn.classList.add('active');
+      else btn.classList.remove('active');
+    }
+
+    // Audio Playback (Sheikh Mishary Rashid Alafasy)
+    function stopAudio() {
+      if (currentAudio) {
+        currentAudio.pause();
+        currentAudio.currentTime = 0;
+        currentAudio = null;
+      }
+      document.getElementById('playIcon').textContent = '▶';
+      document.getElementById('playAyahBtn').classList.remove('playing');
+    }
+
+    function togglePlayAyah() {
+      if (!JUZ30.length) return;
+      if (currentAudio && !currentAudio.paused) {
+        stopAudio();
+        return;
+      }
+
+      const ayah = JUZ30[currentSurahIdx].ayahs[currentAyahIdx];
+      currentAudio = new Audio(ayah.audio);
+      document.getElementById('playIcon').textContent = '⏸';
+      document.getElementById('playAyahBtn').classList.add('playing');
+
+      currentAudio.play();
+      currentAudio.onended = () => {
+        if (isLooping) {
+          currentAudio.currentTime = 0;
+          currentAudio.play();
+        } else {
+          stopAudio();
+        }
+      };
+    }
+
+    document.getElementById('playAyahBtn').addEventListener('click', togglePlayAyah);
+
+    // Loop Toggle
+    document.getElementById('loopAudioBtn').addEventListener('click', () => {
+      isLooping = !isLooping;
+      const btn = document.getElementById('loopAudioBtn');
+      if (isLooping) {
+        btn.classList.add('active');
+        document.getElementById('loopLabel').textContent = 'Повтор ∞';
+      } else {
+        btn.classList.remove('active');
+        document.getElementById('loopLabel').textContent = '1x';
+      }
+    });
+
+    // Repetition Tap Counter
+    document.getElementById('counterTapBtn').addEventListener('click', () => {
+      repetitions++;
+      updateCounterDisplay();
+      if ('vibrate' in navigator) navigator.vibrate(15);
+    });
+
+    const targetPresets = [3, 5, 7, 10];
+    document.getElementById('counterTargetBtn').addEventListener('click', () => {
+      const curIdx = targetPresets.indexOf(targetRepetitions);
+      targetRepetitions = targetPresets[(curIdx + 1) % targetPresets.length];
+      document.getElementById('counterTargetBtn').textContent = `Цель: ${targetRepetitions}x`;
+      updateCounterDisplay();
+    });
+
+    function resetRepetitions() {
+      repetitions = 0;
+      updateCounterDisplay();
+    }
+
+    function updateCounterDisplay() {
+      const badge = document.getElementById('repeatCounter');
+      badge.textContent = `${repetitions} / ${targetRepetitions}`;
+      if (repetitions >= targetRepetitions) {
+        badge.style.background = '#f59e0b';
+        badge.style.color = '#000';
+      } else {
+        badge.style.background = 'var(--emerald)';
+        badge.style.color = '#022c22';
+      }
+    }
+
+    // Ayah Navigation
+    document.getElementById('prevAyahBtn').addEventListener('click', () => {
+      if (currentAyahIdx > 0) {
+        currentAyahIdx--;
+      } else if (currentSurahIdx > 0) {
+        currentSurahIdx--;
+        document.getElementById('surahSelect').value = currentSurahIdx;
+        currentAyahIdx = JUZ30[currentSurahIdx].ayahs.length - 1;
+      }
+      stopAudio();
+      resetRepetitions();
+      renderAyah();
+    });
+
+    document.getElementById('nextAyahBtn').addEventListener('click', () => {
+      const surah = JUZ30[currentSurahIdx];
+      if (currentAyahIdx < surah.ayahs.length - 1) {
+        currentAyahIdx++;
+      } else if (currentSurahIdx < JUZ30.length - 1) {
+        currentSurahIdx++;
+        document.getElementById('surahSelect').value = currentSurahIdx;
+        currentAyahIdx = 0;
+      }
+      stopAudio();
+      resetRepetitions();
+      renderAyah();
+    });
+
+    // Swipe navigation on Ayah Card
+    let touchStartX = 0;
+    const cardEl = document.getElementById('ayahCard');
+    cardEl.addEventListener('touchstart', (e) => { touchStartX = e.changedTouches[0].screenX; }, {passive:true});
+    cardEl.addEventListener('touchend', (e) => {
+      const diff = e.changedTouches[0].screenX - touchStartX;
+      if (diff > 50) document.getElementById('prevAyahBtn').click();
+      else if (diff < -50) document.getElementById('nextAyahBtn').click();
+    }, {passive:true});
+
+
+    // ========================================================
+    // 2. VIEW SWITCHER (HIFZ vs VOCABULARY CARDS)
+    // ========================================================
+    const viewHifz = document.getElementById('viewHifz');
+    const viewCards = document.getElementById('viewCards');
+    const tabHifzBtn = document.getElementById('tabHifzBtn');
+    const tabVocabBtn = document.getElementById('tabVocabBtn');
+    const badgeIndicator = document.getElementById('badgeIndicator');
+
+    tabHifzBtn.addEventListener('click', () => {
+      tabHifzBtn.classList.add('active');
+      tabVocabBtn.classList.remove('active');
+      viewHifz.style.display = 'flex';
+      viewCards.style.display = 'none';
+      badgeIndicator.textContent = '30-й Джуз';
+      stopAudio();
+    });
+
+    tabVocabBtn.addEventListener('click', () => {
+      tabVocabBtn.classList.add('active');
+      tabHifzBtn.classList.remove('active');
+      viewHifz.style.display = 'none';
+      viewCards.style.display = 'flex';
+      badgeIndicator.textContent = 'Словарь SRS';
+      stopAudio();
+      renderVocabCard();
+    });
+
+
+    // ========================================================
+    // 3. VOCABULARY FLASHCARDS (90 HIGH-FREQUENCY WORDS)
+    // ========================================================
+    const VOCAB_DATA = [
+      {"arabic":"إِنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ","translation":"Поистине, Аллах способен на всякую вещь","translit":"Инна-Лла́ха ʻаля́ ку́лли шей’ин кади́р","freq":"~35 раз","category":"4_Устойчивые_фразы","notes":"Конец многих аятов","audio":"audio/002020.mp3"},
+      {"arabic":"الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ","translation":"Хвала Аллаху, Господу миров","translit":"Аль-ха́мду ли-Лля́хи Ра́бби-ль-ʻа́лями́н","freq":"Сура 1:2","category":"4_Устойчивые_фразы","notes":"Первый аят аль-Фатихи","audio":"audio/001002.mp3"},
+      {"arabic":"بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","translation":"С именем Аллаха, Милостивого, Милосердного","translit":"Бисми-Лля́хи-р-Рахма́ни-р-Рахи́м","freq":"Сура 1:1","category":"4_Устойчивые_фразы","notes":"Начало каждой суры","audio":"audio/001001.mp3"},
+      {"arabic":"لَا إِلَٰهَ إِلَّا هُوَ","translation":"Нет божества, кроме Него","translit":"Ля́ иля́ха илля́ Ху́ва","freq":"~30 раз","category":"4_Устойчивые_фразы","notes":"Аят аль-Курси (2:255)","audio":"audio/002255.mp3"},
+      {"arabic":"حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ","translation":"Нам достаточно Аллаха, и прекрасен Этот Попечитель","translit":"Хасбу́на-Лла́ху ва ниʻма-ль-Ваки́ль","freq":"3:173","category":"4_Устойчивые_фразы","notes":"Формула упования","audio":"audio/003173.mp3"},
+      {"arabic":"رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً","translation":"Господь наш! Одари нас добром в этом мире","translit":"Раббана́ а́тина́ фи-д-дунья́ ха́санатан","freq":"2:201","category":"4_Устойчивые_фразы","notes":"Самое частое дуа Пророка ﷺ","audio":"audio/002201.mp3"},
+      {"arabic":"يَا أَيُّهَا الَّذِينَ آمَنُوا","translation":"О те, которые уверовали!","translit":"Йа́ айюха-ллязи́на а́ману́","freq":"89 раз","category":"4_Устойчивые_фразы","notes":"Обращение к верующим","audio":"audio/002153.mp3"},
+      {"arabic":"الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ","translation":"Те, которые уверовали и совершали праведные деяния","translit":"Аллязи́на а́ману́ ва ʻамилю́-с-са́лиха́т","freq":">50 раз","category":"4_Устойчивые_фразы","notes":"Формула веры и спасения","audio":"audio/002025.mp3"},
+      {"arabic":"قَالَ","translation":"он сказал","translit":"каля","freq":"~1722 раза","category":"2_Глаголы","notes":"قَالَ يَقُولُ قُلْ"},
+      {"arabic":"كَانَ","translation":"он был, являлся","translit":"кана","freq":"~1358 раз","category":"2_Глаголы","notes":"وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا"},
+      {"arabic":"آمَنَ","translation":"он уверовал","translit":"амана","freq":"~537 раз","category":"2_Глаголы","notes":"آمَنَ الرَّسُولُ"},
+      {"arabic":"عَلِمَ","translation":"он знал","translit":"ʻалима","freq":"~518 раз","category":"2_Глаголы","notes":"عَلِمَ أَن لَّن تُحْصُوهُ"},
+      {"arabic":"مِنْ","translation":"из, от, с","translit":"мин","freq":"~3226 раз","category":"1_Частицы_и_предлоги","notes":"مِنَ اللَّهِ"},
+      {"arabic":"فِي","translation":"в, внутри, среди","translit":"фи","freq":"~1701 раз","category":"1_Частицы_и_предлоги","notes":"فِي الْأَرْضِ"},
+      {"arabic":"مَا","translation":"то, что / не / что?","translit":"ма","freq":"~2600 раз","category":"1_Частицы_и_предлоги","notes":"مَا عِندَكُمْ"},
+      {"arabic":"لَا","translation":"не, нет","translit":"ля","freq":"~1700 раз","category":"1_Частицы_и_предлоги","notes":"لَا إِلَٰهَ إِلَّا اللَّهُ"},
+      {"arabic":"اللَّه","translation":"Аллах, Бог","translit":"Аллах","freq":"~2699 раз","category":"3_Имена_и_существительные","notes":"قُلْ هُوَ اللَّهُ أَحَدٌ"},
+      {"arabic":"رَبّ","translation":"Господь, Создатель","translit":"Рабб","freq":"~975 раз","category":"3_Имена_и_существительные","notes":"رَبِّ الْعَالَمِينَ"}
+    ];
+
+    let vQueue = [...VOCAB_DATA];
+    let vIndex = 0;
+
+    function renderVocabCard() {
+      const card = document.getElementById('flashCard');
+      card.classList.remove('is-flipped');
+      if (vIndex >= vQueue.length) vIndex = 0;
+      const item = vQueue[vIndex];
+      document.getElementById('vArabic').textContent = item.arabic;
+      document.getElementById('vTranslit').textContent = item.translit;
+      document.getElementById('vFreqTag').textContent = item.freq;
+      document.getElementById('vTranslation').textContent = item.translation;
+      document.getElementById('vNotes').textContent = item.notes || item.arabic;
+      document.getElementById('vCatBadge').textContent = item.category.replace(/^[0-9]_/, '').replace(/_/g, ' ');
+    }
+
+    document.getElementById('flashCard').addEventListener('click', (e) => {
+      if (e.target.closest('#vAudioBtn') || e.target.closest('#vAudioBtnBack')) return;
+      document.getElementById('flashCard').classList.toggle('is-flipped');
+    });
+
+    function playVocabAudio() {
+      const item = vQueue[vIndex];
+      if (item && item.audio) {
+        new Audio(item.audio).play();
+      } else if ('speechSynthesis' in window) {
+        const u = new SpeechSynthesisUtterance(item.arabic);
+        u.lang = 'ar-SA';
+        window.speechSynthesis.speak(u);
+      }
+    }
+
+    document.getElementById('vAudioBtn').addEventListener('click', (e) => { e.stopPropagation(); playVocabAudio(); });
+    document.getElementById('vAudioBtnBack').addEventListener('click', (e) => { e.stopPropagation(); playVocabAudio(); });
+
+    document.getElementById('vKnownBtn').addEventListener('click', () => { vIndex++; renderVocabCard(); });
+    document.getElementById('vRepeatBtn').addEventListener('click', () => {
+      const itm = vQueue.splice(vIndex, 1)[0];
+      vQueue.push(itm);
+      renderVocabCard();
+    });
+
+    // Init
+    loadJuz30();
+  </script>
+</body>
+</html>

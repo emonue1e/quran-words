@@ -1,0 +1,3682 @@
+[
+  {
+    "number": 78,
+    "name_ar": "النَّبَإِ",
+    "name_en": "An-Naba",
+    "ayahs_count": 40,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "عَمَّ يَتَسَآءَلُونَ",
+        "text_ru": "О чем они расспрашивают друг друга?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "عَنِ ٱلنَّبَإِ ٱلْعَظِيمِ",
+        "text_ru": "О великой вести,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "ٱلَّذِى هُمْ فِيهِ مُخْتَلِفُونَ",
+        "text_ru": "относительно которой они расходятся во мнениях.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "كَلَّا سَيَعْلَمُونَ",
+        "text_ru": "Но нет, они узнают!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "ثُمَّ كَلَّا سَيَعْلَمُونَ",
+        "text_ru": "Еще раз нет, они узнают!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "أَلَمْ نَجْعَلِ ٱلْأَرْضَ مِهَٰدًۭا",
+        "text_ru": "Разве Мы не сделали землю ложем,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "وَٱلْجِبَالَ أَوْتَادًۭا",
+        "text_ru": "а горы - колышками?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "وَخَلَقْنَٰكُمْ أَزْوَٰجًۭا",
+        "text_ru": "Мы сотворили вас парами,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078008.mp3"
+      },
+      {
+        "ayah": 9,
+        "text_ar": "وَجَعَلْنَا نَوْمَكُمْ سُبَاتًۭا",
+        "text_ru": "и сделали ваш сон отдыхом,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078009.mp3"
+      },
+      {
+        "ayah": 10,
+        "text_ar": "وَجَعَلْنَا ٱلَّيْلَ لِبَاسًۭا",
+        "text_ru": "и сделали ночь покрывалом,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078010.mp3"
+      },
+      {
+        "ayah": 11,
+        "text_ar": "وَجَعَلْنَا ٱلنَّهَارَ مَعَاشًۭا",
+        "text_ru": "и сделали день жалованием,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078011.mp3"
+      },
+      {
+        "ayah": 12,
+        "text_ar": "وَبَنَيْنَا فَوْقَكُمْ سَبْعًۭا شِدَادًۭا",
+        "text_ru": "и воздвигли над вами семь твердынь,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078012.mp3"
+      },
+      {
+        "ayah": 13,
+        "text_ar": "وَجَعَلْنَا سِرَاجًۭا وَهَّاجًۭا",
+        "text_ru": "и установили пылающий светильник,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078013.mp3"
+      },
+      {
+        "ayah": 14,
+        "text_ar": "وَأَنزَلْنَا مِنَ ٱلْمُعْصِرَٰتِ مَآءًۭ ثَجَّاجًۭا",
+        "text_ru": "и низвели из облаков обильно льющуюся воду,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078014.mp3"
+      },
+      {
+        "ayah": 15,
+        "text_ar": "لِّنُخْرِجَ بِهِۦ حَبًّۭا وَنَبَاتًۭا",
+        "text_ru": "чтобы взрастить ею зерна и растения",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078015.mp3"
+      },
+      {
+        "ayah": 16,
+        "text_ar": "وَجَنَّٰتٍ أَلْفَافًا",
+        "text_ru": "и густые сады.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078016.mp3"
+      },
+      {
+        "ayah": 17,
+        "text_ar": "إِنَّ يَوْمَ ٱلْفَصْلِ كَانَ مِيقَٰتًۭا",
+        "text_ru": "Воистину, День различения назначен на определенное время.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078017.mp3"
+      },
+      {
+        "ayah": 18,
+        "text_ar": "يَوْمَ يُنفَخُ فِى ٱلصُّورِ فَتَأْتُونَ أَفْوَاجًۭا",
+        "text_ru": "В тот день затрубят в Рог, и вы придете толпами,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078018.mp3"
+      },
+      {
+        "ayah": 19,
+        "text_ar": "وَفُتِحَتِ ٱلسَّمَآءُ فَكَانَتْ أَبْوَٰبًۭا",
+        "text_ru": "и небо раскроется и станет вратами,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078019.mp3"
+      },
+      {
+        "ayah": 20,
+        "text_ar": "وَسُيِّرَتِ ٱلْجِبَالُ فَكَانَتْ سَرَابًا",
+        "text_ru": "и горы придут в движение и станут маревом.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078020.mp3"
+      },
+      {
+        "ayah": 21,
+        "text_ar": "إِنَّ جَهَنَّمَ كَانَتْ مِرْصَادًۭا",
+        "text_ru": "Воистину, Геенна является засадой",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078021.mp3"
+      },
+      {
+        "ayah": 22,
+        "text_ar": "لِّلطَّٰغِينَ مَـَٔابًۭا",
+        "text_ru": "и местом возвращения для тех, кто преступает границы дозволенного.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078022.mp3"
+      },
+      {
+        "ayah": 23,
+        "text_ar": "لَّٰبِثِينَ فِيهَآ أَحْقَابًۭا",
+        "text_ru": "Они пробудут там долгие годы,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078023.mp3"
+      },
+      {
+        "ayah": 24,
+        "text_ar": "لَّا يَذُوقُونَ فِيهَا بَرْدًۭا وَلَا شَرَابًا",
+        "text_ru": "не вкушая ни прохлады, ни питья,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078024.mp3"
+      },
+      {
+        "ayah": 25,
+        "text_ar": "إِلَّا حَمِيمًۭا وَغَسَّاقًۭا",
+        "text_ru": "а только кипяток и гной.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078025.mp3"
+      },
+      {
+        "ayah": 26,
+        "text_ar": "جَزَآءًۭ وِفَاقًا",
+        "text_ru": "Это будет подобающим возмездием.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078026.mp3"
+      },
+      {
+        "ayah": 27,
+        "text_ar": "إِنَّهُمْ كَانُوا۟ لَا يَرْجُونَ حِسَابًۭا",
+        "text_ru": "Воистину, они не надеялись на расчет",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078027.mp3"
+      },
+      {
+        "ayah": 28,
+        "text_ar": "وَكَذَّبُوا۟ بِـَٔايَٰتِنَا كِذَّابًۭا",
+        "text_ru": "и полностью отрицали Наши знамения.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078028.mp3"
+      },
+      {
+        "ayah": 29,
+        "text_ar": "وَكُلَّ شَىْءٍ أَحْصَيْنَٰهُ كِتَٰبًۭا",
+        "text_ru": "Мы же всякую вещь подсчитали и записали.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078029.mp3"
+      },
+      {
+        "ayah": 30,
+        "text_ar": "فَذُوقُوا۟ فَلَن نَّزِيدَكُمْ إِلَّا عَذَابًا",
+        "text_ru": "Вкушайте же! Мы не прибавим вам ничего, кроме мучений.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078030.mp3"
+      },
+      {
+        "ayah": 31,
+        "text_ar": "إِنَّ لِلْمُتَّقِينَ مَفَازًا",
+        "text_ru": "Воистину, богобоязненных ожидает место спасения,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078031.mp3"
+      },
+      {
+        "ayah": 32,
+        "text_ar": "حَدَآئِقَ وَأَعْنَٰبًۭا",
+        "text_ru": "Райские сады и виноградники,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078032.mp3"
+      },
+      {
+        "ayah": 33,
+        "text_ar": "وَكَوَاعِبَ أَتْرَابًۭا",
+        "text_ru": "и полногрудые сверстницы,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078033.mp3"
+      },
+      {
+        "ayah": 34,
+        "text_ar": "وَكَأْسًۭا دِهَاقًۭا",
+        "text_ru": "и полные чаши.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078034.mp3"
+      },
+      {
+        "ayah": 35,
+        "text_ar": "لَّا يَسْمَعُونَ فِيهَا لَغْوًۭا وَلَا كِذَّٰبًۭا",
+        "text_ru": "Они не услышат там ни пустословия, ни лжи.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078035.mp3"
+      },
+      {
+        "ayah": 36,
+        "text_ar": "جَزَآءًۭ مِّن رَّبِّكَ عَطَآءً حِسَابًۭا",
+        "text_ru": "Это будет воздаянием от твоего Господа и даром исчисленным (или щедрым, или достаточным),",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078036.mp3"
+      },
+      {
+        "ayah": 37,
+        "text_ar": "رَّبِّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ٱلرَّحْمَٰنِ ۖ لَا يَمْلِكُونَ مِنْهُ خِطَابًۭا",
+        "text_ru": "Господа небес и земли и того, что между ними, Милостивого, с Которым они не посмеют даже заговорить.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078037.mp3"
+      },
+      {
+        "ayah": 38,
+        "text_ar": "يَوْمَ يَقُومُ ٱلرُّوحُ وَٱلْمَلَٰٓئِكَةُ صَفًّۭا ۖ لَّا يَتَكَلَّمُونَ إِلَّا مَنْ أَذِنَ لَهُ ٱلرَّحْمَٰنُ وَقَالَ صَوَابًۭا",
+        "text_ru": "В тот день, когда Дух (Джибрил) и ангелы станут рядами, не будет говорить никто, кроме тех, кому позволит Милостивый, и говорить они будут правду.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078038.mp3"
+      },
+      {
+        "ayah": 39,
+        "text_ar": "ذَٰلِكَ ٱلْيَوْمُ ٱلْحَقُّ ۖ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ مَـَٔابًا",
+        "text_ru": "Это будет истинный день, и всякий, кто пожелает, найдет способ вернуться к своему Господу.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078039.mp3"
+      },
+      {
+        "ayah": 40,
+        "text_ar": "إِنَّآ أَنذَرْنَٰكُمْ عَذَابًۭا قَرِيبًۭا يَوْمَ يَنظُرُ ٱلْمَرْءُ مَا قَدَّمَتْ يَدَاهُ وَيَقُولُ ٱلْكَافِرُ يَٰلَيْتَنِى كُنتُ تُرَٰبًۢا",
+        "text_ru": "Мы предостерегли вас от наказания близкого. В тот день человек увидит, что уготовили его руки, а неверующий скажет: «Эх, если бы я был прахом!».",
+        "audio": "https://verses.quran.com/Alafasy/mp3/078040.mp3"
+      }
+    ]
+  },
+  {
+    "number": 79,
+    "name_ar": "النَّازِعَاتِ",
+    "name_en": "An-Naazi'aat",
+    "ayahs_count": 46,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "وَٱلنَّٰزِعَٰتِ غَرْقًۭا",
+        "text_ru": "Клянусь исторгающими души неверующих жестоко!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "وَٱلنَّٰشِطَٰتِ نَشْطًۭا",
+        "text_ru": "Клянусь извлекающими души верующих нежно!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "وَٱلسَّٰبِحَٰتِ سَبْحًۭا",
+        "text_ru": "Клянусь плывущими стремительно,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "فَٱلسَّٰبِقَٰتِ سَبْقًۭا",
+        "text_ru": "опережающими уверенно",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "فَٱلْمُدَبِّرَٰتِ أَمْرًۭا",
+        "text_ru": "и исполняющими повеления!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "يَوْمَ تَرْجُفُ ٱلرَّاجِفَةُ",
+        "text_ru": "В тот день сотрясется сотрясающаяся (раздастся первый трубный глас, после которого творения умрут),",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "تَتْبَعُهَا ٱلرَّادِفَةُ",
+        "text_ru": "вслед за чем последует еще одно сотрясение (раздастся второй трубный глас, после которого начнется воскрешение),",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "قُلُوبٌۭ يَوْمَئِذٍۢ وَاجِفَةٌ",
+        "text_ru": "В тот день затрепещут сердца,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079008.mp3"
+      },
+      {
+        "ayah": 9,
+        "text_ar": "أَبْصَٰرُهَا خَٰشِعَةٌۭ",
+        "text_ru": "а их взоры будут смиренны.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079009.mp3"
+      },
+      {
+        "ayah": 10,
+        "text_ar": "يَقُولُونَ أَءِنَّا لَمَرْدُودُونَ فِى ٱلْحَافِرَةِ",
+        "text_ru": "Они говорят: «Неужели мы вернемся в прежнее состояние",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079010.mp3"
+      },
+      {
+        "ayah": 11,
+        "text_ar": "أَءِذَا كُنَّا عِظَٰمًۭا نَّخِرَةًۭ",
+        "text_ru": "после того, как станем истлевшими костями?!».",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079011.mp3"
+      },
+      {
+        "ayah": 12,
+        "text_ar": "قَالُوا۟ تِلْكَ إِذًۭا كَرَّةٌ خَاسِرَةٌۭ",
+        "text_ru": "Они говорят: «Если так, то это - невыгодное возвращение!».",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079012.mp3"
+      },
+      {
+        "ayah": 13,
+        "text_ar": "فَإِنَّمَا هِىَ زَجْرَةٌۭ وَٰحِدَةٌۭ",
+        "text_ru": "Но раздастся лишь один глас,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079013.mp3"
+      },
+      {
+        "ayah": 14,
+        "text_ar": "فَإِذَا هُم بِٱلسَّاهِرَةِ",
+        "text_ru": "и все они окажутся на поверхности земли.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079014.mp3"
+      },
+      {
+        "ayah": 15,
+        "text_ar": "هَلْ أَتَىٰكَ حَدِيثُ مُوسَىٰٓ",
+        "text_ru": "Дошел ли до тебя рассказ о Мусе (Моисее)?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079015.mp3"
+      },
+      {
+        "ayah": 16,
+        "text_ar": "إِذْ نَادَىٰهُ رَبُّهُۥ بِٱلْوَادِ ٱلْمُقَدَّسِ طُوًى",
+        "text_ru": "Вот Господь его воззвал к нему в священной долине Тува (Това):",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079016.mp3"
+      },
+      {
+        "ayah": 17,
+        "text_ar": "ٱذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ",
+        "text_ru": "«Ступай к Фараону, ибо он преступил границы дозволенного,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079017.mp3"
+      },
+      {
+        "ayah": 18,
+        "text_ar": "فَقُلْ هَل لَّكَ إِلَىٰٓ أَن تَزَكَّىٰ",
+        "text_ru": "и скажи: «Не следует ли тебе очиститься?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079018.mp3"
+      },
+      {
+        "ayah": 19,
+        "text_ar": "وَأَهْدِيَكَ إِلَىٰ رَبِّكَ فَتَخْشَىٰ",
+        "text_ru": "Я укажу тебе путь к твоему Господу, и ты станешь богобоязнен»».",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079019.mp3"
+      },
+      {
+        "ayah": 20,
+        "text_ar": "فَأَرَىٰهُ ٱلْءَايَةَ ٱلْكُبْرَىٰ",
+        "text_ru": "Он показал ему величайшее знамение,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079020.mp3"
+      },
+      {
+        "ayah": 21,
+        "text_ar": "فَكَذَّبَ وَعَصَىٰ",
+        "text_ru": "но тот счел его ложью и ослушался,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079021.mp3"
+      },
+      {
+        "ayah": 22,
+        "text_ar": "ثُمَّ أَدْبَرَ يَسْعَىٰ",
+        "text_ru": "а потом отвернулся, принявшись усердствовать.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079022.mp3"
+      },
+      {
+        "ayah": 23,
+        "text_ar": "فَحَشَرَ فَنَادَىٰ",
+        "text_ru": "Он собрал толпу и громко воззвал,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079023.mp3"
+      },
+      {
+        "ayah": 24,
+        "text_ar": "فَقَالَ أَنَا۠ رَبُّكُمُ ٱلْأَعْلَىٰ",
+        "text_ru": "и сказал: «Я - ваш всевышний господь!».",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079024.mp3"
+      },
+      {
+        "ayah": 25,
+        "text_ar": "فَأَخَذَهُ ٱللَّهُ نَكَالَ ٱلْءَاخِرَةِ وَٱلْأُولَىٰٓ",
+        "text_ru": "Тогда Аллах подверг его наказанию как в Последней жизни, так и в первой жизни.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079025.mp3"
+      },
+      {
+        "ayah": 26,
+        "text_ar": "إِنَّ فِى ذَٰلِكَ لَعِبْرَةًۭ لِّمَن يَخْشَىٰٓ",
+        "text_ru": "Воистину, в этом было назидание для тех, кто богобоязнен.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079026.mp3"
+      },
+      {
+        "ayah": 27,
+        "text_ar": "ءَأَنتُمْ أَشَدُّ خَلْقًا أَمِ ٱلسَّمَآءُ ۚ بَنَىٰهَا",
+        "text_ru": "Вас ли труднее создать или небо? Он воздвиг его,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079027.mp3"
+      },
+      {
+        "ayah": 28,
+        "text_ar": "رَفَعَ سَمْكَهَا فَسَوَّىٰهَا",
+        "text_ru": "поднял его своды и сделал его совершенным.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079028.mp3"
+      },
+      {
+        "ayah": 29,
+        "text_ar": "وَأَغْطَشَ لَيْلَهَا وَأَخْرَجَ ضُحَىٰهَا",
+        "text_ru": "Он сделал темной ночь его (неба) и вывел его утреннюю зарю.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079029.mp3"
+      },
+      {
+        "ayah": 30,
+        "text_ar": "وَٱلْأَرْضَ بَعْدَ ذَٰلِكَ دَحَىٰهَآ",
+        "text_ru": "После этого Он распростер землю,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079030.mp3"
+      },
+      {
+        "ayah": 31,
+        "text_ar": "أَخْرَجَ مِنْهَا مَآءَهَا وَمَرْعَىٰهَا",
+        "text_ru": "вывел из нее воду и пастбища",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079031.mp3"
+      },
+      {
+        "ayah": 32,
+        "text_ar": "وَٱلْجِبَالَ أَرْسَىٰهَا",
+        "text_ru": "и утвердил на ней горы",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079032.mp3"
+      },
+      {
+        "ayah": 33,
+        "text_ar": "مَتَٰعًۭا لَّكُمْ وَلِأَنْعَٰمِكُمْ",
+        "text_ru": "на пользу вам и вашему скоту.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079033.mp3"
+      },
+      {
+        "ayah": 34,
+        "text_ar": "فَإِذَا جَآءَتِ ٱلطَّآمَّةُ ٱلْكُبْرَىٰ",
+        "text_ru": "Когда же наступит Величайшее бедствие (День воскресения),",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079034.mp3"
+      },
+      {
+        "ayah": 35,
+        "text_ar": "يَوْمَ يَتَذَكَّرُ ٱلْإِنسَٰنُ مَا سَعَىٰ",
+        "text_ru": "в тот день человек вспомнит о том, в чем он усердствовал,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079035.mp3"
+      },
+      {
+        "ayah": 36,
+        "text_ar": "وَبُرِّزَتِ ٱلْجَحِيمُ لِمَن يَرَىٰ",
+        "text_ru": "и Ад будет ясно виден тем, кто будет видеть.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079036.mp3"
+      },
+      {
+        "ayah": 37,
+        "text_ar": "فَأَمَّا مَن طَغَىٰ",
+        "text_ru": "Тому, кто преступил границы дозволенного",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079037.mp3"
+      },
+      {
+        "ayah": 38,
+        "text_ar": "وَءَاثَرَ ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+        "text_ru": "и отдал предпочтение мирской жизни,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079038.mp3"
+      },
+      {
+        "ayah": 39,
+        "text_ar": "فَإِنَّ ٱلْجَحِيمَ هِىَ ٱلْمَأْوَىٰ",
+        "text_ru": "пристанищем будет Ад.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079039.mp3"
+      },
+      {
+        "ayah": 40,
+        "text_ar": "وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِۦ وَنَهَى ٱلنَّفْسَ عَنِ ٱلْهَوَىٰ",
+        "text_ru": "Тому же, кто боялся предстать перед своим Господом и удерживал себя от страстей,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079040.mp3"
+      },
+      {
+        "ayah": 41,
+        "text_ar": "فَإِنَّ ٱلْجَنَّةَ هِىَ ٱلْمَأْوَىٰ",
+        "text_ru": "пристанищем будет Рай.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079041.mp3"
+      },
+      {
+        "ayah": 42,
+        "text_ar": "يَسْـَٔلُونَكَ عَنِ ٱلسَّاعَةِ أَيَّانَ مُرْسَىٰهَا",
+        "text_ru": "Тебя спрашивают о Часе: «Когда же он настанет?».",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079042.mp3"
+      },
+      {
+        "ayah": 43,
+        "text_ar": "فِيمَ أَنتَ مِن ذِكْرَىٰهَآ",
+        "text_ru": "К чему тебе упоминать об этом?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079043.mp3"
+      },
+      {
+        "ayah": 44,
+        "text_ar": "إِلَىٰ رَبِّكَ مُنتَهَىٰهَآ",
+        "text_ru": "Только твой Господь ведает об этом.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079044.mp3"
+      },
+      {
+        "ayah": 45,
+        "text_ar": "إِنَّمَآ أَنتَ مُنذِرُ مَن يَخْشَىٰهَا",
+        "text_ru": "Воистину, ты - всего лишь предостерегающий увещеватель для тех, кто опасается этого.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079045.mp3"
+      },
+      {
+        "ayah": 46,
+        "text_ar": "كَأَنَّهُمْ يَوْمَ يَرَوْنَهَا لَمْ يَلْبَثُوٓا۟ إِلَّا عَشِيَّةً أَوْ ضُحَىٰهَا",
+        "text_ru": "В тот день, когда они увидят его, им покажется, что они провели в этом мире лишь послеполуденные часы или утро.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/079046.mp3"
+      }
+    ]
+  },
+  {
+    "number": 80,
+    "name_ar": "عَبَسَ",
+    "name_en": "Abasa",
+    "ayahs_count": 42,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "عَبَسَ وَتَوَلَّىٰٓ",
+        "text_ru": "Он нахмурился и отвернулся,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "أَن جَآءَهُ ٱلْأَعْمَىٰ",
+        "text_ru": "потому что к нему подошел слепой.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "وَمَا يُدْرِيكَ لَعَلَّهُۥ يَزَّكَّىٰٓ",
+        "text_ru": "Откуда тебе знать? Возможно, он бы очистился",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "أَوْ يَذَّكَّرُ فَتَنفَعَهُ ٱلذِّكْرَىٰٓ",
+        "text_ru": "или помянул бы наставление, и поминание принесло бы ему пользу.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "أَمَّا مَنِ ٱسْتَغْنَىٰ",
+        "text_ru": "Тому, кто решил, что он ни в чем не нуждается,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "فَأَنتَ لَهُۥ تَصَدَّىٰ",
+        "text_ru": "ты уделяешь внимание,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "وَمَا عَلَيْكَ أَلَّا يَزَّكَّىٰ",
+        "text_ru": "Что же будет тебе, если он не очистится?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "وَأَمَّا مَن جَآءَكَ يَسْعَىٰ",
+        "text_ru": "А того, кто приходит к тебе со рвением",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080008.mp3"
+      },
+      {
+        "ayah": 9,
+        "text_ar": "وَهُوَ يَخْشَىٰ",
+        "text_ru": "и страшится Аллаха,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080009.mp3"
+      },
+      {
+        "ayah": 10,
+        "text_ar": "فَأَنتَ عَنْهُ تَلَهَّىٰ",
+        "text_ru": "ты оставляешь без внимания.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080010.mp3"
+      },
+      {
+        "ayah": 11,
+        "text_ar": "كَلَّآ إِنَّهَا تَذْكِرَةٌۭ",
+        "text_ru": "Но нет! Это есть Назидание,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080011.mp3"
+      },
+      {
+        "ayah": 12,
+        "text_ar": "فَمَن شَآءَ ذَكَرَهُۥ",
+        "text_ru": "и пусть помянет его всякий желающий.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080012.mp3"
+      },
+      {
+        "ayah": 13,
+        "text_ar": "فِى صُحُفٍۢ مُّكَرَّمَةٍۢ",
+        "text_ru": "Оно записано в свитках почитаемых,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080013.mp3"
+      },
+      {
+        "ayah": 14,
+        "text_ar": "مَّرْفُوعَةٍۢ مُّطَهَّرَةٍۭ",
+        "text_ru": "вознесенных и очищенных,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080014.mp3"
+      },
+      {
+        "ayah": 15,
+        "text_ar": "بِأَيْدِى سَفَرَةٍۢ",
+        "text_ru": "в руках посланцев",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080015.mp3"
+      },
+      {
+        "ayah": 16,
+        "text_ar": "كِرَامٍۭ بَرَرَةٍۢ",
+        "text_ru": "благородных и покорных.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080016.mp3"
+      },
+      {
+        "ayah": 17,
+        "text_ar": "قُتِلَ ٱلْإِنسَٰنُ مَآ أَكْفَرَهُۥ",
+        "text_ru": "Да сгинет человек! Как же он неблагодарен!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080017.mp3"
+      },
+      {
+        "ayah": 18,
+        "text_ar": "مِنْ أَىِّ شَىْءٍ خَلَقَهُۥ",
+        "text_ru": "Из чего Он сотворил его?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080018.mp3"
+      },
+      {
+        "ayah": 19,
+        "text_ar": "مِن نُّطْفَةٍ خَلَقَهُۥ فَقَدَّرَهُۥ",
+        "text_ru": "Он сотворил его из капли и соразмерил (или предопределил стадии его развития),",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080019.mp3"
+      },
+      {
+        "ayah": 20,
+        "text_ar": "ثُمَّ ٱلسَّبِيلَ يَسَّرَهُۥ",
+        "text_ru": "потом облегчил ему путь,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080020.mp3"
+      },
+      {
+        "ayah": 21,
+        "text_ar": "ثُمَّ أَمَاتَهُۥ فَأَقْبَرَهُۥ",
+        "text_ru": "потом умертвил его и поместил в могилу.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080021.mp3"
+      },
+      {
+        "ayah": 22,
+        "text_ar": "ثُمَّ إِذَا شَآءَ أَنشَرَهُۥ",
+        "text_ru": "Потом, когда пожелает, Он воскресит его.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080022.mp3"
+      },
+      {
+        "ayah": 23,
+        "text_ar": "كَلَّا لَمَّا يَقْضِ مَآ أَمَرَهُۥ",
+        "text_ru": "Но нет! Он не выполняет того, что Он приказал ему.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080023.mp3"
+      },
+      {
+        "ayah": 24,
+        "text_ar": "فَلْيَنظُرِ ٱلْإِنسَٰنُ إِلَىٰ طَعَامِهِۦٓ",
+        "text_ru": "Пусть посмотрит человек на свое пропитание!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080024.mp3"
+      },
+      {
+        "ayah": 25,
+        "text_ar": "أَنَّا صَبَبْنَا ٱلْمَآءَ صَبًّۭا",
+        "text_ru": "Мы проливаем обильные ливни,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080025.mp3"
+      },
+      {
+        "ayah": 26,
+        "text_ar": "ثُمَّ شَقَقْنَا ٱلْأَرْضَ شَقًّۭا",
+        "text_ru": "затем рассекаем землю трещинами",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080026.mp3"
+      },
+      {
+        "ayah": 27,
+        "text_ar": "فَأَنۢبَتْنَا فِيهَا حَبًّۭا",
+        "text_ru": "и взращиваем на ней зерна,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080027.mp3"
+      },
+      {
+        "ayah": 28,
+        "text_ar": "وَعِنَبًۭا وَقَضْبًۭا",
+        "text_ru": "виноград и люцерну,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080028.mp3"
+      },
+      {
+        "ayah": 29,
+        "text_ar": "وَزَيْتُونًۭا وَنَخْلًۭا",
+        "text_ru": "маслины и финиковые пальмы,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080029.mp3"
+      },
+      {
+        "ayah": 30,
+        "text_ar": "وَحَدَآئِقَ غُلْبًۭا",
+        "text_ru": "сады густые (или с могучими деревьями),",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080030.mp3"
+      },
+      {
+        "ayah": 31,
+        "text_ar": "وَفَٰكِهَةًۭ وَأَبًّۭا",
+        "text_ru": "фрукты и травы",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080031.mp3"
+      },
+      {
+        "ayah": 32,
+        "text_ar": "مَّتَٰعًۭا لَّكُمْ وَلِأَنْعَٰمِكُمْ",
+        "text_ru": "на пользу вам и вашей скотине.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080032.mp3"
+      },
+      {
+        "ayah": 33,
+        "text_ar": "فَإِذَا جَآءَتِ ٱلصَّآخَّةُ",
+        "text_ru": "Когда же раздастся Оглушительный глас,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080033.mp3"
+      },
+      {
+        "ayah": 34,
+        "text_ar": "يَوْمَ يَفِرُّ ٱلْمَرْءُ مِنْ أَخِيهِ",
+        "text_ru": "в тот день человек бросит своего брата,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080034.mp3"
+      },
+      {
+        "ayah": 35,
+        "text_ar": "وَأُمِّهِۦ وَأَبِيهِ",
+        "text_ru": "свою мать и своего отца,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080035.mp3"
+      },
+      {
+        "ayah": 36,
+        "text_ar": "وَصَٰحِبَتِهِۦ وَبَنِيهِ",
+        "text_ru": "свою жену и своих сыновей,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080036.mp3"
+      },
+      {
+        "ayah": 37,
+        "text_ar": "لِكُلِّ ٱمْرِئٍۢ مِّنْهُمْ يَوْمَئِذٍۢ شَأْنٌۭ يُغْنِيهِ",
+        "text_ru": "ибо у каждого человека своих забот будет сполна.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080037.mp3"
+      },
+      {
+        "ayah": 38,
+        "text_ar": "وُجُوهٌۭ يَوْمَئِذٍۢ مُّسْفِرَةٌۭ",
+        "text_ru": "В тот день одни лица будут сиять,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080038.mp3"
+      },
+      {
+        "ayah": 39,
+        "text_ar": "ضَاحِكَةٌۭ مُّسْتَبْشِرَةٌۭ",
+        "text_ru": "смеяться и ликовать.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080039.mp3"
+      },
+      {
+        "ayah": 40,
+        "text_ar": "وَوُجُوهٌۭ يَوْمَئِذٍ عَلَيْهَا غَبَرَةٌۭ",
+        "text_ru": "На других же лицах в тот день будет прах,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080040.mp3"
+      },
+      {
+        "ayah": 41,
+        "text_ar": "تَرْهَقُهَا قَتَرَةٌ",
+        "text_ru": "покрывающий их мраком.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080041.mp3"
+      },
+      {
+        "ayah": 42,
+        "text_ar": "أُو۟لَٰٓئِكَ هُمُ ٱلْكَفَرَةُ ٱلْفَجَرَةُ",
+        "text_ru": "Это будут неверующие грешники.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/080042.mp3"
+      }
+    ]
+  },
+  {
+    "number": 81,
+    "name_ar": "التَّكۡوِيرِ",
+    "name_en": "At-Takwir",
+    "ayahs_count": 29,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "إِذَا ٱلشَّمْسُ كُوِّرَتْ",
+        "text_ru": "Когда солнце будет свернуто (или потеряет свое сияние, или будет выброшено),",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "وَإِذَا ٱلنُّجُومُ ٱنكَدَرَتْ",
+        "text_ru": "когда падут звезды,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "وَإِذَا ٱلْجِبَالُ سُيِّرَتْ",
+        "text_ru": "когда горы будут сдвинуты с мест (или приведены в движение),",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "وَإِذَا ٱلْعِشَارُ عُطِّلَتْ",
+        "text_ru": "когда верблюдицы на десятом месяце беременности останутся без присмотра,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "وَإِذَا ٱلْوُحُوشُ حُشِرَتْ",
+        "text_ru": "когда дикие звери будут собраны,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "وَإِذَا ٱلْبِحَارُ سُجِّرَتْ",
+        "text_ru": "когда моря запылают (или переполнятся; или опустеют; или перемешаются; или станут красными),",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "وَإِذَا ٱلنُّفُوسُ زُوِّجَتْ",
+        "text_ru": "когда души объединятся (праведники объединятся с праведниками, а грешники - с грешниками; или праведники соединятся с райскими гуриями, а неверующие - с дьяволами; или души соединятся с телами),",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "وَإِذَا ٱلْمَوْءُۥدَةُ سُئِلَتْ",
+        "text_ru": "когда зарытую живьем спросят,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081008.mp3"
+      },
+      {
+        "ayah": 9,
+        "text_ar": "بِأَىِّ ذَنۢبٍۢ قُتِلَتْ",
+        "text_ru": "за какой грех ее убили,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081009.mp3"
+      },
+      {
+        "ayah": 10,
+        "text_ar": "وَإِذَا ٱلصُّحُفُ نُشِرَتْ",
+        "text_ru": "когда свитки с деяниями рабов будут развернуты,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081010.mp3"
+      },
+      {
+        "ayah": 11,
+        "text_ar": "وَإِذَا ٱلسَّمَآءُ كُشِطَتْ",
+        "text_ru": "когда небо будет сдернуто,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081011.mp3"
+      },
+      {
+        "ayah": 12,
+        "text_ar": "وَإِذَا ٱلْجَحِيمُ سُعِّرَتْ",
+        "text_ru": "когда Ад будет разожжен с новой силой,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081012.mp3"
+      },
+      {
+        "ayah": 13,
+        "text_ar": "وَإِذَا ٱلْجَنَّةُ أُزْلِفَتْ",
+        "text_ru": "когда Рай будет приближен к праведникам,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081013.mp3"
+      },
+      {
+        "ayah": 14,
+        "text_ar": "عَلِمَتْ نَفْسٌۭ مَّآ أَحْضَرَتْ",
+        "text_ru": "тогда познает душа, что она принесла.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081014.mp3"
+      },
+      {
+        "ayah": 15,
+        "text_ar": "فَلَآ أُقْسِمُ بِٱلْخُنَّسِ",
+        "text_ru": "Но нет! Клянусь телами небесными - отступающими,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081015.mp3"
+      },
+      {
+        "ayah": 16,
+        "text_ar": "ٱلْجَوَارِ ٱلْكُنَّسِ",
+        "text_ru": "передвигающимися и исчезающими!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081016.mp3"
+      },
+      {
+        "ayah": 17,
+        "text_ar": "وَٱلَّيْلِ إِذَا عَسْعَسَ",
+        "text_ru": "Клянусь ночью, когда она наступила (или отступила)!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081017.mp3"
+      },
+      {
+        "ayah": 18,
+        "text_ar": "وَٱلصُّبْحِ إِذَا تَنَفَّسَ",
+        "text_ru": "Клянусь рассветом, когда он забрезжил!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081018.mp3"
+      },
+      {
+        "ayah": 19,
+        "text_ar": "إِنَّهُۥ لَقَوْلُ رَسُولٍۢ كَرِيمٍۢ",
+        "text_ru": "Это - слова благородного посланца,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081019.mp3"
+      },
+      {
+        "ayah": 20,
+        "text_ar": "ذِى قُوَّةٍ عِندَ ذِى ٱلْعَرْشِ مَكِينٍۢ",
+        "text_ru": "обладателя силы при Владыке Трона, почитаемого,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081020.mp3"
+      },
+      {
+        "ayah": 21,
+        "text_ar": "مُّطَاعٍۢ ثَمَّ أَمِينٍۢ",
+        "text_ru": "которому там (на небесах) повинуются, доверенного.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081021.mp3"
+      },
+      {
+        "ayah": 22,
+        "text_ar": "وَمَا صَاحِبُكُم بِمَجْنُونٍۢ",
+        "text_ru": "Ваш товарищ (Мухаммад) не является одержимым.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081022.mp3"
+      },
+      {
+        "ayah": 23,
+        "text_ar": "وَلَقَدْ رَءَاهُ بِٱلْأُفُقِ ٱلْمُبِينِ",
+        "text_ru": "Он видел его (Джибрила) на ясном горизонте",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081023.mp3"
+      },
+      {
+        "ayah": 24,
+        "text_ar": "وَمَا هُوَ عَلَى ٱلْغَيْبِ بِضَنِينٍۢ",
+        "text_ru": "и не скупится передать сокровенное.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081024.mp3"
+      },
+      {
+        "ayah": 25,
+        "text_ar": "وَمَا هُوَ بِقَوْلِ شَيْطَٰنٍۢ رَّجِيمٍۢ",
+        "text_ru": "Это - не речи дьявола изгнанного, побиваемого.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081025.mp3"
+      },
+      {
+        "ayah": 26,
+        "text_ar": "فَأَيْنَ تَذْهَبُونَ",
+        "text_ru": "Куда же вы направляетесь?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081026.mp3"
+      },
+      {
+        "ayah": 27,
+        "text_ar": "إِنْ هُوَ إِلَّا ذِكْرٌۭ لِّلْعَٰلَمِينَ",
+        "text_ru": "Это - лишь Напоминание мирам,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081027.mp3"
+      },
+      {
+        "ayah": 28,
+        "text_ar": "لِمَن شَآءَ مِنكُمْ أَن يَسْتَقِيمَ",
+        "text_ru": "тем из вас, кто желает следовать прямым путем.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081028.mp3"
+      },
+      {
+        "ayah": 29,
+        "text_ar": "وَمَا تَشَآءُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ رَبُّ ٱلْعَٰلَمِينَ",
+        "text_ru": "Но вы не пожелаете этого, если этого не пожелает Аллах, Господь миров.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/081029.mp3"
+      }
+    ]
+  },
+  {
+    "number": 82,
+    "name_ar": "الانفِطَارِ",
+    "name_en": "Al-Infitaar",
+    "ayahs_count": 19,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "إِذَا ٱلسَّمَآءُ ٱنفَطَرَتْ",
+        "text_ru": "Когда небо расколется,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/082001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "وَإِذَا ٱلْكَوَاكِبُ ٱنتَثَرَتْ",
+        "text_ru": "когда тела небесные осыплются,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/082002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "وَإِذَا ٱلْبِحَارُ فُجِّرَتْ",
+        "text_ru": "когда моря перельются и смешаются (или высохнут),",
+        "audio": "https://verses.quran.com/Alafasy/mp3/082003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "وَإِذَا ٱلْقُبُورُ بُعْثِرَتْ",
+        "text_ru": "когда могилы перевернутся,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/082004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "عَلِمَتْ نَفْسٌۭ مَّا قَدَّمَتْ وَأَخَّرَتْ",
+        "text_ru": "тогда каждая душа узнает, что она совершила и что оставила после себя.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/082005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "يَٰٓأَيُّهَا ٱلْإِنسَٰنُ مَا غَرَّكَ بِرَبِّكَ ٱلْكَرِيمِ",
+        "text_ru": "О человек! Что ввело тебя в заблуждение относительно твоего Великодушного Господа,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/082006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "ٱلَّذِى خَلَقَكَ فَسَوَّىٰكَ فَعَدَلَكَ",
+        "text_ru": "Который сотворил тебя и сделал твой облик совершенным и соразмеренным?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/082007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "فِىٓ أَىِّ صُورَةٍۢ مَّا شَآءَ رَكَّبَكَ",
+        "text_ru": "Он сложил тебя в том облике, в каком пожелал.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/082008.mp3"
+      },
+      {
+        "ayah": 9,
+        "text_ar": "كَلَّا بَلْ تُكَذِّبُونَ بِٱلدِّينِ",
+        "text_ru": "Но нет! Вы же считаете ложью воздаяние.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/082009.mp3"
+      },
+      {
+        "ayah": 10,
+        "text_ar": "وَإِنَّ عَلَيْكُمْ لَحَٰفِظِينَ",
+        "text_ru": "Воистину, над вами есть хранители -",
+        "audio": "https://verses.quran.com/Alafasy/mp3/082010.mp3"
+      },
+      {
+        "ayah": 11,
+        "text_ar": "كِرَامًۭا كَٰتِبِينَ",
+        "text_ru": "благородные писцы,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/082011.mp3"
+      },
+      {
+        "ayah": 12,
+        "text_ar": "يَعْلَمُونَ مَا تَفْعَلُونَ",
+        "text_ru": "которые знают о том, что вы совершаете.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/082012.mp3"
+      },
+      {
+        "ayah": 13,
+        "text_ar": "إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍۢ",
+        "text_ru": "Воистину, благочестивые окажутся в блаженстве.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/082013.mp3"
+      },
+      {
+        "ayah": 14,
+        "text_ar": "وَإِنَّ ٱلْفُجَّارَ لَفِى جَحِيمٍۢ",
+        "text_ru": "Воистину, грешники окажутся в Аду,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/082014.mp3"
+      },
+      {
+        "ayah": 15,
+        "text_ar": "يَصْلَوْنَهَا يَوْمَ ٱلدِّينِ",
+        "text_ru": "куда они войдут в День воздаяния.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/082015.mp3"
+      },
+      {
+        "ayah": 16,
+        "text_ar": "وَمَا هُمْ عَنْهَا بِغَآئِبِينَ",
+        "text_ru": "Они не смогут избежать этого.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/082016.mp3"
+      },
+      {
+        "ayah": 17,
+        "text_ar": "وَمَآ أَدْرَىٰكَ مَا يَوْمُ ٱلدِّينِ",
+        "text_ru": "Откуда ты мог знать, что такое День воздаяния?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/082017.mp3"
+      },
+      {
+        "ayah": 18,
+        "text_ar": "ثُمَّ مَآ أَدْرَىٰكَ مَا يَوْمُ ٱلدِّينِ",
+        "text_ru": "Да, откуда ты мог знать, что такое День воздаяния?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/082018.mp3"
+      },
+      {
+        "ayah": 19,
+        "text_ar": "يَوْمَ لَا تَمْلِكُ نَفْسٌۭ لِّنَفْسٍۢ شَيْـًۭٔا ۖ وَٱلْأَمْرُ يَوْمَئِذٍۢ لِّلَّهِ",
+        "text_ru": "В тот день ни одна душа не сможет ничем помочь другой, и власть в тот день будет принадлежать Аллаху.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/082019.mp3"
+      }
+    ]
+  },
+  {
+    "number": 83,
+    "name_ar": "المُطَفِّفِينَ",
+    "name_en": "Al-Mutaffifin",
+    "ayahs_count": 36,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "وَيْلٌۭ لِّلْمُطَفِّفِينَ",
+        "text_ru": "Горе обвешивающим,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "ٱلَّذِينَ إِذَا ٱكْتَالُوا۟ عَلَى ٱلنَّاسِ يَسْتَوْفُونَ",
+        "text_ru": "которые требуют дать им сполна, когда люди отмеривают им,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "وَإِذَا كَالُوهُمْ أَو وَّزَنُوهُمْ يُخْسِرُونَ",
+        "text_ru": "а когда сами мерят или взвешивают для других, то наносят им урон.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "أَلَا يَظُنُّ أُو۟لَٰٓئِكَ أَنَّهُم مَّبْعُوثُونَ",
+        "text_ru": "Разве не думают они, что будут воскрешены",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "لِيَوْمٍ عَظِيمٍۢ",
+        "text_ru": "в Великий день -",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "يَوْمَ يَقُومُ ٱلنَّاسُ لِرَبِّ ٱلْعَٰلَمِينَ",
+        "text_ru": "в тот день, когда люди предстанут перед Господом миров?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "كَلَّآ إِنَّ كِتَٰبَ ٱلْفُجَّارِ لَفِى سِجِّينٍۢ",
+        "text_ru": "Но нет! Книга грешников находится в Сиджжине.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "وَمَآ أَدْرَىٰكَ مَا سِجِّينٌۭ",
+        "text_ru": "Откуда ты мог знать, что такое Сиджжин?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083008.mp3"
+      },
+      {
+        "ayah": 9,
+        "text_ar": "كِتَٰبٌۭ مَّرْقُومٌۭ",
+        "text_ru": "Это - книга начертанная, в которой записаны все злодеяния дьяволов, неверующих и грешников (или скала под седьмой землей, под которой находится начертанная книга с деяниями грешников).",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083009.mp3"
+      },
+      {
+        "ayah": 10,
+        "text_ar": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+        "text_ru": "Горе в тот день тем, кто считает истину ложью,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083010.mp3"
+      },
+      {
+        "ayah": 11,
+        "text_ar": "ٱلَّذِينَ يُكَذِّبُونَ بِيَوْمِ ٱلدِّينِ",
+        "text_ru": "кто считает ложью День воздаяния!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083011.mp3"
+      },
+      {
+        "ayah": 12,
+        "text_ar": "وَمَا يُكَذِّبُ بِهِۦٓ إِلَّا كُلُّ مُعْتَدٍ أَثِيمٍ",
+        "text_ru": "Его считает ложью только преступник и грешник.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083012.mp3"
+      },
+      {
+        "ayah": 13,
+        "text_ar": "إِذَا تُتْلَىٰ عَلَيْهِ ءَايَٰتُنَا قَالَ أَسَٰطِيرُ ٱلْأَوَّلِينَ",
+        "text_ru": "Когда ему читают Наши аяты, он говорит: «Это - легенды древних народов!».",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083013.mp3"
+      },
+      {
+        "ayah": 14,
+        "text_ar": "كَلَّا ۖ بَلْ ۜ رَانَ عَلَىٰ قُلُوبِهِم مَّا كَانُوا۟ يَكْسِبُونَ",
+        "text_ru": "Но нет! Напротив, их сердца окутаны тем, что они приобрели.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083014.mp3"
+      },
+      {
+        "ayah": 15,
+        "text_ar": "كَلَّآ إِنَّهُمْ عَن رَّبِّهِمْ يَوْمَئِذٍۢ لَّمَحْجُوبُونَ",
+        "text_ru": "Но нет! В тот день они будут отделены от своего Господа завесой (не увидят Аллаха),",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083015.mp3"
+      },
+      {
+        "ayah": 16,
+        "text_ar": "ثُمَّ إِنَّهُمْ لَصَالُوا۟ ٱلْجَحِيمِ",
+        "text_ru": "а потом они попадут в Ад,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083016.mp3"
+      },
+      {
+        "ayah": 17,
+        "text_ar": "ثُمَّ يُقَالُ هَٰذَا ٱلَّذِى كُنتُم بِهِۦ تُكَذِّبُونَ",
+        "text_ru": "после чего им скажут: «Вот то, что вы считали ложью».",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083017.mp3"
+      },
+      {
+        "ayah": 18,
+        "text_ar": "كَلَّآ إِنَّ كِتَٰبَ ٱلْأَبْرَارِ لَفِى عِلِّيِّينَ",
+        "text_ru": "Но нет! Книга благочестивых окажется в Иллийюне.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083018.mp3"
+      },
+      {
+        "ayah": 19,
+        "text_ar": "وَمَآ أَدْرَىٰكَ مَا عِلِّيُّونَ",
+        "text_ru": "Откуда ты мог знать, что такое Иллийюн?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083019.mp3"
+      },
+      {
+        "ayah": 20,
+        "text_ar": "كِتَٰبٌۭ مَّرْقُومٌۭ",
+        "text_ru": "Это - книга начертанная, в которой записаны все добрые деяния праведников (или верховья Рая, где находится начертанная книга с деяниями праведников).",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083020.mp3"
+      },
+      {
+        "ayah": 21,
+        "text_ar": "يَشْهَدُهُ ٱلْمُقَرَّبُونَ",
+        "text_ru": "Ее видят (или о ней будут свидетельствовать) приближенные.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083021.mp3"
+      },
+      {
+        "ayah": 22,
+        "text_ar": "إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍ",
+        "text_ru": "Воистину, благочестивые окажутся в блаженстве",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083022.mp3"
+      },
+      {
+        "ayah": 23,
+        "text_ar": "عَلَى ٱلْأَرَآئِكِ يَنظُرُونَ",
+        "text_ru": "и будут на ложах созерцать райские блага.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083023.mp3"
+      },
+      {
+        "ayah": 24,
+        "text_ar": "تَعْرِفُ فِى وُجُوهِهِمْ نَضْرَةَ ٱلنَّعِيمِ",
+        "text_ru": "На их лицах ты увидишь блеск благоденствия.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083024.mp3"
+      },
+      {
+        "ayah": 25,
+        "text_ar": "يُسْقَوْنَ مِن رَّحِيقٍۢ مَّخْتُومٍ",
+        "text_ru": "Их будут поить выдержанным запечатанным вином,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083025.mp3"
+      },
+      {
+        "ayah": 26,
+        "text_ar": "خِتَٰمُهُۥ مِسْكٌۭ ۚ وَفِى ذَٰلِكَ فَلْيَتَنَافَسِ ٱلْمُتَنَٰفِسُونَ",
+        "text_ru": "а печатью его будет мускус (оно запечатано мускусом или же последний глоток его будет иметь привкус мускуса). Пусть же ради этого состязаются состязающиеся!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083026.mp3"
+      },
+      {
+        "ayah": 27,
+        "text_ar": "وَمِزَاجُهُۥ مِن تَسْنِيمٍ",
+        "text_ru": "Оно смешано с напитком из Таснима -",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083027.mp3"
+      },
+      {
+        "ayah": 28,
+        "text_ar": "عَيْنًۭا يَشْرَبُ بِهَا ٱلْمُقَرَّبُونَ",
+        "text_ru": "источника, из которого пьют приближенные.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083028.mp3"
+      },
+      {
+        "ayah": 29,
+        "text_ar": "إِنَّ ٱلَّذِينَ أَجْرَمُوا۟ كَانُوا۟ مِنَ ٱلَّذِينَ ءَامَنُوا۟ يَضْحَكُونَ",
+        "text_ru": "Грешники смеялись над теми, которые уверовали.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083029.mp3"
+      },
+      {
+        "ayah": 30,
+        "text_ar": "وَإِذَا مَرُّوا۟ بِهِمْ يَتَغَامَزُونَ",
+        "text_ru": "Проходя мимо них, они подмигивали друг другу,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083030.mp3"
+      },
+      {
+        "ayah": 31,
+        "text_ar": "وَإِذَا ٱنقَلَبُوٓا۟ إِلَىٰٓ أَهْلِهِمُ ٱنقَلَبُوا۟ فَكِهِينَ",
+        "text_ru": "возвращаясь к своим семьям, они возвращались радостными (или),",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083031.mp3"
+      },
+      {
+        "ayah": 32,
+        "text_ar": "وَإِذَا رَأَوْهُمْ قَالُوٓا۟ إِنَّ هَٰٓؤُلَآءِ لَضَآلُّونَ",
+        "text_ru": "а при виде их они говорили: «Воистину, эти впали в заблуждение».",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083032.mp3"
+      },
+      {
+        "ayah": 33,
+        "text_ar": "وَمَآ أُرْسِلُوا۟ عَلَيْهِمْ حَٰفِظِينَ",
+        "text_ru": "А ведь они не были посланы к ним хранителями.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083033.mp3"
+      },
+      {
+        "ayah": 34,
+        "text_ar": "فَٱلْيَوْمَ ٱلَّذِينَ ءَامَنُوا۟ مِنَ ٱلْكُفَّارِ يَضْحَكُونَ",
+        "text_ru": "В тот день верующие будут смеяться над неверующими",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083034.mp3"
+      },
+      {
+        "ayah": 35,
+        "text_ar": "عَلَى ٱلْأَرَآئِكِ يَنظُرُونَ",
+        "text_ru": "и на ложах созерцать райские блага и то ужасное положение, в котором окажутся грешники.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083035.mp3"
+      },
+      {
+        "ayah": 36,
+        "text_ar": "هَلْ ثُوِّبَ ٱلْكُفَّارُ مَا كَانُوا۟ يَفْعَلُونَ",
+        "text_ru": "Разве неверующие не получат воздаяние за то, что они совершали?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/083036.mp3"
+      }
+    ]
+  },
+  {
+    "number": 84,
+    "name_ar": "الانشِقَاقِ",
+    "name_en": "Al-Inshiqaaq",
+    "ayahs_count": 25,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "إِذَا ٱلسَّمَآءُ ٱنشَقَّتْ",
+        "text_ru": "Когда небо разверзнется",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
+        "text_ru": "и внемлет своему Господу, как ему надлежит,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "وَإِذَا ٱلْأَرْضُ مُدَّتْ",
+        "text_ru": "когда земля будет распростерта,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "وَأَلْقَتْ مَا فِيهَا وَتَخَلَّتْ",
+        "text_ru": "извергнет то, что в ней, и опустеет,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
+        "text_ru": "и внемлет своему Господу, как ей надлежит...",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "يَٰٓأَيُّهَا ٱلْإِنسَٰنُ إِنَّكَ كَادِحٌ إِلَىٰ رَبِّكَ كَدْحًۭا فَمُلَٰقِيهِ",
+        "text_ru": "О человек! Ты стремишься к своему Господу и встретишься с Ним.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "فَأَمَّا مَنْ أُوتِىَ كِتَٰبَهُۥ بِيَمِينِهِۦ",
+        "text_ru": "Тот, кому его книга будет вручена в правую руку,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "فَسَوْفَ يُحَاسَبُ حِسَابًۭا يَسِيرًۭا",
+        "text_ru": "получит легкий расчет",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084008.mp3"
+      },
+      {
+        "ayah": 9,
+        "text_ar": "وَيَنقَلِبُ إِلَىٰٓ أَهْلِهِۦ مَسْرُورًۭا",
+        "text_ru": "и вернется к своей семье радостным.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084009.mp3"
+      },
+      {
+        "ayah": 10,
+        "text_ar": "وَأَمَّا مَنْ أُوتِىَ كِتَٰبَهُۥ وَرَآءَ ظَهْرِهِۦ",
+        "text_ru": "А тот, кому его книга будет вручена из-за спины,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084010.mp3"
+      },
+      {
+        "ayah": 11,
+        "text_ar": "فَسَوْفَ يَدْعُوا۟ ثُبُورًۭا",
+        "text_ru": "станет призывать погибель",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084011.mp3"
+      },
+      {
+        "ayah": 12,
+        "text_ar": "وَيَصْلَىٰ سَعِيرًا",
+        "text_ru": "и войдет в Пламень.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084012.mp3"
+      },
+      {
+        "ayah": 13,
+        "text_ar": "إِنَّهُۥ كَانَ فِىٓ أَهْلِهِۦ مَسْرُورًا",
+        "text_ru": "Он радовался, находясь в кругу своей семьи,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084013.mp3"
+      },
+      {
+        "ayah": 14,
+        "text_ar": "إِنَّهُۥ ظَنَّ أَن لَّن يَحُورَ",
+        "text_ru": "и полагал, что не вернется обратно.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084014.mp3"
+      },
+      {
+        "ayah": 15,
+        "text_ar": "بَلَىٰٓ إِنَّ رَبَّهُۥ كَانَ بِهِۦ بَصِيرًۭا",
+        "text_ru": "Но нет! Господь его видел его.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084015.mp3"
+      },
+      {
+        "ayah": 16,
+        "text_ar": "فَلَآ أُقْسِمُ بِٱلشَّفَقِ",
+        "text_ru": "Но нет! Клянусь вечерней зарею!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084016.mp3"
+      },
+      {
+        "ayah": 17,
+        "text_ar": "وَٱلَّيْلِ وَمَا وَسَقَ",
+        "text_ru": "Клянусь ночью и тем, что она собирает!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084017.mp3"
+      },
+      {
+        "ayah": 18,
+        "text_ar": "وَٱلْقَمَرِ إِذَا ٱتَّسَقَ",
+        "text_ru": "Клянусь луной в полнолуние!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084018.mp3"
+      },
+      {
+        "ayah": 19,
+        "text_ar": "لَتَرْكَبُنَّ طَبَقًا عَن طَبَقٍۢ",
+        "text_ru": "Вы переходите из одного состояния в другое.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084019.mp3"
+      },
+      {
+        "ayah": 20,
+        "text_ar": "فَمَا لَهُمْ لَا يُؤْمِنُونَ",
+        "text_ru": "Почему же они не веруют",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084020.mp3"
+      },
+      {
+        "ayah": 21,
+        "text_ar": "وَإِذَا قُرِئَ عَلَيْهِمُ ٱلْقُرْءَانُ لَا يَسْجُدُونَ ۩",
+        "text_ru": "и не падают ниц, когда им читают Коран?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084021.mp3"
+      },
+      {
+        "ayah": 22,
+        "text_ar": "بَلِ ٱلَّذِينَ كَفَرُوا۟ يُكَذِّبُونَ",
+        "text_ru": "Но неверующие считают это ложью,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084022.mp3"
+      },
+      {
+        "ayah": 23,
+        "text_ar": "وَٱللَّهُ أَعْلَمُ بِمَا يُوعُونَ",
+        "text_ru": "Аллаху же лучше знать, что они хранят (какие добрые и злые деяния они совершают).",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084023.mp3"
+      },
+      {
+        "ayah": 24,
+        "text_ar": "فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ",
+        "text_ru": "Обрадуй же их мучительными страданиями,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084024.mp3"
+      },
+      {
+        "ayah": 25,
+        "text_ar": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۭ",
+        "text_ru": "кроме тех, которые уверовали и совершали праведные деяния. Им уготована награда неиссякаемая.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/084025.mp3"
+      }
+    ]
+  },
+  {
+    "number": 85,
+    "name_ar": "البُرُوجِ",
+    "name_en": "Al-Burooj",
+    "ayahs_count": 22,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "وَٱلسَّمَآءِ ذَاتِ ٱلْبُرُوجِ",
+        "text_ru": "Клянусь небом с созвездиями Зодиака!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/085001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "وَٱلْيَوْمِ ٱلْمَوْعُودِ",
+        "text_ru": "Клянусь днем обещанным!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/085002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "وَشَاهِدٍۢ وَمَشْهُودٍۢ",
+        "text_ru": "Клянусь свидетельствующим и засвидетельствованным!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/085003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "قُتِلَ أَصْحَٰبُ ٱلْأُخْدُودِ",
+        "text_ru": "Да сгинут собравшиеся у рва -",
+        "audio": "https://verses.quran.com/Alafasy/mp3/085004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "ٱلنَّارِ ذَاتِ ٱلْوَقُودِ",
+        "text_ru": "огненного, поддерживаемого растопкой!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/085005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "إِذْ هُمْ عَلَيْهَا قُعُودٌۭ",
+        "text_ru": "Вот они уселись возле него,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/085006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "وَهُمْ عَلَىٰ مَا يَفْعَلُونَ بِٱلْمُؤْمِنِينَ شُهُودٌۭ",
+        "text_ru": "будучи свидетелями того, что творят с верующими.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/085007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "وَمَا نَقَمُوا۟ مِنْهُمْ إِلَّآ أَن يُؤْمِنُوا۟ بِٱللَّهِ ٱلْعَزِيزِ ٱلْحَمِيدِ",
+        "text_ru": "Они вымещали им только за то, что те уверовали в Аллаха Могущественного, Достохвального,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/085008.mp3"
+      },
+      {
+        "ayah": 9,
+        "text_ar": "ٱلَّذِى لَهُۥ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍۢ شَهِيدٌ",
+        "text_ru": "Которому принадлежит власть над небесами и землей. Аллах же - Свидетель всякой вещи!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/085009.mp3"
+      },
+      {
+        "ayah": 10,
+        "text_ar": "إِنَّ ٱلَّذِينَ فَتَنُوا۟ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ ثُمَّ لَمْ يَتُوبُوا۟ فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ ٱلْحَرِيقِ",
+        "text_ru": "Тем, которые подвергли искушению (или сожгли в огне) верующих мужчин и женщин и не раскаялись, уготованы мучения в Геенне, мучения от обжигающего Огня.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/085010.mp3"
+      },
+      {
+        "ayah": 11,
+        "text_ar": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَهُمْ جَنَّٰتٌۭ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْكَبِيرُ",
+        "text_ru": "Тем же, которые уверовали и совершали праведные деяния, уготованы Райские сады, в которых текут реки. Это - великое преуспеяние!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/085011.mp3"
+      },
+      {
+        "ayah": 12,
+        "text_ar": "إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ",
+        "text_ru": "Воистину, Хватка твоего Господа сурова!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/085012.mp3"
+      },
+      {
+        "ayah": 13,
+        "text_ar": "إِنَّهُۥ هُوَ يُبْدِئُ وَيُعِيدُ",
+        "text_ru": "Воистину, Он начинает и повторяет (создает творение в первый раз и воссоздает его или начинает наказывать в этом мире и возобновляет наказание в Последней жизни).",
+        "audio": "https://verses.quran.com/Alafasy/mp3/085013.mp3"
+      },
+      {
+        "ayah": 14,
+        "text_ar": "وَهُوَ ٱلْغَفُورُ ٱلْوَدُودُ",
+        "text_ru": "Он - Прощающий, Любящий (или Любимый),",
+        "audio": "https://verses.quran.com/Alafasy/mp3/085014.mp3"
+      },
+      {
+        "ayah": 15,
+        "text_ar": "ذُو ٱلْعَرْشِ ٱلْمَجِيدُ",
+        "text_ru": "Владыка Трона, Славный (или Владыка Трона славного).",
+        "audio": "https://verses.quran.com/Alafasy/mp3/085015.mp3"
+      },
+      {
+        "ayah": 16,
+        "text_ar": "فَعَّالٌۭ لِّمَا يُرِيدُ",
+        "text_ru": "Он вершит то, что пожелает.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/085016.mp3"
+      },
+      {
+        "ayah": 17,
+        "text_ar": "هَلْ أَتَىٰكَ حَدِيثُ ٱلْجُنُودِ",
+        "text_ru": "Дошел ли до тебя рассказ о воинствах,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/085017.mp3"
+      },
+      {
+        "ayah": 18,
+        "text_ar": "فِرْعَوْنَ وَثَمُودَ",
+        "text_ru": "о Фараоне и самудянах?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/085018.mp3"
+      },
+      {
+        "ayah": 19,
+        "text_ar": "بَلِ ٱلَّذِينَ كَفَرُوا۟ فِى تَكْذِيبٍۢ",
+        "text_ru": "Но неверующие считают это ложью,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/085019.mp3"
+      },
+      {
+        "ayah": 20,
+        "text_ar": "وَٱللَّهُ مِن وَرَآئِهِم مُّحِيطٌۢ",
+        "text_ru": "Аллах же окружает их сзади.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/085020.mp3"
+      },
+      {
+        "ayah": 21,
+        "text_ar": "بَلْ هُوَ قُرْءَانٌۭ مَّجِيدٌۭ",
+        "text_ru": "Да, это - славный Коран",
+        "audio": "https://verses.quran.com/Alafasy/mp3/085021.mp3"
+      },
+      {
+        "ayah": 22,
+        "text_ar": "فِى لَوْحٍۢ مَّحْفُوظٍۭ",
+        "text_ru": "в Хранимой скрижали.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/085022.mp3"
+      }
+    ]
+  },
+  {
+    "number": 86,
+    "name_ar": "الطَّارِقِ",
+    "name_en": "At-Taariq",
+    "ayahs_count": 17,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "وَٱلسَّمَآءِ وَٱلطَّارِقِ",
+        "text_ru": "Клянусь небом и ночным путником!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/086001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "وَمَآ أَدْرَىٰكَ مَا ٱلطَّارِقُ",
+        "text_ru": "Откуда ты мог знать, что такое ночной путник?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/086002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "ٱلنَّجْمُ ٱلثَّاقِبُ",
+        "text_ru": "Это - звезда пронизывающая небеса своим светом.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/086003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "إِن كُلُّ نَفْسٍۢ لَّمَّا عَلَيْهَا حَافِظٌۭ",
+        "text_ru": "Нет души, при которой не было бы хранителя.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/086004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "فَلْيَنظُرِ ٱلْإِنسَٰنُ مِمَّ خُلِقَ",
+        "text_ru": "Пусть посмотрит человек, из чего он создан.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/086005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "خُلِقَ مِن مَّآءٍۢ دَافِقٍۢ",
+        "text_ru": "Он создан из изливающейся жидкости,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/086006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "يَخْرُجُ مِنۢ بَيْنِ ٱلصُّلْبِ وَٱلتَّرَآئِبِ",
+        "text_ru": "которая выходит между чреслами и грудными костями.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/086007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "إِنَّهُۥ عَلَىٰ رَجْعِهِۦ لَقَادِرٌۭ",
+        "text_ru": "Воистину, Он способен вернуть его.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/086008.mp3"
+      },
+      {
+        "ayah": 9,
+        "text_ar": "يَوْمَ تُبْلَى ٱلسَّرَآئِرُ",
+        "text_ru": "В тот день будут испытаны (или раскроются) тайны,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/086009.mp3"
+      },
+      {
+        "ayah": 10,
+        "text_ar": "فَمَا لَهُۥ مِن قُوَّةٍۢ وَلَا نَاصِرٍۢ",
+        "text_ru": "и тогда не будет у него ни силы, ни помощника.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/086010.mp3"
+      },
+      {
+        "ayah": 11,
+        "text_ar": "وَٱلسَّمَآءِ ذَاتِ ٱلرَّجْعِ",
+        "text_ru": "Клянусь небом возвращающим (возвращающим воду земле или возвращающим небесные тела, которые восходят с одной стороны и заходят в другой)!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/086011.mp3"
+      },
+      {
+        "ayah": 12,
+        "text_ar": "وَٱلْأَرْضِ ذَاتِ ٱلصَّدْعِ",
+        "text_ru": "Клянусь землей раскалываемой (при прорастании растений, или при выходе из земли воды, или при воскрешении мертвых)!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/086012.mp3"
+      },
+      {
+        "ayah": 13,
+        "text_ar": "إِنَّهُۥ لَقَوْلٌۭ فَصْلٌۭ",
+        "text_ru": "Воистину, это - Слово различающее,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/086013.mp3"
+      },
+      {
+        "ayah": 14,
+        "text_ar": "وَمَا هُوَ بِٱلْهَزْلِ",
+        "text_ru": "а не шутка.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/086014.mp3"
+      },
+      {
+        "ayah": 15,
+        "text_ar": "إِنَّهُمْ يَكِيدُونَ كَيْدًۭا",
+        "text_ru": "Они замышляют козни,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/086015.mp3"
+      },
+      {
+        "ayah": 16,
+        "text_ar": "وَأَكِيدُ كَيْدًۭا",
+        "text_ru": "и Я замышляю козни.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/086016.mp3"
+      },
+      {
+        "ayah": 17,
+        "text_ar": "فَمَهِّلِ ٱلْكَٰفِرِينَ أَمْهِلْهُمْ رُوَيْدًۢا",
+        "text_ru": "Предоставь же неверующим отсрочку, помедли с ними недолго!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/086017.mp3"
+      }
+    ]
+  },
+  {
+    "number": 87,
+    "name_ar": "الأَعۡلَىٰ",
+    "name_en": "Al-A'laa",
+    "ayahs_count": 19,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى",
+        "text_ru": "Славь имя Господа твоего Всевышнего,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/087001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "ٱلَّذِى خَلَقَ فَسَوَّىٰ",
+        "text_ru": "Который сотворил все сущее и всему придал соразмерность,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/087002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "وَٱلَّذِى قَدَّرَ فَهَدَىٰ",
+        "text_ru": "Который предопределил судьбу творений и указал путь,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/087003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "وَٱلَّذِىٓ أَخْرَجَ ٱلْمَرْعَىٰ",
+        "text_ru": "Который взрастил пастбища,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/087004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "فَجَعَلَهُۥ غُثَآءً أَحْوَىٰ",
+        "text_ru": "а потом превратил их в темный сор.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/087005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "سَنُقْرِئُكَ فَلَا تَنسَىٰٓ",
+        "text_ru": "Мы позволим тебе прочесть Коран, и ты не забудешь ничего,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/087006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "إِلَّا مَا شَآءَ ٱللَّهُ ۚ إِنَّهُۥ يَعْلَمُ ٱلْجَهْرَ وَمَا يَخْفَىٰ",
+        "text_ru": "кроме того, что пожелает Аллах. Он знает явное и то, что сокрыто.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/087007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "وَنُيَسِّرُكَ لِلْيُسْرَىٰ",
+        "text_ru": "Мы облегчим тебе путь к легчайшему.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/087008.mp3"
+      },
+      {
+        "ayah": 9,
+        "text_ar": "فَذَكِّرْ إِن نَّفَعَتِ ٱلذِّكْرَىٰ",
+        "text_ru": "Наставляй же людей, если напоминание принесет пользу.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/087009.mp3"
+      },
+      {
+        "ayah": 10,
+        "text_ar": "سَيَذَّكَّرُ مَن يَخْشَىٰ",
+        "text_ru": "Воспримет его тот, кто страшится,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/087010.mp3"
+      },
+      {
+        "ayah": 11,
+        "text_ar": "وَيَتَجَنَّبُهَا ٱلْأَشْقَى",
+        "text_ru": "и уклонится от него самый несчастный,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/087011.mp3"
+      },
+      {
+        "ayah": 12,
+        "text_ar": "ٱلَّذِى يَصْلَى ٱلنَّارَ ٱلْكُبْرَىٰ",
+        "text_ru": "который войдет в Огонь величайший.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/087012.mp3"
+      },
+      {
+        "ayah": 13,
+        "text_ar": "ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ",
+        "text_ru": "Не умрет он там и не будет жить.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/087013.mp3"
+      },
+      {
+        "ayah": 14,
+        "text_ar": "قَدْ أَفْلَحَ مَن تَزَكَّىٰ",
+        "text_ru": "Преуспел тот, кто очистился,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/087014.mp3"
+      },
+      {
+        "ayah": 15,
+        "text_ar": "وَذَكَرَ ٱسْمَ رَبِّهِۦ فَصَلَّىٰ",
+        "text_ru": "поминал имя своего Господа и совершал намаз.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/087015.mp3"
+      },
+      {
+        "ayah": 16,
+        "text_ar": "بَلْ تُؤْثِرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+        "text_ru": "Но нет! Вы отдаете предпочтение мирской жизни,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/087016.mp3"
+      },
+      {
+        "ayah": 17,
+        "text_ar": "وَٱلْءَاخِرَةُ خَيْرٌۭ وَأَبْقَىٰٓ",
+        "text_ru": "хотя Последняя жизнь - лучше и дольше.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/087017.mp3"
+      },
+      {
+        "ayah": 18,
+        "text_ar": "إِنَّ هَٰذَا لَفِى ٱلصُّحُفِ ٱلْأُولَىٰ",
+        "text_ru": "Воистину, это записано в первых свитках -",
+        "audio": "https://verses.quran.com/Alafasy/mp3/087018.mp3"
+      },
+      {
+        "ayah": 19,
+        "text_ar": "صُحُفِ إِبْرَٰهِيمَ وَمُوسَىٰ",
+        "text_ru": "свитках Ибрахима (Авраама) и Мусы (Моисея).",
+        "audio": "https://verses.quran.com/Alafasy/mp3/087019.mp3"
+      }
+    ]
+  },
+  {
+    "number": 88,
+    "name_ar": "الغَاشِيَةِ",
+    "name_en": "Al-Ghaashiya",
+    "ayahs_count": 26,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "هَلْ أَتَىٰكَ حَدِيثُ ٱلْغَٰشِيَةِ",
+        "text_ru": "Дошел ли до тебя рассказ о Покрывающем (Дне воскресения)?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "وُجُوهٌۭ يَوْمَئِذٍ خَٰشِعَةٌ",
+        "text_ru": "Одни лица в тот день будут унижены,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "عَامِلَةٌۭ نَّاصِبَةٌۭ",
+        "text_ru": "изнурены и утомлены.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "تَصْلَىٰ نَارًا حَامِيَةًۭ",
+        "text_ru": "Они войдут в Огонь жаркий.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "تُسْقَىٰ مِنْ عَيْنٍ ءَانِيَةٍۢ",
+        "text_ru": "Их будут поить из источника кипящего",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍۢ",
+        "text_ru": "и кормить только ядовитыми колючками,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "لَّا يُسْمِنُ وَلَا يُغْنِى مِن جُوعٍۢ",
+        "text_ru": "от которых не поправляются и которые не утоляют голода.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "وُجُوهٌۭ يَوْمَئِذٍۢ نَّاعِمَةٌۭ",
+        "text_ru": "Другие же лица в тот день будут радостны.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088008.mp3"
+      },
+      {
+        "ayah": 9,
+        "text_ar": "لِّسَعْيِهَا رَاضِيَةٌۭ",
+        "text_ru": "Они будут довольны своими стараниями",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088009.mp3"
+      },
+      {
+        "ayah": 10,
+        "text_ar": "فِى جَنَّةٍ عَالِيَةٍۢ",
+        "text_ru": "в Вышних садах.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088010.mp3"
+      },
+      {
+        "ayah": 11,
+        "text_ar": "لَّا تَسْمَعُ فِيهَا لَٰغِيَةًۭ",
+        "text_ru": "Они не услышат там словоблудия.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088011.mp3"
+      },
+      {
+        "ayah": 12,
+        "text_ar": "فِيهَا عَيْنٌۭ جَارِيَةٌۭ",
+        "text_ru": "Там есть источник текущий.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088012.mp3"
+      },
+      {
+        "ayah": 13,
+        "text_ar": "فِيهَا سُرُرٌۭ مَّرْفُوعَةٌۭ",
+        "text_ru": "Там воздвигнуты ложа,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088013.mp3"
+      },
+      {
+        "ayah": 14,
+        "text_ar": "وَأَكْوَابٌۭ مَّوْضُوعَةٌۭ",
+        "text_ru": "расставлены чаши,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088014.mp3"
+      },
+      {
+        "ayah": 15,
+        "text_ar": "وَنَمَارِقُ مَصْفُوفَةٌۭ",
+        "text_ru": "разложены подушки,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088015.mp3"
+      },
+      {
+        "ayah": 16,
+        "text_ar": "وَزَرَابِىُّ مَبْثُوثَةٌ",
+        "text_ru": "и разостланы ковры.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088016.mp3"
+      },
+      {
+        "ayah": 17,
+        "text_ar": "أَفَلَا يَنظُرُونَ إِلَى ٱلْإِبِلِ كَيْفَ خُلِقَتْ",
+        "text_ru": "Неужели они не видят, как созданы верблюды,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088017.mp3"
+      },
+      {
+        "ayah": 18,
+        "text_ar": "وَإِلَى ٱلسَّمَآءِ كَيْفَ رُفِعَتْ",
+        "text_ru": "как вознесено небо,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088018.mp3"
+      },
+      {
+        "ayah": 19,
+        "text_ar": "وَإِلَى ٱلْجِبَالِ كَيْفَ نُصِبَتْ",
+        "text_ru": "как водружены горы,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088019.mp3"
+      },
+      {
+        "ayah": 20,
+        "text_ar": "وَإِلَى ٱلْأَرْضِ كَيْفَ سُطِحَتْ",
+        "text_ru": "как распростерта земля?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088020.mp3"
+      },
+      {
+        "ayah": 21,
+        "text_ar": "فَذَكِّرْ إِنَّمَآ أَنتَ مُذَكِّرٌۭ",
+        "text_ru": "Наставляй же, ведь ты - наставник,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088021.mp3"
+      },
+      {
+        "ayah": 22,
+        "text_ar": "لَّسْتَ عَلَيْهِم بِمُصَيْطِرٍ",
+        "text_ru": "и ты не властен над ними.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088022.mp3"
+      },
+      {
+        "ayah": 23,
+        "text_ar": "إِلَّا مَن تَوَلَّىٰ وَكَفَرَ",
+        "text_ru": "А тех, кто отвернется и не уверует,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088023.mp3"
+      },
+      {
+        "ayah": 24,
+        "text_ar": "فَيُعَذِّبُهُ ٱللَّهُ ٱلْعَذَابَ ٱلْأَكْبَرَ",
+        "text_ru": "Аллах подвергнет величайшим мучениям.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088024.mp3"
+      },
+      {
+        "ayah": 25,
+        "text_ar": "إِنَّ إِلَيْنَآ إِيَابَهُمْ",
+        "text_ru": "К Нам они вернутся,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088025.mp3"
+      },
+      {
+        "ayah": 26,
+        "text_ar": "ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُم",
+        "text_ru": "и затем Мы потребуем у них отчета.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/088026.mp3"
+      }
+    ]
+  },
+  {
+    "number": 89,
+    "name_ar": "الفَجۡرِ",
+    "name_en": "Al-Fajr",
+    "ayahs_count": 30,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "وَٱلْفَجْرِ",
+        "text_ru": "Клянусь зарею!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "وَلَيَالٍ عَشْرٍۢ",
+        "text_ru": "Клянусь десятью ночами!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "وَٱلشَّفْعِ وَٱلْوَتْرِ",
+        "text_ru": "Клянусь четом и нечетом!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "وَٱلَّيْلِ إِذَا يَسْرِ",
+        "text_ru": "Клянусь ночью, когда она проходит!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "هَلْ فِى ذَٰلِكَ قَسَمٌۭ لِّذِى حِجْرٍ",
+        "text_ru": "Неужели этих клятв не достаточно для обладающего разумом?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ",
+        "text_ru": "Неужели ты не видел, как Господь твой поступил с адитами -",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "إِرَمَ ذَاتِ ٱلْعِمَادِ",
+        "text_ru": "народом Ирама, обладавшим колоннами (воздвигавшим высокие здания с колоннами или обладавшим могучим сложением и огромной силой),",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "ٱلَّتِى لَمْ يُخْلَقْ مِثْلُهَا فِى ٱلْبِلَٰدِ",
+        "text_ru": "подобных которому не было сотворено в городах?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089008.mp3"
+      },
+      {
+        "ayah": 9,
+        "text_ar": "وَثَمُودَ ٱلَّذِينَ جَابُوا۟ ٱلصَّخْرَ بِٱلْوَادِ",
+        "text_ru": "С самудянами, рассекавшими скалы в лощине?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089009.mp3"
+      },
+      {
+        "ayah": 10,
+        "text_ar": "وَفِرْعَوْنَ ذِى ٱلْأَوْتَادِ",
+        "text_ru": "С Фараоном, владевшим кольями (обладавшим множеством воинов, которые поддерживали его власть, подобно тому, как колышки поддерживают шатер, или привязывавшим людей к кольям во время казни)?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089010.mp3"
+      },
+      {
+        "ayah": 11,
+        "text_ar": "ٱلَّذِينَ طَغَوْا۟ فِى ٱلْبِلَٰدِ",
+        "text_ru": "Они преступали границы дозволенного на земле",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089011.mp3"
+      },
+      {
+        "ayah": 12,
+        "text_ar": "فَأَكْثَرُوا۟ فِيهَا ٱلْفَسَادَ",
+        "text_ru": "и распространяли в них много нечестия.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089012.mp3"
+      },
+      {
+        "ayah": 13,
+        "text_ar": "فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ",
+        "text_ru": "Тогда твой Господь пролил на них бич мучений.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089013.mp3"
+      },
+      {
+        "ayah": 14,
+        "text_ar": "إِنَّ رَبَّكَ لَبِٱلْمِرْصَادِ",
+        "text_ru": "Воистину, твой Господь - в засаде (предоставляет отсрочку грешникам, чтобы затем неожиданно наказать их за ослушание).",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089014.mp3"
+      },
+      {
+        "ayah": 15,
+        "text_ar": "فَأَمَّا ٱلْإِنسَٰنُ إِذَا مَا ٱبْتَلَىٰهُ رَبُّهُۥ فَأَكْرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّىٓ أَكْرَمَنِ",
+        "text_ru": "Когда Господь испытывает человека, оказывая ему милость и одаряя его благами, тот говорит: «Господь мой почтил меня!».",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089015.mp3"
+      },
+      {
+        "ayah": 16,
+        "text_ar": "وَأَمَّآ إِذَا مَا ٱبْتَلَىٰهُ فَقَدَرَ عَلَيْهِ رِزْقَهُۥ فَيَقُولُ رَبِّىٓ أَهَٰنَنِ",
+        "text_ru": "Когда же Он испытывает его, ограничивая его в пропитании, тот говорит: «Господь мой унизил меня!».",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089016.mp3"
+      },
+      {
+        "ayah": 17,
+        "text_ar": "كَلَّا ۖ بَل لَّا تُكْرِمُونَ ٱلْيَتِيمَ",
+        "text_ru": "Но нет! Вы же сами не почитаете сироту,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089017.mp3"
+      },
+      {
+        "ayah": 18,
+        "text_ar": "وَلَا تَحَٰٓضُّونَ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+        "text_ru": "не побуждаете друг друга кормить бедняка,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089018.mp3"
+      },
+      {
+        "ayah": 19,
+        "text_ar": "وَتَأْكُلُونَ ٱلتُّرَاثَ أَكْلًۭا لَّمًّۭا",
+        "text_ru": "жадно (или целиком) пожираете наследство",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089019.mp3"
+      },
+      {
+        "ayah": 20,
+        "text_ar": "وَتُحِبُّونَ ٱلْمَالَ حُبًّۭا جَمًّۭا",
+        "text_ru": "и страстно любите богатство.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089020.mp3"
+      },
+      {
+        "ayah": 21,
+        "text_ar": "كَلَّآ إِذَا دُكَّتِ ٱلْأَرْضُ دَكًّۭا دَكًّۭا",
+        "text_ru": "Но нет! Когда земля разобьется и превратится в песок.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089021.mp3"
+      },
+      {
+        "ayah": 22,
+        "text_ar": "وَجَآءَ رَبُّكَ وَٱلْمَلَكُ صَفًّۭا صَفًّۭا",
+        "text_ru": "и твой Господь придет с ангелами, выстроившимися рядами,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089022.mp3"
+      },
+      {
+        "ayah": 23,
+        "text_ar": "وَجِا۟ىٓءَ يَوْمَئِذٍۭ بِجَهَنَّمَ ۚ يَوْمَئِذٍۢ يَتَذَكَّرُ ٱلْإِنسَٰنُ وَأَنَّىٰ لَهُ ٱلذِّكْرَىٰ",
+        "text_ru": "в тот день приведут Геенну, и тогда человек помянет назидание. Но к чему такое поминание?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089023.mp3"
+      },
+      {
+        "ayah": 24,
+        "text_ar": "يَقُولُ يَٰلَيْتَنِى قَدَّمْتُ لِحَيَاتِى",
+        "text_ru": "Он скажет: «Эх, если бы я заранее позаботился о своей жизни!».",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089024.mp3"
+      },
+      {
+        "ayah": 25,
+        "text_ar": "فَيَوْمَئِذٍۢ لَّا يُعَذِّبُ عَذَابَهُۥٓ أَحَدٌۭ",
+        "text_ru": "В тот день никто не причинит таких мучений, как Он,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089025.mp3"
+      },
+      {
+        "ayah": 26,
+        "text_ar": "وَلَا يُوثِقُ وَثَاقَهُۥٓ أَحَدٌۭ",
+        "text_ru": "и никто не наложит таких оков, как Он.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089026.mp3"
+      },
+      {
+        "ayah": 27,
+        "text_ar": "يَٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ",
+        "text_ru": "О обретшая покой душа!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089027.mp3"
+      },
+      {
+        "ayah": 28,
+        "text_ar": "ٱرْجِعِىٓ إِلَىٰ رَبِّكِ رَاضِيَةًۭ مَّرْضِيَّةًۭ",
+        "text_ru": "Вернись к своему Господу удовлетворенной и снискавшей довольство!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089028.mp3"
+      },
+      {
+        "ayah": 29,
+        "text_ar": "فَٱدْخُلِى فِى عِبَٰدِى",
+        "text_ru": "Войди в круг Моих рабов!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089029.mp3"
+      },
+      {
+        "ayah": 30,
+        "text_ar": "وَٱدْخُلِى جَنَّتِى",
+        "text_ru": "Войди в Мой Рай!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/089030.mp3"
+      }
+    ]
+  },
+  {
+    "number": 90,
+    "name_ar": "البَلَدِ",
+    "name_en": "Al-Balad",
+    "ayahs_count": 20,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "لَآ أُقْسِمُ بِهَٰذَا ٱلْبَلَدِ",
+        "text_ru": "Нет, клянусь этим городом (Меккой)!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/090001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "وَأَنتَ حِلٌّۢ بِهَٰذَا ٱلْبَلَدِ",
+        "text_ru": "Ты обитаешь в этом городе (или Тебе будет дозволено сражаться в этом городе).",
+        "audio": "https://verses.quran.com/Alafasy/mp3/090002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "وَوَالِدٍۢ وَمَا وَلَدَ",
+        "text_ru": "Клянусь родителем и тем, кого он породил (Адамом и его потомством, или Ибрахимом и его потомками, в том числе Исмаилом и Мухаммадом)!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/090003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِى كَبَدٍ",
+        "text_ru": "Мы создали человека в тяготах.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/090004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "أَيَحْسَبُ أَن لَّن يَقْدِرَ عَلَيْهِ أَحَدٌۭ",
+        "text_ru": "Неужели он полагает, что никто не справится с ним?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/090005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "يَقُولُ أَهْلَكْتُ مَالًۭا لُّبَدًا",
+        "text_ru": "Он говорит: «Я погубил богатство несметное!».",
+        "audio": "https://verses.quran.com/Alafasy/mp3/090006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "أَيَحْسَبُ أَن لَّمْ يَرَهُۥٓ أَحَدٌ",
+        "text_ru": "Неужели он полагает, что никто не видел его?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/090007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "أَلَمْ نَجْعَل لَّهُۥ عَيْنَيْنِ",
+        "text_ru": "Разве Мы не наделили его двумя глазами,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/090008.mp3"
+      },
+      {
+        "ayah": 9,
+        "text_ar": "وَلِسَانًۭا وَشَفَتَيْنِ",
+        "text_ru": "языком и двумя устами?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/090009.mp3"
+      },
+      {
+        "ayah": 10,
+        "text_ar": "وَهَدَيْنَٰهُ ٱلنَّجْدَيْنِ",
+        "text_ru": "Разве Мы не указали ему на две восходящие тропы?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/090010.mp3"
+      },
+      {
+        "ayah": 11,
+        "text_ar": "فَلَا ٱقْتَحَمَ ٱلْعَقَبَةَ",
+        "text_ru": "Но он не стал преодолевать крутую тропу.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/090011.mp3"
+      },
+      {
+        "ayah": 12,
+        "text_ar": "وَمَآ أَدْرَىٰكَ مَا ٱلْعَقَبَةُ",
+        "text_ru": "Откуда ты мог знать, что такое крутая тропа?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/090012.mp3"
+      },
+      {
+        "ayah": 13,
+        "text_ar": "فَكُّ رَقَبَةٍ",
+        "text_ru": "Это - освобождение раба",
+        "audio": "https://verses.quran.com/Alafasy/mp3/090013.mp3"
+      },
+      {
+        "ayah": 14,
+        "text_ar": "أَوْ إِطْعَٰمٌۭ فِى يَوْمٍۢ ذِى مَسْغَبَةٍۢ",
+        "text_ru": "или кормление в голодный день",
+        "audio": "https://verses.quran.com/Alafasy/mp3/090014.mp3"
+      },
+      {
+        "ayah": 15,
+        "text_ar": "يَتِيمًۭا ذَا مَقْرَبَةٍ",
+        "text_ru": "сироту из числа родственников",
+        "audio": "https://verses.quran.com/Alafasy/mp3/090015.mp3"
+      },
+      {
+        "ayah": 16,
+        "text_ar": "أَوْ مِسْكِينًۭا ذَا مَتْرَبَةٍۢ",
+        "text_ru": "или приникшего к земле бедняка.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/090016.mp3"
+      },
+      {
+        "ayah": 17,
+        "text_ar": "ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُوا۟ وَتَوَاصَوْا۟ بِٱلصَّبْرِ وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ",
+        "text_ru": "А после этого надо быть одним из тех, которые уверовали и заповедали друг другу терпение и заповедали друг другу милосердие.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/090017.mp3"
+      },
+      {
+        "ayah": 18,
+        "text_ar": "أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلْمَيْمَنَةِ",
+        "text_ru": "Таковы люди правой стороны.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/090018.mp3"
+      },
+      {
+        "ayah": 19,
+        "text_ar": "وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِنَا هُمْ أَصْحَٰبُ ٱلْمَشْـَٔمَةِ",
+        "text_ru": "Те же, которые не уверовали в Наши знамения, являются людьми левой стороны,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/090019.mp3"
+      },
+      {
+        "ayah": 20,
+        "text_ar": "عَلَيْهِمْ نَارٌۭ مُّؤْصَدَةٌۢ",
+        "text_ru": "над которыми сомкнется Огонь.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/090020.mp3"
+      }
+    ]
+  },
+  {
+    "number": 91,
+    "name_ar": "الشَّمۡسِ",
+    "name_en": "Ash-Shams",
+    "ayahs_count": 15,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "وَٱلشَّمْسِ وَضُحَىٰهَا",
+        "text_ru": "Клянусь солнцем и его утренним сиянием!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/091001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "وَٱلْقَمَرِ إِذَا تَلَىٰهَا",
+        "text_ru": "Клянусь луной, когда она следует за ним!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/091002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "وَٱلنَّهَارِ إِذَا جَلَّىٰهَا",
+        "text_ru": "Клянусь днем, когда он делает его (солнце) ясным!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/091003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "وَٱلَّيْلِ إِذَا يَغْشَىٰهَا",
+        "text_ru": "Клянусь ночью, когда она скрывает его (солнце)!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/091004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "وَٱلسَّمَآءِ وَمَا بَنَىٰهَا",
+        "text_ru": "Клянусь небом и Тем, Кто его воздвиг (или тем, как Он воздвиг его)!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/091005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "وَٱلْأَرْضِ وَمَا طَحَىٰهَا",
+        "text_ru": "Клянусь землей и Тем, Кто ее распростер (или тем, как Он распростер ее)!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/091006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "وَنَفْسٍۢ وَمَا سَوَّىٰهَا",
+        "text_ru": "Клянусь душой и Тем, Кто придал ей совершенный облик (или тем, как Он сделал ее облик совершенным)",
+        "audio": "https://verses.quran.com/Alafasy/mp3/091007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَىٰهَا",
+        "text_ru": "и внушил ей порочность ее и богобоязненность!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/091008.mp3"
+      },
+      {
+        "ayah": 9,
+        "text_ar": "قَدْ أَفْلَحَ مَن زَكَّىٰهَا",
+        "text_ru": "Преуспел тот, кто очистил ее,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/091009.mp3"
+      },
+      {
+        "ayah": 10,
+        "text_ar": "وَقَدْ خَابَ مَن دَسَّىٰهَا",
+        "text_ru": "и понес урон тот, кто скрыл ее (опорочил, облек в несправедливость).",
+        "audio": "https://verses.quran.com/Alafasy/mp3/091010.mp3"
+      },
+      {
+        "ayah": 11,
+        "text_ar": "كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ",
+        "text_ru": "Самудяне сочли лжецом пророка Салиха из-за своего беззакония,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/091011.mp3"
+      },
+      {
+        "ayah": 12,
+        "text_ar": "إِذِ ٱنۢبَعَثَ أَشْقَىٰهَا",
+        "text_ru": "и тогда самый несчастный из них вызвался убить верблюдицу.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/091012.mp3"
+      },
+      {
+        "ayah": 13,
+        "text_ar": "فَقَالَ لَهُمْ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقْيَٰهَا",
+        "text_ru": "Посланник Аллаха (Салих) сказал им: «Берегите верблюдицу и питье ее!».",
+        "audio": "https://verses.quran.com/Alafasy/mp3/091013.mp3"
+      },
+      {
+        "ayah": 14,
+        "text_ar": "فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم بِذَنۢبِهِمْ فَسَوَّىٰهَا",
+        "text_ru": "Они сочли его лжецом и подрезали ей поджилки, и за этот грех Господь их подверг их наказанию, которое было одинаковым для всех (или сровнял над ними землю).",
+        "audio": "https://verses.quran.com/Alafasy/mp3/091014.mp3"
+      },
+      {
+        "ayah": 15,
+        "text_ar": "وَلَا يَخَافُ عُقْبَٰهَا",
+        "text_ru": "И не опасался Он последствий этого.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/091015.mp3"
+      }
+    ]
+  },
+  {
+    "number": 92,
+    "name_ar": "اللَّيۡلِ",
+    "name_en": "Al-Lail",
+    "ayahs_count": 21,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "وَٱلَّيْلِ إِذَا يَغْشَىٰ",
+        "text_ru": "Клянусь ночью, когда она покрывает землю!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/092001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "وَٱلنَّهَارِ إِذَا تَجَلَّىٰ",
+        "text_ru": "Клянусь днем, когда он проясняется!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/092002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "وَمَا خَلَقَ ٱلذَّكَرَ وَٱلْأُنثَىٰٓ",
+        "text_ru": "Клянусь Тем, Кто создал мужчину и женщину!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/092003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "إِنَّ سَعْيَكُمْ لَشَتَّىٰ",
+        "text_ru": "Ваши стремления различны.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/092004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "فَأَمَّا مَنْ أَعْطَىٰ وَٱتَّقَىٰ",
+        "text_ru": "Тому, кто отдавал должное (или раздавал милостыню) и был богобоязнен,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/092005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "وَصَدَّقَ بِٱلْحُسْنَىٰ",
+        "text_ru": "кто признавал наилучшее (свидетельство единобожия или Рай),",
+        "audio": "https://verses.quran.com/Alafasy/mp3/092006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "فَسَنُيَسِّرُهُۥ لِلْيُسْرَىٰ",
+        "text_ru": "Мы облегчим путь к легчайшему (к праведным деяниям).",
+        "audio": "https://verses.quran.com/Alafasy/mp3/092007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ",
+        "text_ru": "А тому, кто был скуп и полагал, что ни в чем не нуждается,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/092008.mp3"
+      },
+      {
+        "ayah": 9,
+        "text_ar": "وَكَذَّبَ بِٱلْحُسْنَىٰ",
+        "text_ru": "кто счел ложью наилучшее (свидетельство единобожия или Рай),",
+        "audio": "https://verses.quran.com/Alafasy/mp3/092009.mp3"
+      },
+      {
+        "ayah": 10,
+        "text_ar": "فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ",
+        "text_ru": "Мы облегчим путь к тягчайшему (к злу и наказанию).",
+        "audio": "https://verses.quran.com/Alafasy/mp3/092010.mp3"
+      },
+      {
+        "ayah": 11,
+        "text_ar": "وَمَا يُغْنِى عَنْهُ مَالُهُۥٓ إِذَا تَرَدَّىٰٓ",
+        "text_ru": "Не спасет его достояние, когда он падет (в Геенну или погибнет).",
+        "audio": "https://verses.quran.com/Alafasy/mp3/092011.mp3"
+      },
+      {
+        "ayah": 12,
+        "text_ar": "إِنَّ عَلَيْنَا لَلْهُدَىٰ",
+        "text_ru": "Воистину, Нам надлежит вести прямым путем.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/092012.mp3"
+      },
+      {
+        "ayah": 13,
+        "text_ar": "وَإِنَّ لَنَا لَلْءَاخِرَةَ وَٱلْأُولَىٰ",
+        "text_ru": "Нам же принадлежат жизнь Последняя и первая.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/092013.mp3"
+      },
+      {
+        "ayah": 14,
+        "text_ar": "فَأَنذَرْتُكُمْ نَارًۭا تَلَظَّىٰ",
+        "text_ru": "Я предостерег вас от пылающего Огня.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/092014.mp3"
+      },
+      {
+        "ayah": 15,
+        "text_ar": "لَا يَصْلَىٰهَآ إِلَّا ٱلْأَشْقَى",
+        "text_ru": "Войдет в него только самый несчастный,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/092015.mp3"
+      },
+      {
+        "ayah": 16,
+        "text_ar": "ٱلَّذِى كَذَّبَ وَتَوَلَّىٰ",
+        "text_ru": "который считает истину ложью и отворачивается.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/092016.mp3"
+      },
+      {
+        "ayah": 17,
+        "text_ar": "وَسَيُجَنَّبُهَا ٱلْأَتْقَى",
+        "text_ru": "Отдален от него будет самый богобоязненный,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/092017.mp3"
+      },
+      {
+        "ayah": 18,
+        "text_ar": "ٱلَّذِى يُؤْتِى مَالَهُۥ يَتَزَكَّىٰ",
+        "text_ru": "который раздает свое имущество, очищаясь,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/092018.mp3"
+      },
+      {
+        "ayah": 19,
+        "text_ar": "وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍۢ تُجْزَىٰٓ",
+        "text_ru": "и всякую милость возмещает сполна",
+        "audio": "https://verses.quran.com/Alafasy/mp3/092019.mp3"
+      },
+      {
+        "ayah": 20,
+        "text_ar": "إِلَّا ٱبْتِغَآءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ",
+        "text_ru": "только из стремления к Лику своего Всевышнего Господа.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/092020.mp3"
+      },
+      {
+        "ayah": 21,
+        "text_ar": "وَلَسَوْفَ يَرْضَىٰ",
+        "text_ru": "И он непременно будет удовлетворен.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/092021.mp3"
+      }
+    ]
+  },
+  {
+    "number": 93,
+    "name_ar": "الضُّحَىٰ",
+    "name_en": "Ad-Dhuhaa",
+    "ayahs_count": 11,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "وَٱلضُّحَىٰ",
+        "text_ru": "Клянусь утром!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/093001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "وَٱلَّيْلِ إِذَا سَجَىٰ",
+        "text_ru": "Клянусь ночью, когда она успокаивается (или покрывается мраком)!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/093002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+        "text_ru": "Не покинул тебя твой Господь и не возненавидел.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/093003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "وَلَلْءَاخِرَةُ خَيْرٌۭ لَّكَ مِنَ ٱلْأُولَىٰ",
+        "text_ru": "Воистину, будущее для тебя лучше, чем настоящее.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/093004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ",
+        "text_ru": "Господь твой непременно одарит тебя, и ты будешь удовлетворен.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/093005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "أَلَمْ يَجِدْكَ يَتِيمًۭا فَـَٔاوَىٰ",
+        "text_ru": "Разве Он не нашел тебя сиротой и не дал тебе приют?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/093006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "وَوَجَدَكَ ضَآلًّۭا فَهَدَىٰ",
+        "text_ru": "Он нашел тебя заблудшим и повел прямым путем.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/093007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "وَوَجَدَكَ عَآئِلًۭا فَأَغْنَىٰ",
+        "text_ru": "Он нашел тебя бедным и обогатил.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/093008.mp3"
+      },
+      {
+        "ayah": 9,
+        "text_ar": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
+        "text_ru": "Посему не притесняй сироту!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/093009.mp3"
+      },
+      {
+        "ayah": 10,
+        "text_ar": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ",
+        "text_ru": "И не гони просящего!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/093010.mp3"
+      },
+      {
+        "ayah": 11,
+        "text_ar": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
+        "text_ru": "И возвещай о милости своего Господа.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/093011.mp3"
+      }
+    ]
+  },
+  {
+    "number": 94,
+    "name_ar": "الشَّرۡحِ",
+    "name_en": "Ash-Sharh",
+    "ayahs_count": 8,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
+        "text_ru": "Разве Мы не раскрыли для тебя грудь твою?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/094001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "وَوَضَعْنَا عَنكَ وِزْرَكَ",
+        "text_ru": "и не сняли с тебя ношу,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/094002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ",
+        "text_ru": "которая отягощала твою спину?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/094003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "وَرَفَعْنَا لَكَ ذِكْرَكَ",
+        "text_ru": "Разве Мы не возвеличили для тебя славу твою?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/094004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+        "text_ru": "Воистину, за каждой тягостью наступает облегчение.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/094005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "إِنَّ مَعَ ٱلْعُسْرِ يُسْرًۭا",
+        "text_ru": "За каждой тягостью наступает облегчение.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/094006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "فَإِذَا فَرَغْتَ فَٱنصَبْ",
+        "text_ru": "Посему, как только освободишься, будь деятелен (как только освободишься от мирских дел, усердно поклоняйся Аллаху, или как только завершишь намаз, усердно взывай к Аллаху с молитвами)",
+        "audio": "https://verses.quran.com/Alafasy/mp3/094007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "وَإِلَىٰ رَبِّكَ فَٱرْغَب",
+        "text_ru": "и устремись к своему Господу.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/094008.mp3"
+      }
+    ]
+  },
+  {
+    "number": 95,
+    "name_ar": "التِّينِ",
+    "name_en": "At-Tin",
+    "ayahs_count": 8,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلتِّينِ وَٱلزَّيْتُونِ",
+        "text_ru": "Клянусь смоковницей и оливой!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/095001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "وَطُورِ سِينِينَ",
+        "text_ru": "Клянусь горой Синин (Синай)!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/095002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "وَهَٰذَا ٱلْبَلَدِ ٱلْأَمِينِ",
+        "text_ru": "Клянусь этим безопасным городом (Меккой)!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/095003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍۢ",
+        "text_ru": "Мы сотворили человека в прекраснейшем облике.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/095004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "ثُمَّ رَدَدْنَٰهُ أَسْفَلَ سَٰفِلِينَ",
+        "text_ru": "Потом Мы вернем его в нижайшее из низких (продлим ему жизнь настолько, что он превратится в дряхлого старика, или бросим его на самое дно Геенны),",
+        "audio": "https://verses.quran.com/Alafasy/mp3/095005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۢ",
+        "text_ru": "за исключением тех, которые уверовали и совершали праведные деяния. Им уготована награда неиссякаемая.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/095006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "فَمَا يُكَذِّبُكَ بَعْدُ بِٱلدِّينِ",
+        "text_ru": "Что же после этого заставляет тебя считать ложью воздаяние?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/095007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "أَلَيْسَ ٱللَّهُ بِأَحْكَمِ ٱلْحَٰكِمِينَ",
+        "text_ru": "Разве Аллах не является Наимудрейшим Судьей?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/095008.mp3"
+      }
+    ]
+  },
+  {
+    "number": 96,
+    "name_ar": "العَلَقِ",
+    "name_en": "Al-Alaq",
+    "ayahs_count": 19,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
+        "text_ru": "Читай во имя твоего Господа, Который сотворил все сущее,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/096001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ",
+        "text_ru": "сотворил человека из сгустка крови.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/096002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ",
+        "text_ru": "Читай, ведь твой Господь - Самый великодушный.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/096003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ",
+        "text_ru": "Он научил посредством письменной трости -",
+        "audio": "https://verses.quran.com/Alafasy/mp3/096004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "عَلَّمَ ٱلْإِنسَٰنَ مَا لَمْ يَعْلَمْ",
+        "text_ru": "научил человека тому, чего тот не знал.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/096005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "كَلَّآ إِنَّ ٱلْإِنسَٰنَ لَيَطْغَىٰٓ",
+        "text_ru": "Но нет! Человек преступает границы дозволенного,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/096006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "أَن رَّءَاهُ ٱسْتَغْنَىٰٓ",
+        "text_ru": "когда ему кажется, что он ни в чем не нуждается.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/096007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ",
+        "text_ru": "Но к твоему Господу предстоит возвращение.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/096008.mp3"
+      },
+      {
+        "ayah": 9,
+        "text_ar": "أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ",
+        "text_ru": "Что ты думаешь о том, кто мешает",
+        "audio": "https://verses.quran.com/Alafasy/mp3/096009.mp3"
+      },
+      {
+        "ayah": 10,
+        "text_ar": "عَبْدًا إِذَا صَلَّىٰٓ",
+        "text_ru": "рабу, когда тот молится?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/096010.mp3"
+      },
+      {
+        "ayah": 11,
+        "text_ar": "أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ",
+        "text_ru": "Что ты думаешь, а если он был на правом пути",
+        "audio": "https://verses.quran.com/Alafasy/mp3/096011.mp3"
+      },
+      {
+        "ayah": 12,
+        "text_ar": "أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ",
+        "text_ru": "или призывал к богобоязненности?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/096012.mp3"
+      },
+      {
+        "ayah": 13,
+        "text_ar": "أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ",
+        "text_ru": "Что ты думаешь, а если он счел ложью истину и отвернулся?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/096013.mp3"
+      },
+      {
+        "ayah": 14,
+        "text_ar": "أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ",
+        "text_ru": "Неужели он не знал, что Аллах видит его?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/096014.mp3"
+      },
+      {
+        "ayah": 15,
+        "text_ar": "كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ",
+        "text_ru": "Но нет, если он не перестанет, то Мы схватим его за хохол -",
+        "audio": "https://verses.quran.com/Alafasy/mp3/096015.mp3"
+      },
+      {
+        "ayah": 16,
+        "text_ar": "نَاصِيَةٍۢ كَٰذِبَةٍ خَاطِئَةٍۢ",
+        "text_ru": "хохол лживый, грешный.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/096016.mp3"
+      },
+      {
+        "ayah": 17,
+        "text_ar": "فَلْيَدْعُ نَادِيَهُۥ",
+        "text_ru": "Пусть он зовет свое сборище.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/096017.mp3"
+      },
+      {
+        "ayah": 18,
+        "text_ar": "سَنَدْعُ ٱلزَّبَانِيَةَ",
+        "text_ru": "Мы же позовем адских стражей!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/096018.mp3"
+      },
+      {
+        "ayah": 19,
+        "text_ar": "كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩",
+        "text_ru": "Так нет! Не повинуйся ему, а пади ниц и приближайся к Аллаху.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/096019.mp3"
+      }
+    ]
+  },
+  {
+    "number": 97,
+    "name_ar": "القَدۡرِ",
+    "name_en": "Al-Qadr",
+    "ayahs_count": 5,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَنزَلْنَٰهُ فِى لَيْلَةِ ٱلْقَدْرِ",
+        "text_ru": "Воистину, Мы ниспослали его (Коран) в ночь предопределения (или величия).",
+        "audio": "https://verses.quran.com/Alafasy/mp3/097001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "وَمَآ أَدْرَىٰكَ مَا لَيْلَةُ ٱلْقَدْرِ",
+        "text_ru": "Откуда ты мог знать, что такое ночь предопределения (или величия)?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/097002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "لَيْلَةُ ٱلْقَدْرِ خَيْرٌۭ مِّنْ أَلْفِ شَهْرٍۢ",
+        "text_ru": "Ночь предопределения (или величия) лучше тысячи месяцев.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/097003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "تَنَزَّلُ ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍۢ",
+        "text_ru": "В эту ночь ангелы и Дух (Джибрил) нисходят с дозволения их Господа по всем Его повелениям.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/097004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "سَلَٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ",
+        "text_ru": "Она благополучна вплоть до наступления зари.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/097005.mp3"
+      }
+    ]
+  },
+  {
+    "number": 98,
+    "name_ar": "البَيِّنَةِ",
+    "name_en": "Al-Bayyina",
+    "ayahs_count": 8,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "لَمْ يَكُنِ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَٱلْمُشْرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأْتِيَهُمُ ٱلْبَيِّنَةُ",
+        "text_ru": "Неверующие из людей Писания и многобожников не расстались с неверием, пока к ним не явилось ясное знамение -",
+        "audio": "https://verses.quran.com/Alafasy/mp3/098001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "رَسُولٌۭ مِّنَ ٱللَّهِ يَتْلُوا۟ صُحُفًۭا مُّطَهَّرَةًۭ",
+        "text_ru": "Посланник от Аллаха, который читает очищенные свитки.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/098002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "فِيهَا كُتُبٌۭ قَيِّمَةٌۭ",
+        "text_ru": "В них содержатся правдивые Писания.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/098003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "وَمَا تَفَرَّقَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ إِلَّا مِنۢ بَعْدِ مَا جَآءَتْهُمُ ٱلْبَيِّنَةُ",
+        "text_ru": "Те, кому было даровано Писание, распались только после того, как к ним явилось ясное знамение.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/098004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُؤْتُوا۟ ٱلزَّكَوٰةَ ۚ وَذَٰلِكَ دِينُ ٱلْقَيِّمَةِ",
+        "text_ru": "А ведь им было велено лишь поклоняться Аллаху, служа ему искренне, как ханифы, совершать намаз и выплачивать закят. Это - правая вера.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/098005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَٱلْمُشْرِكِينَ فِى نَارِ جَهَنَّمَ خَٰلِدِينَ فِيهَآ ۚ أُو۟لَٰٓئِكَ هُمْ شَرُّ ٱلْبَرِيَّةِ",
+        "text_ru": "Воистину, неверующие из людей Писания и многобожников окажутся в огне Геенны и пребудут там вечно. Они являются наихудшими из тварей.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/098006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ أُو۟لَٰٓئِكَ هُمْ خَيْرُ ٱلْبَرِيَّةِ",
+        "text_ru": "Воистину, те, которые уверовали и совершали праведные деяния, являются наилучшими из тварей.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/098007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "جَزَآؤُهُمْ عِندَ رَبِّهِمْ جَنَّٰتُ عَدْنٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًۭا ۖ رَّضِىَ ٱللَّهُ عَنْهُمْ وَرَضُوا۟ عَنْهُ ۚ ذَٰلِكَ لِمَنْ خَشِىَ رَبَّهُۥ",
+        "text_ru": "Их воздаянием у их Господа будут сады Эдема, в которых текут реки. Они пребудут в них вечно. Аллах доволен ими, и они довольны Им. Это уготовано для тех, кто боится своего Господа.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/098008.mp3"
+      }
+    ]
+  },
+  {
+    "number": 99,
+    "name_ar": "الزَّلۡزَلَةِ",
+    "name_en": "Az-Zalzala",
+    "ayahs_count": 8,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا",
+        "text_ru": "Когда земля содрогнется от сотрясений,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/099001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا",
+        "text_ru": "когда земля извергнет свою ношу,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/099002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "وَقَالَ ٱلْإِنسَٰنُ مَا لَهَا",
+        "text_ru": "и человек спросит, что же с нею,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/099003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "يَوْمَئِذٍۢ تُحَدِّثُ أَخْبَارَهَا",
+        "text_ru": "в тот день она расскажет свои известия,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/099004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا",
+        "text_ru": "потому что Господь твой внушит ей это.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/099005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًۭا لِّيُرَوْا۟ أَعْمَٰلَهُمْ",
+        "text_ru": "В тот день люди выйдут толпами, чтобы им показали их деяния.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/099006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًۭا يَرَهُۥ",
+        "text_ru": "Тот, кто сделал добро весом в мельчайшую частицу, увидит его.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/099007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍۢ شَرًّۭا يَرَهُۥ",
+        "text_ru": "И тот, кто сделал зло весом в мельчайшую частицу, увидит его.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/099008.mp3"
+      }
+    ]
+  },
+  {
+    "number": 100,
+    "name_ar": "العَادِيَاتِ",
+    "name_en": "Al-Aadiyaat",
+    "ayahs_count": 11,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
+        "text_ru": "Клянусь скачущими, запыхаясь!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/100001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "فَٱلْمُورِيَٰتِ قَدْحًۭا",
+        "text_ru": "Клянусь высекающими искры копытами!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/100002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "فَٱلْمُغِيرَٰتِ صُبْحًۭا",
+        "text_ru": "Клянусь нападающими на заре!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/100003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "فَأَثَرْنَ بِهِۦ نَقْعًۭا",
+        "text_ru": "Тем самым они поднимают столб пыли",
+        "audio": "https://verses.quran.com/Alafasy/mp3/100004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "فَوَسَطْنَ بِهِۦ جَمْعًا",
+        "text_ru": "и врываются с ним (со столбом пыли или с всадником) в гущу.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/100005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌۭ",
+        "text_ru": "Воистину, человек неблагодарен своему Господу,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/100006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌۭ",
+        "text_ru": "и он сам является тому свидетелем.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/100007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ",
+        "text_ru": "Воистину, он страстно любит блага.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/100008.mp3"
+      },
+      {
+        "ayah": 9,
+        "text_ar": "۞ أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ",
+        "text_ru": "Неужели он не знает, что, когда будет опрокинуто то, что в могилах,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/100009.mp3"
+      },
+      {
+        "ayah": 10,
+        "text_ar": "وَحُصِّلَ مَا فِى ٱلصُّدُورِ",
+        "text_ru": "и когда обнаружится то, что в груди,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/100010.mp3"
+      },
+      {
+        "ayah": 11,
+        "text_ar": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍۢ لَّخَبِيرٌۢ",
+        "text_ru": "в тот день Господь их будет осведомлен о них?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/100011.mp3"
+      }
+    ]
+  },
+  {
+    "number": 101,
+    "name_ar": "القَارِعَةِ",
+    "name_en": "Al-Qaari'a",
+    "ayahs_count": 11,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "ٱلْقَارِعَةُ",
+        "text_ru": "Великое бедствие (День воскресения)!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/101001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "مَا ٱلْقَارِعَةُ",
+        "text_ru": "Что такое Великое бедствие (День воскресения)?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/101002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "وَمَآ أَدْرَىٰكَ مَا ٱلْقَارِعَةُ",
+        "text_ru": "Откуда ты мог знать, что такое Великое бедствие (День воскресения)?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/101003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ",
+        "text_ru": "В тот день люди будут подобны рассеянным мотылькам,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/101004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ",
+        "text_ru": "а горы будут подобны расчесанной шерсти.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/101005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "فَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ",
+        "text_ru": "Тогда тот, чья чаша Весов окажется тяжелой,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/101006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "فَهُوَ فِى عِيشَةٍۢ رَّاضِيَةٍۢ",
+        "text_ru": "обретет приятную жизнь.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/101007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "وَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُۥ",
+        "text_ru": "Для того же, чья чаша Весов окажется легкой,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/101008.mp3"
+      },
+      {
+        "ayah": 9,
+        "text_ar": "فَأُمُّهُۥ هَاوِيَةٌۭ",
+        "text_ru": "матерью станет Пропасть (грешники будут искать убежище в Аду, подобно тому, как ребенок ищет убежище у своей матери; или грешники будут падать в Адскую Пропасть вниз головой).",
+        "audio": "https://verses.quran.com/Alafasy/mp3/101009.mp3"
+      },
+      {
+        "ayah": 10,
+        "text_ar": "وَمَآ أَدْرَىٰكَ مَا هِيَهْ",
+        "text_ru": "Откуда ты мог знать, что это такое?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/101010.mp3"
+      },
+      {
+        "ayah": 11,
+        "text_ar": "نَارٌ حَامِيَةٌۢ",
+        "text_ru": "Это - жаркий Огонь!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/101011.mp3"
+      }
+    ]
+  },
+  {
+    "number": 102,
+    "name_ar": "التَّكَاثُرِ",
+    "name_en": "At-Takaathur",
+    "ayahs_count": 8,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "أَلْهَىٰكُمُ ٱلتَّكَاثُرُ",
+        "text_ru": "Страсть к приумножению (похвальба богатством и детьми) увлекает вас",
+        "audio": "https://verses.quran.com/Alafasy/mp3/102001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ",
+        "text_ru": "настолько, что вы посещаете кладбища, чтобы бахвалиться своими покойниками (или пока вы сами не посетите могилы).",
+        "audio": "https://verses.quran.com/Alafasy/mp3/102002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "كَلَّا سَوْفَ تَعْلَمُونَ",
+        "text_ru": "Но нет! Скоро вы узнаете!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/102003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ",
+        "text_ru": "Еще раз нет! Скоро вы узнаете!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/102004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ ٱلْيَقِينِ",
+        "text_ru": "Но нет! Если бы вы только обладали убедительным знанием!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/102005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "لَتَرَوُنَّ ٱلْجَحِيمَ",
+        "text_ru": "А ведь вы непременно увидите Ад.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/102006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ",
+        "text_ru": "Вы увидите его глазами убежденными.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/102007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ",
+        "text_ru": "В тот день вы будете спрошены о благах.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/102008.mp3"
+      }
+    ]
+  },
+  {
+    "number": 103,
+    "name_ar": "العَصۡرِ",
+    "name_en": "Al-Asr",
+    "ayahs_count": 3,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "وَٱلْعَصْرِ",
+        "text_ru": "Клянусь предвечерним временем (или временем)!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/103001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ",
+        "text_ru": "Воистину, каждый человек в убытке,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/103002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
+        "text_ru": "кроме тех, которые уверовали, совершали праведные деяния, заповедали друг другу истину и заповедали друг другу терпение!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/103003.mp3"
+      }
+    ]
+  },
+  {
+    "number": 104,
+    "name_ar": "الهُمَزَةِ",
+    "name_en": "Al-Humaza",
+    "ayahs_count": 9,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "وَيْلٌۭ لِّكُلِّ هُمَزَةٍۢ لُّمَزَةٍ",
+        "text_ru": "Горе всякому хулителю и обидчику,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/104001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "ٱلَّذِى جَمَعَ مَالًۭا وَعَدَّدَهُۥ",
+        "text_ru": "который копит состояние и пересчитывает его,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/104002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ",
+        "text_ru": "думая, что богатство увековечит его.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/104003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ",
+        "text_ru": "Но нет! Его непременно ввергнут в Огонь сокрушающий.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/104004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "وَمَآ أَدْرَىٰكَ مَا ٱلْحُطَمَةُ",
+        "text_ru": "Откуда ты мог знать, что такое Огонь сокрушающий?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/104005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "نَارُ ٱللَّهِ ٱلْمُوقَدَةُ",
+        "text_ru": "Это - разожженный Огонь Аллаха,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/104006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ",
+        "text_ru": "который вздымается над сердцами.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/104007.mp3"
+      },
+      {
+        "ayah": 8,
+        "text_ar": "إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌۭ",
+        "text_ru": "Воистину, он сомкнется над ними",
+        "audio": "https://verses.quran.com/Alafasy/mp3/104008.mp3"
+      },
+      {
+        "ayah": 9,
+        "text_ar": "فِى عَمَدٍۢ مُّمَدَّدَةٍۭ",
+        "text_ru": "высокими столбами (мученики будут прикованы к этим столбам или врата Ада будут заперты и закреплены этими столбами).",
+        "audio": "https://verses.quran.com/Alafasy/mp3/104009.mp3"
+      }
+    ]
+  },
+  {
+    "number": 105,
+    "name_ar": "الفِيلِ",
+    "name_en": "Al-Fil",
+    "ayahs_count": 5,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ",
+        "text_ru": "Разве ты не видел, что сделал твой Господь с владельцами слона?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/105001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍۢ",
+        "text_ru": "Разве Он не запутал их козни",
+        "audio": "https://verses.quran.com/Alafasy/mp3/105002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+        "text_ru": "и не наслал на них птиц стаями?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/105003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "تَرْمِيهِم بِحِجَارَةٍۢ مِّن سِجِّيلٍۢ",
+        "text_ru": "Они бросали в них каменья из обожженной глины",
+        "audio": "https://verses.quran.com/Alafasy/mp3/105004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "فَجَعَلَهُمْ كَعَصْفٍۢ مَّأْكُولٍۭ",
+        "text_ru": "и превратили их в подобие изъеденных иссохших злаковых листьев.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/105005.mp3"
+      }
+    ]
+  },
+  {
+    "number": 106,
+    "name_ar": "قُرَيۡشٍ",
+    "name_en": "Quraish",
+    "ayahs_count": 4,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "لِإِيلَٰفِ قُرَيْشٍ",
+        "text_ru": "Ради единения курейшитов,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/106001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "إِۦلَٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
+        "text_ru": "единения их во время зимних и летних поездок.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/106002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ",
+        "text_ru": "Пусть же они поклоняются Господу этого Дома (Каабы),",
+        "audio": "https://verses.quran.com/Alafasy/mp3/106003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+        "text_ru": "Который накормил их после голода и избавил их от страха.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/106004.mp3"
+      }
+    ]
+  },
+  {
+    "number": 107,
+    "name_ar": "المَاعُونِ",
+    "name_en": "Al-Maa'un",
+    "ayahs_count": 7,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ",
+        "text_ru": "Видел ли ты того, кто считает ложью воздаяние?",
+        "audio": "https://verses.quran.com/Alafasy/mp3/107001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ",
+        "text_ru": "Это - тот, кто гонит сироту",
+        "audio": "https://verses.quran.com/Alafasy/mp3/107002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+        "text_ru": "и не побуждает накормить бедняка.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/107003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "فَوَيْلٌۭ لِّلْمُصَلِّينَ",
+        "text_ru": "Горе молящимся,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/107004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ",
+        "text_ru": "которые небрежны к своим намазам,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/107005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "ٱلَّذِينَ هُمْ يُرَآءُونَ",
+        "text_ru": "которые лицемерят",
+        "audio": "https://verses.quran.com/Alafasy/mp3/107006.mp3"
+      },
+      {
+        "ayah": 7,
+        "text_ar": "وَيَمْنَعُونَ ٱلْمَاعُونَ",
+        "text_ru": "и отказывают даже в мелочи!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/107007.mp3"
+      }
+    ]
+  },
+  {
+    "number": 108,
+    "name_ar": "الكَوۡثَرِ",
+    "name_en": "Al-Kawthar",
+    "ayahs_count": 3,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ",
+        "text_ru": "Мы даровали тебе аль-Каусар (бесчисленные блага, в том числе одноименную реку в Раю).",
+        "audio": "https://verses.quran.com/Alafasy/mp3/108001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
+        "text_ru": "Посему совершай намаз ради своего Господа и закалывай жертву.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/108002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
+        "text_ru": "Воистину, твой ненавистник сам окажется безвестным.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/108003.mp3"
+      }
+    ]
+  },
+  {
+    "number": 109,
+    "name_ar": "الكَافِرُونَ",
+    "name_en": "Al-Kaafiroon",
+    "ayahs_count": 6,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ",
+        "text_ru": "Скажи: «О неверующие!",
+        "audio": "https://verses.quran.com/Alafasy/mp3/109001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "لَآ أَعْبُدُ مَا تَعْبُدُونَ",
+        "text_ru": "Я не поклоняюсь тому, чему поклоняетесь вы,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/109002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ",
+        "text_ru": "а вы не поклоняетесь Тому, Кому поклоняюсь я.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/109003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "وَلَآ أَنَا۠ عَابِدٌۭ مَّا عَبَدتُّمْ",
+        "text_ru": "Я не поклоняюсь так, как поклоняетесь вы (или тому, чему поклоняетесь вы),",
+        "audio": "https://verses.quran.com/Alafasy/mp3/109004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ",
+        "text_ru": "а вы не поклоняетесь так, как поклоняюсь я (или Тому, Кому поклоняюсь я).",
+        "audio": "https://verses.quran.com/Alafasy/mp3/109005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "لَكُمْ دِينُكُمْ وَلِىَ دِينِ",
+        "text_ru": "У вас есть ваша религия, а у меня - моя!».",
+        "audio": "https://verses.quran.com/Alafasy/mp3/109006.mp3"
+      }
+    ]
+  },
+  {
+    "number": 110,
+    "name_ar": "النَّصۡرِ",
+    "name_en": "An-Nasr",
+    "ayahs_count": 3,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+        "text_ru": "Когда придет помощь Аллаха и настанет победа,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/110001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًۭا",
+        "text_ru": "когда ты увидишь, как люди толпами обращаются в религию Аллаха,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/110002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا",
+        "text_ru": "восславь же хвалой Господа своего и попроси у Него прощения. Воистину, Он - Принимающий покаяния.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/110003.mp3"
+      }
+    ]
+  },
+  {
+    "number": 111,
+    "name_ar": "المَسَدِ",
+    "name_en": "Al-Masad",
+    "ayahs_count": 5,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ",
+        "text_ru": "Да пропадут пропадом руки Абу Лахаба, и сам он пропал.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/111001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
+        "text_ru": "Не спасло его богатство и то, что он приобрел (положение в обществе и дети).",
+        "audio": "https://verses.quran.com/Alafasy/mp3/111002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "سَيَصْلَىٰ نَارًۭا ذَاتَ لَهَبٍۢ",
+        "text_ru": "Он попадет в пламенный Огонь.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/111003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
+        "text_ru": "Жена его будет носить дрова,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/111004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "فِى جِيدِهَا حَبْلٌۭ مِّن مَّسَدٍۭ",
+        "text_ru": "а на шее у нее будет плетеная веревка из пальмовых волокон.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/111005.mp3"
+      }
+    ]
+  },
+  {
+    "number": 112,
+    "name_ar": "الإِخۡلَاصِ",
+    "name_en": "Al-Ikhlaas",
+    "ayahs_count": 4,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+        "text_ru": "Скажи: «Он - Аллах Единый,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/112001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "ٱللَّهُ ٱلصَّمَدُ",
+        "text_ru": "Аллах Самодостаточный.",
+        "audio": "https://verses.quran.com/Alafasy/mp3/112002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+        "text_ru": "Он не родил и не был рожден,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/112003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+        "text_ru": "и нет никого равного Ему».",
+        "audio": "https://verses.quran.com/Alafasy/mp3/112004.mp3"
+      }
+    ]
+  },
+  {
+    "number": 113,
+    "name_ar": "الفَلَقِ",
+    "name_en": "Al-Falaq",
+    "ayahs_count": 5,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+        "text_ru": "Скажи: «Прибегаю к защите Господа рассвета",
+        "audio": "https://verses.quran.com/Alafasy/mp3/113001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "مِن شَرِّ مَا خَلَقَ",
+        "text_ru": "от зла того, что Он сотворил,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/113002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+        "text_ru": "от зла мрака, когда он наступает,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/113003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
+        "text_ru": "от зла колдуний, поплевывающих на узлы,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/113004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+        "text_ru": "от зла завистника, когда он завидует».",
+        "audio": "https://verses.quran.com/Alafasy/mp3/113005.mp3"
+      }
+    ]
+  },
+  {
+    "number": 114,
+    "name_ar": "النَّاسِ",
+    "name_en": "An-Naas",
+    "ayahs_count": 6,
+    "ayahs": [
+      {
+        "ayah": 1,
+        "text_ar": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+        "text_ru": "Скажи: «Прибегаю к защите Господа людей,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/114001.mp3"
+      },
+      {
+        "ayah": 2,
+        "text_ar": "مَلِكِ ٱلنَّاسِ",
+        "text_ru": "Царя людей,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/114002.mp3"
+      },
+      {
+        "ayah": 3,
+        "text_ar": "إِلَٰهِ ٱلنَّاسِ",
+        "text_ru": "Бога людей,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/114003.mp3"
+      },
+      {
+        "ayah": 4,
+        "text_ar": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
+        "text_ru": "от зла искусителя отступающего (или сжимающегося) при поминании Аллаха,",
+        "audio": "https://verses.quran.com/Alafasy/mp3/114004.mp3"
+      },
+      {
+        "ayah": 5,
+        "text_ar": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+        "text_ru": "который наущает в груди людей",
+        "audio": "https://verses.quran.com/Alafasy/mp3/114005.mp3"
+      },
+      {
+        "ayah": 6,
+        "text_ar": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+        "text_ru": "и бывает из джиннов и людей».",
+        "audio": "https://verses.quran.com/Alafasy/mp3/114006.mp3"
+      }
+    ]
+  }
+]
